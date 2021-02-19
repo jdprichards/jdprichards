@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE md>
 <html>
 <body>
 <h1> Hello there</h1>
