@@ -7,20 +7,20 @@
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
 
 <video width="320" height="240" controls>
-<source src="video1.mp4" type="video/mp4">
+<source src=https://youtu.be/dIB3xGbndso type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 <p style="font-size:18px"><br> The Second video shows be starting to calculate the cross product. But just the x at the moment:</p>
 
 <video width="320" height="240" controls>
-<source src="video2.mp4" type="video/mp4">
+<source src="https://youtu.be/z6x4OjVvPmM" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 <p style="font-size:18px"> <br>The Third video shows me calculating y similarly to x:</p>
 
 <video width="320" height="240" controls>
-<source src="video3.mp4" type="video/mp4">
+<source src="https://youtu.be/Oq04485K2v8" type="video/mp4">
 Your browser does not support the video tag.
 </video>
