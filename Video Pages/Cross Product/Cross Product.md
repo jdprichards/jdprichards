@@ -9,3 +9,11 @@
   <source src="Media\Video 1.mp4 type="video/mp4">
 Your browser does not support the video tag.
 </video>
+<video width="320" height="240" controls>
+  <source src="Media\Video 2.mp4 type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<video width="320" height="240" controls>
+  <source src="Media\Video 3.mp4 type="video/mp4">
+Your browser does not support the video tag.
+</video>
