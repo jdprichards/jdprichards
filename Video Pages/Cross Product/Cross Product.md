@@ -6,7 +6,7 @@
 
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
 
-<p style="font-size:16px">The idea here is to put the two vectors into a form that easy to see and understand.</p>
+<p style="font-size:16px">The idea here is to put the two vectors into a form that easy to see and understand. <br><br>Two vectors here V and W each with their own x, y and z co-ordinate, we're going to find the VxW, remember this is different to WxV. Where I have put them in the following form</p>
 
 <table style="width:20%">
   <tr>
