@@ -11,10 +11,14 @@
 Your browser does not support the video tag.
 </video>
 
+<p style="font-size:18px"><br> The Second video shows be starting to calculate the cross product. But just the x at the moment:</p>
+
 <video width="320" height="240" controls>
 <source src="Video Pages\Cross Product\Media\VIdeo 2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+
+<p style="font-size:18px"> <br>The Third video shows me calculating y similarly to x:</p>
 
 <video width="320" height="240" controls>
 <source src="Video Pages\Cross Product\Media\VIdeo 1.mp4" type="video/mp4">
