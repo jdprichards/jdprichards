@@ -5,3 +5,7 @@
 <p style="font-size:14px"> This is my first time doing anything like this so sorry if the quality isn't amazing.</p>
 
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
+<video width="320" height="240" controls>
+  <source src="Media\Video 1.mp4 type="video/mp4">
+Your browser does not support the video tag.
+</video>
