@@ -6,11 +6,33 @@
 
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
 
+<p style="font-size:16px">The idea here is to put the two vectors into a form that easy to see and understand.</p>
+
+<table style="width:20%">
+  <tr>
+    <th>X</th>
+    <th>Y</th>
+    <th>Z</th>
+  </tr>
+  <tr>
+    <td>Vx</td>
+    <td>Vy</td>
+    <td>Vz</td>
+  </tr>
+  <tr>
+    <td>Wx</td>
+    <td>Wy</td>
+    <td>Wz</td>
+  </tr>
+</table>
+
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/dIB3xGbndso">
 </iframe>
 
 <p style="font-size:18px"><br> The Second video shows be starting to calculate the cross product. But just the x at the moment:</p>
+
+<p style="font-size:16px">The
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/z6x4OjVvPmM">
