@@ -1,1 +1,1 @@
-jdprichards.com
+JDPRi.github.io
