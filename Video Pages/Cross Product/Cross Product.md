@@ -7,16 +7,16 @@
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
 
 <video width="320" height="240" controls>
-<source src="Media\Video 1.mp4 type="video/mp4">
+<source src="Video Pages\Cross Product\Media\VIdeo 1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 <video width="320" height="240" controls>
-<source src="Media\Video 2.mp4 type="video/mp4">
+<source src="Video Pages\Cross Product\Media\VIdeo 2".mp4 type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 <video width="320" height="240" controls>
-<source src="Media\Video 3.mp4 type="video/mp4">
+<source src="Video Pages\Cross Product\Media\VIdeo 1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
