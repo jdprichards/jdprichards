@@ -7,7 +7,7 @@
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
 
 <video width="320" height="240" controls>
-<source src=https://youtu.be/dIB3xGbndso type="video/mp4">
+<source src="https://www.youtube.com/embed/dIB3xGbndso" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
