@@ -1,5 +1,5 @@
 <header>
-## Welcome to my explainer for the cross product
+## Cross product explained
 </header>
 # During one of my games concepts lectures there was a general confusion about what is happening in it
 # so I am going to have a brief cover over it. This is my first time doing anything like this so sorry if the quality is shocking.
