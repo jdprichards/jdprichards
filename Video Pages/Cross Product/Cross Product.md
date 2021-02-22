@@ -7,7 +7,7 @@
 <p style="font-size:18px">In this first video I am briefly covering what the cross product is and how I'd start to write it out:</p>
 
 <video width="320" height="240" controls>
-<source src="Video Pages\Cross Product\Media\Video 1.mp4" type="video/mp4">
+<source src="Video%20Pages/Cross%20Product/Media/VIdeo%201.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
