@@ -13,10 +13,9 @@ Your browser does not support the video tag.
 
 <p style="font-size:18px"><br> The Second video shows be starting to calculate the cross product. But just the x at the moment:</p>
 
-<video width="320" height="240" controls>
-<source src="https://youtu.be/z6x4OjVvPmM" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe width="420" height="315"
+src="https://youtu.be/z6x4OjVvPmM">
+</iframe>
 
 <p style="font-size:18px"> <br>The Third video shows me calculating y similarly to x:</p>
 
