@@ -21,3 +21,15 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM">
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/Oq04485K2v8">
 </iframe>
+
+<p style="font-size:18px"> <br>The Third video shows me calculating Z:</p>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/MkU2XPSFeGA">
+</iframe>
+
+<p style="font-size:18px"> <br>The Third video shows me putting everything together to give the final answer:</p>
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/GojkhIdKIy0">
+</iframe>
