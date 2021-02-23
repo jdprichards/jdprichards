@@ -42,9 +42,10 @@ src="https://www.youtube.com/embed/dIB3xGbndso">
 The Second video shows be starting to calculate the cross product. But just the x at the moment:
 </p>
 <p style="font-size:16px">
-The equation to calculate X for the resulting vector is:
+The equation to calculate X for the resulting vector is:<br>
 <em>VyWz - VzWy</em> <br>
 You can notice here to calculate the x value you don't need to use <em>Vx or Wx</em> so you can use the table like this.
+
 </p>
 <table style="width:20%">
   <tr>
@@ -65,15 +66,19 @@ You can notice here to calculate the x value you don't need to use <em>Vx or Wx<
 You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
+
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/z6x4OjVvPmM">
 </iframe>
 
-<p style="font-size:18px"> <br>The Third video shows me calculating y similarly to x:</p>
+<p style="font-size:18px"> <br>The Third video shows me calculating Y similarly to X:</p>
 
 <p style="font-size:16px">
-You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
-</p>
+The equation to calculate Y for the resulting vector is:<br>
+<em>-(VxWz - VzWx)</em> <br>
+
+<p style="font-size:18px">
+Again you don't need to use <em>Vy or Wy</em> like the previous section with X, so you can use the table like this.</p>
 
 <table style="width:20%">
   <tr>
@@ -89,6 +94,18 @@ You can also notice that <em>VyWz</em> directly diagonal from each other when yo
     <td>Wz</td>
   </tr>
 </table>
+
+<p style="font-size:16px">
+<em>VxWz</em> again are directly diagonal from each other when you ignore Y and so is <em>VzWx</em> its is from the right to left. So you can x into different parts each going diagonal.
+<br><br>
+<em> Important: the second half is negative (-VzWx).</em>
+<br> You can see this as because the diagonal is going right to left its therefore minus.
+</p>
+
+<p style="font-size:16px">
+With the way I've shown calculating Y:<br><em>Important: You'll want to minus everything in the brackets.</em><br> I have shown it this way as you can keep the rule for going from top left to bottom right and vice versa
+</p>
+
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/Oq04485K2v8">
