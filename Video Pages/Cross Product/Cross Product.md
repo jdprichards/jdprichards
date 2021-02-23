@@ -71,17 +71,48 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM">
 
 <p style="font-size:18px"> <br>The Third video shows me calculating y similarly to x:</p>
 
+<table style="width:20%">
+  <tr>
+    <th>X</th>
+    <th>Z</th>
+  </tr>
+  <tr>
+    <td>Vx</td>
+    <td>Vz</td>
+  </tr>
+  <tr>
+    <td>Wx</td>
+    <td>Wz</td>
+  </tr>
+</table>
+
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/Oq04485K2v8">
 </iframe>
 
-<p style="font-size:18px"> <br>The Third video shows me calculating Z:</p>
+<p style="font-size:18px"> <br>The Forth video shows me calculating Z:</p>
+
+<table style="width:20%">
+  <tr>
+    <th>X</th>
+    <th>Y</th>
+  </tr>
+  <tr>
+    <td>Vx</td>
+    <td>Vy</td>
+  </tr>
+  <tr>
+    <td>Wx</td>
+    <td>Wy</td>
+  </tr>
+</table>
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/MkU2XPSFeGA">
 </iframe>
 
-<p style="font-size:18px"> <br>The Third video shows me putting everything together to give the final answer:</p>
+<p style="font-size:18px"> <br>The Fifth video shows me putting everything together to give the final answer:</p>
+
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/GojkhIdKIy0">
