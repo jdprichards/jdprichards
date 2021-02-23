@@ -90,7 +90,7 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM">
 src="https://www.youtube.com/embed/Oq04485K2v8">
 </iframe>
 
-<p style="font-size:18px"> <br>The Forth video shows me calculating Z:</p>
+<p style="font-size:18px"> <br>The Forth video shows me calculating Z like both X and Y:</p>
 
 <table style="width:20%">
   <tr>
@@ -111,7 +111,7 @@ src="https://www.youtube.com/embed/Oq04485K2v8">
 src="https://www.youtube.com/embed/MkU2XPSFeGA">
 </iframe>
 
-<p style="font-size:18px"> <br>The Fifth video shows me putting everything together to give the final answer:</p>
+<p style="font-size:18px"> <br>The Fifth video shows me putting everything together to give the final answer (including the long equation):</p>
 
 
 <iframe width="420" height="315"
