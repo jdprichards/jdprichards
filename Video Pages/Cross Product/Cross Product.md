@@ -35,7 +35,7 @@ The idea here is to put the two vectors into a form that easy to see and underst
 </table>
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/dIB3xGbndso">
+src="https://www.youtube.com/embed/dIB3xGbndso" allowfullscreen>
 </iframe>
 
 <p style="font-size:18px"><br>
@@ -68,7 +68,7 @@ You can also notice that <em style="color:red">VyWz</em> directly diagonal from 
 
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/z6x4OjVvPmM">
+src="https://www.youtube.com/embed/z6x4OjVvPmM" allowfullscreen>
 </iframe>
 
 <p style="font-size:18px"> <br>The Third video shows me calculating Y similarly to X:</p>
@@ -107,7 +107,7 @@ With the way I've shown calculating Y:<br><em>Important: You'll want to minus ev
 </p>
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/Oq04485K2v8">
+src="https://www.youtube.com/embed/Oq04485K2v8" allowfullscreen>
 </iframe>
 
 <p style="font-size:18px"> <br>The Forth video shows me calculating Z like both X and Y:</p>
@@ -142,7 +142,7 @@ Again you don't need to use <em>Vz or Wz</em> like the previous section with X a
 </p>
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/MkU2XPSFeGA">
+src="https://www.youtube.com/embed/MkU2XPSFeGA" allowfullscreen>
 </iframe>
 
 <p style="font-size:18px"> <br>The Fifth video shows me putting everything together to give the final answer (including the long equation):</p>
@@ -161,5 +161,5 @@ These is the resulting vector.
 
 </p>
 <iframe width="420" height="315"
-src="https://www.youtube.com/embed/GojkhIdKIy0">
+src="https://www.youtube.com/embed/GojkhIdKIy0" allowfullscreen>
 </iframe>
