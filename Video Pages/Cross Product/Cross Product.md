@@ -77,7 +77,7 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM">
 The equation to calculate Y for the resulting vector is:<br>
 <em>-(VxWz - VzWx)</em> <br>
 
-<p style="font-size:18px">
+<p style="font-size:16px">
 Again you don't need to use <em>Vy or Wy</em> like the previous section with X, so you can use the table like this.</p>
 
 <table style="width:20%">
@@ -106,7 +106,6 @@ Again you don't need to use <em>Vy or Wy</em> like the previous section with X, 
 With the way I've shown calculating Y:<br><em>Important: You'll want to minus everything in the brackets.</em><br> I have shown it this way as you can keep the rule for going from top left to bottom right and vice versa
 </p>
 
-
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/Oq04485K2v8">
 </iframe>
@@ -114,8 +113,11 @@ src="https://www.youtube.com/embed/Oq04485K2v8">
 <p style="font-size:18px"> <br>The Forth video shows me calculating Z like both X and Y:</p>
 
 <p style="font-size:16px">
-You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
-</p>
+The equation to calculate Y for the resulting vector is:<br>
+<em>VxWy - VyWx</em> <br>
+
+<p style="font-size:16px">
+Again you don't need to use <em>Vz or Wz</em> like the previous section with X and Y, so you can use the table like this.</p>
 
 <table style="width:20%">
   <tr>
@@ -132,6 +134,13 @@ You can also notice that <em>VyWz</em> directly diagonal from each other when yo
   </tr>
 </table>
 
+<p style="font-size:16px">
+<em>VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em>VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
+<br><br>
+<em> Important: the second half is negative (-VyWx).</em>
+<br> You can see this as because the diagonal is going right to left its therefore minus.
+</p>
+
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/MkU2XPSFeGA">
 </iframe>
@@ -139,7 +148,7 @@ src="https://www.youtube.com/embed/MkU2XPSFeGA">
 <p style="font-size:18px"> <br>The Fifth video shows me putting everything together to give the final answer (including the long equation):</p>
 
 <p style="font-size:16px">
-You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
+Now for the final section. This is simply putting everything you've caculated up here all into one. You've calculated the new X, Y and Z vectors so all you need to do is put them together.
 </p>
 
 <iframe width="420" height="315"
