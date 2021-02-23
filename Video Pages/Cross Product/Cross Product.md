@@ -135,7 +135,7 @@ Again you don't need to use <em>Vz or Wz</em> like the previous section with X a
 </table>
 
 <p style="font-size:16px">
-<em style =>VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:red">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
+<em style="color:Red">VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:Blue">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
 <br><br>
 <em> Important: the second half is negative</em>(<em style="color:blue"> -VyWx</em>).
 <br> You can see this as because the diagonal is going right to left its therefore minus.
