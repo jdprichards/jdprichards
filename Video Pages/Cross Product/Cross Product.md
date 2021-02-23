@@ -60,8 +60,8 @@ You can notice here to calculate the x value you don't need to use <em>Vx or Wx<
     <td>Wz</td>
   </tr>
 </table>
-<p style="font-size:16px">
 
+<p style="font-size:16px">
 You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
@@ -70,6 +70,10 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM">
 </iframe>
 
 <p style="font-size:18px"> <br>The Third video shows me calculating y similarly to x:</p>
+
+<p style="font-size:16px">
+You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
+</p>
 
 <table style="width:20%">
   <tr>
@@ -92,6 +96,10 @@ src="https://www.youtube.com/embed/Oq04485K2v8">
 
 <p style="font-size:18px"> <br>The Forth video shows me calculating Z like both X and Y:</p>
 
+<p style="font-size:16px">
+You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
+</p>
+
 <table style="width:20%">
   <tr>
     <th>X</th>
@@ -113,6 +121,9 @@ src="https://www.youtube.com/embed/MkU2XPSFeGA">
 
 <p style="font-size:18px"> <br>The Fifth video shows me putting everything together to give the final answer (including the long equation):</p>
 
+<p style="font-size:16px">
+You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
+</p>
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/GojkhIdKIy0">
