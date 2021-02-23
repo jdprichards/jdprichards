@@ -39,7 +39,7 @@ src="https://www.youtube.com/embed/dIB3xGbndso" allowfullscreen>
 </iframe>
 
 <p style="font-size:18px"><br>
-The Second video shows be starting to calculate the cross product. But just the x at the moment:
+The Second video shows me starting to calculate the cross product. But just the x at the moment:
 </p>
 <p style="font-size:16px">
 The equation to calculate X for the resulting vector is:<br>
