@@ -53,12 +53,12 @@ You can notice here to calculate the x value you don't need to use <em>Vx or Wx<
     <th>Z</th>
   </tr>
   <tr>
-    <td>Vy</td>
-    <td>Vz</td>
+    <td style="color:Red">Vy</td>
+    <td style="color:Blue">Vz</td>
   </tr>
   <tr>
-    <td>Wy</td>
-    <td>Wz</td>
+    <td style="color:Blue">Wy</td>
+    <td style="color:Red">Wz</td>
   </tr>
 </table>
 
@@ -86,12 +86,12 @@ Again you don't need to use <em>Vy or Wy</em> like the previous section with X, 
     <th>Z</th>
   </tr>
   <tr>
-    <td>Vx</td>
-    <td>Vz</td>
+    <td style="color:Red">Vx</td>
+    <td style="color:blue">Vz</td>
   </tr>
   <tr>
-    <td>Wx</td>
-    <td>Wz</td>
+    <td style="color:Blue">Wx</td>
+    <td style="color:Red">Wz</td>
   </tr>
 </table>
 
@@ -123,12 +123,12 @@ You can also notice that <em>VyWz</em> directly diagonal from each other when yo
     <th>Y</th>
   </tr>
   <tr>
-    <td>Vx</td>
-    <td>Vy</td>
+    <td style="color:Red">Vx</td>
+    <td style="color:Blue">Vy</td>
   </tr>
   <tr>
-    <td>Wx</td>
-    <td>Wy</td>
+    <td style="color:Blue">Wx</td>
+    <td style="color:Red">Wy</td>
   </tr>
 </table>
 
