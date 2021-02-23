@@ -43,7 +43,7 @@ The Second video shows be starting to calculate the cross product. But just the 
 </p>
 <p style="font-size:16px">
 The equation to calculate X for the resulting vector is:<br>
-<em>VyWz - VzWy</em> <br>
+<em style="color:Red">VyWz</em> -<em style="color:blue">VzWy</em> <br>
 You can notice here to calculate the x value you don't need to use <em>Vx or Wx</em> so you can use the table like this.
 
 </p>
@@ -63,7 +63,7 @@ You can notice here to calculate the x value you don't need to use <em>Vx or Wx<
 </table>
 
 <p style="font-size:16px">
-You can also notice that <em>VyWz</em> directly diagonal from each other when you ignore X and so is <em>VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative (-VzWy).</em><br> You can see this as because the diagonal is going right to left its therefore minus.
+You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative</em> <em style="color:blue">(-VzWy)</em>.<br> You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
 
