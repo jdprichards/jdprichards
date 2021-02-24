@@ -1,5 +1,5 @@
 ## Hello this is where I'm going to put some of my explanation  videos for the moment
-<br>
+
 <p style="font-size:16px"> Maths Concepts:</p>
 
 [Normalize Vectors (WIP)](VideoPages\NormalizeVectors.html)
