@@ -2,11 +2,11 @@
 <br>
 <p style="font-size:16px"> Maths Concepts:</p>
 
-[Normalize Vectors](VideoPages\NormalizeVectors.html)
+[Normalize Vectors (WIP)](VideoPages\NormalizeVectors.html)
 
 [Dot Product (WIP)](VideoPages\DotProduct.md)
 
-[Cross Product Explainer (WIP)](VideoPages\CrossProduct.html)<br><br>
+[Cross Product Explainer](VideoPages\CrossProduct.html)<br><br>
 
 <p style="font-size:16px"> Networking:</p>
 
