@@ -3,8 +3,8 @@
 
 [Normalize Vectors](VideoPages\NormalizeVectors.html)
 
-[Dot Product](VideoPages\DotProduct.md)
+[Dot Product (WIP)](VideoPages\DotProduct.md)
 
-[Cross Product Explainer](VideoPages\CrossProduct.html)<br><br>
+[Cross Product Explainer (WIP)](VideoPages\CrossProduct.html)<br><br>
 
 [Configure Routers (WIP)](VideoPages\ConfigRouter)
