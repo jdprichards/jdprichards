@@ -18,10 +18,10 @@ You'll want to connect to the router and open up the command line interface (CLI
 <p style="font-size:18px">
 You might be given a message like:</p>
 <p style="font-size:16px;color:Red">
-Would you like to enter the intital configuration mode? [Yes/No]
+Would you like to enter the inital configuration mode? [Yes/No]
 </p>
-just enter No for now
-</p>
+<p style="font-size:16px">
+just enter No for now<br><br>
 You'll then see this:
 </p>
 
