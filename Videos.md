@@ -6,7 +6,10 @@
 
 [Dot Product (WIP)](VideoPages\DotProduct.md)
 
-[Cross Product](VideoPages\CrossProduct.html)<br><br>
+[Cross Product](VideoPages\CrossProduct.html)
+
+[Matrix (WIP)](VideoPages\matrix.html)
+<br><br>
 
 <p style="font-size:16px"> Networking:</p>
 

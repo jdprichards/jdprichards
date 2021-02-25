@@ -17,13 +17,23 @@ You'll want to connect to the router and open up the command line interface (CLI
 
 <p style="font-size:18px">
 You might be given a message like:</p>
-<p style="font-size:16px;color:Red">
+<p style="font-size:18px;color:Red">
 Would you like to enter the inital configuration mode? [Yes/No]
 </p>
 <p style="font-size:16px">
 just enter No for now<br><br>
 You'll then see this:
 </p>
-
 <p style="font-size:18px;color:Red">
 Router></p> <p style="font-size:15px">This shows that you're in User EXEC Mode:<br> You have limited access to commands such as (ping, show and enable). You can't configure anything in this mode</p>
+
+<p style="font-size:16px">
+To enter the Privileged EXEC mode. To be able to configure the router enter:
+</p>
+<p style="font-size:18px;color:red">
+Router> Enable</p>
+<p style="font-size:16px">
+When you enter this you'll notice your prompt to change to:</p>
+<p style="font-size:18px;color:red">
+Router#</p>
+<p style="font-size:15px">
