@@ -12,13 +12,16 @@ First you want to have a physical router or a simulation program to be able to u
 - I use a simulation program called packet tracer which allows you to create a number of virtual devices and configure them as you would if you had them physically.</p>
 
 <p style="font-size:16px">
-You'll want to connect to the router and open up the command line interface (CLI)<br>
+You'll want to connect to the router and open up the command line interface (CLI)
 </p>
-<p style="font-size=14px">
-You might be given a message like:<br>
-would you like to enter the intital configuration mode? [Yes/No]<br>
-just enter No for now
 
+<p style="font-size:18px">
+You might be given a message like:</p>
+<p style="font-size:16px;color:Red">
+Would you like to enter the intital configuration mode? [Yes/No]
+</p>
+just enter No for now
+</p>
 You'll then see this:
 </p>
 
