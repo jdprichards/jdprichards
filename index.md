@@ -6,3 +6,4 @@ My goal for this page is to make my programs easy to access and potentially havi
 </p>
 
 [To the videos page (currently for explainer videos)](Videos.md)
+[To the programs page](Programs.md)
