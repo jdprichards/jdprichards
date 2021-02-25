@@ -156,7 +156,7 @@ At the end you get the equation<br>
 <em>- </em>(<em style="color:Red">VxWz</em> - <em style="color:Blue">VzWx</em>) for Y<br>
 + (<em style="color:red">VxWy</em> - <em style="color:blue">VyWx</em>) for Z <br>
 <br>
-These is the resulting vector.
+This is the resulting vector.
 
 
 </p>
