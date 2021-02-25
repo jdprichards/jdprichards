@@ -1,5 +1,5 @@
 # JDPRi Explains
-### Hello this is where I'm going to put some of my explanation  videos for the moment
+### Hello this is where I'm going to put some of my explanation videos for the moment hope you enjoy
 
 <p style="font-size:16px"> Maths Concepts:</p>
 
@@ -10,7 +10,7 @@
 [Cross Product](VideoPages\CrossProduct.html)
 
 [Matrix (WIP)](VideoPages\matrix.html)
-<br><br
+<br><br>
 
 <p style="font-size:16px"> Networking:</p>
 
