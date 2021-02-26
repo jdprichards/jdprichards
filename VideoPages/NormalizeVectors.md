@@ -24,7 +24,8 @@ In this second video I go over how you normalize a vector in general form:
 <p style="font-size:15px">
 So I have a vector <em style ="color:Red">V</em> = <em style ="color:Blue">Vx</em> + <em style ="color:Green">Vy</em> + <em style ="color:Yellow">Vz</em><br>
 If you are only using 2 axis for example not using the <em style="color:yellow">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BV%7D%7B%7CV%7C%7D%20&bc=Black&fc=White&im=png&fs=24&ff=modern&edit=0" align="center" border="0" alt=" \frac{V}{|V|} " width="58" height="81" />
+
+<sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">
 
 <br>
 
