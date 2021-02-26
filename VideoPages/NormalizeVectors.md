@@ -21,12 +21,12 @@ src="https://www.youtube.com/embed/zNd_rduGIvA" allowfullscreen>
 In this second video I go over how you normalize a vector in general form:
 </p>
 
-<p style="font-size:1px">
+<p style="font-size:16px">
 So I have a vector <em style ="color:Red">V</em> = <em style ="color:Blue">Vx</em> + <em style ="color:Green">Vy</em> + <em style ="color:Yellow">Vz</em><br>
 If you are only using 2 axis for example not using the <em style="color:yellow">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:orange">^</span><b style="font-size:18px; color:orange">V</b>  =
 <sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub><br><br>
-<p style="font-size:17px">
+<p style="font-size:18px">
 Which is the vector over its magnitude given by:</p>
 <em style="font-size:18px">
 |</em><em style="font-size:18px; color:RED">V</em><em style="font-size:18px">|</em> = &radic;<span style="text-decoration: overline; font-size:18px"><var><em style="color:Blue">Vx<sup>2</sup></em><var>+<em style="color:Green">Vy<sup>2</sup></em></var>+<var><em style="color:Yellow">Vz<sup>2</sup></em></var>
