@@ -30,7 +30,6 @@ If you are only using 2 axis for example not using the <em style="color:yellow">
 Which is the vector over its magnitude given by</p><br>
 <em style="font-size:18px">
 |</em><em style="font-size:18px; color:RED">V</em><em style="font-size:18px">|</em> = &radic;<span style="text-decoration: overline; font-size:18px"><var><em style="color:Blue">Vx<sup>2</sup></em><var>+<em style="color:Green">Vy<sup>2</sup></em></var>+<var><em style="color:Yellow">Vz<sup>2</sup></em></var>
-</span> </p>
 <br>
 
 
