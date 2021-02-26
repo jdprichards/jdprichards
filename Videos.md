@@ -15,3 +15,12 @@
 <p style="font-size:16px"> Networking:</p>
 
 [Configure Routers (WIP)](VideoPages\ConfigRouter)
+
+<p style="font-size:16px"> System Analysis:</p>
+<br><br>
+
+<p style="font-size:16px"> Programming:</p>
+<br><br>
+
+<p style="font-size:16px"> Computer systems and security (Will be limited to what I can actually show you.):</p>
+<br><br>
