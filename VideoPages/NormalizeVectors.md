@@ -24,8 +24,8 @@ In this second video I go over how you normalize a vector in general form:
 <p style="font-size:15px">
 So I have a vector <em style ="color:Red">V</em> = <em style ="color:Blue">Vx</em> + <em style ="color:Green">Vy</em> + <em style ="color:Yellow">Vz</em><br>
 If you are only using 2 axis for example not using the <em style="color:yellow">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
-
-<sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">
+<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5)">^</span>V
+= <sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>
 
 <br>
 
