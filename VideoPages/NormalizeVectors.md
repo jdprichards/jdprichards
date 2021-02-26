@@ -4,10 +4,10 @@
 Welcome to my explanation on normalizing vectors. This is a fairly easy topic so won't be as long as my other explanations
 </p>
 
-<p style="font-size:16px">
+<p style="font-size:17px">
 In this first video I briefly go over what normalizing a vector is:</p>
 
-<p style="font-size:15px">
+<p style="font-size:16px">
 The idea is that you have a vector <em style ="font-size:16;color:Red">V</em> that has components <em style ="color:Blue">Vx</em>, <em style ="color:Green">Vy</em> and <em style ="color:Yellow">Vz</em> to it.
 When you normalize a vector you reduce the length of <em style="color:Red">V</em> to equal 1. This allows you to seperate the direction from the maagitude.</p>
 <br>
@@ -17,17 +17,17 @@ src="https://www.youtube.com/embed/zNd_rduGIvA" allowfullscreen>
 </iframe>
 
 <br>
-<p style="font-size:16px">
+<p style="font-size:18px">
 In this second video I go over how you normalize a vector in general form:
 </p>
 
-<p style="font-size:15px">
+<p style="font-size:1px">
 So I have a vector <em style ="color:Red">V</em> = <em style ="color:Blue">Vx</em> + <em style ="color:Green">Vy</em> + <em style ="color:Yellow">Vz</em><br>
 If you are only using 2 axis for example not using the <em style="color:yellow">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:orange">^</span><b style="font-size:18px; color:orange">V</b>  =
 <sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub><br><br>
-<p style="font-size:16px">
-Which is the vector over its magnitude given by</p><br>
+<p style="font-size:17px">
+Which is the vector over its magnitude given by:</p>
 <em style="font-size:18px">
 |</em><em style="font-size:18px; color:RED">V</em><em style="font-size:18px">|</em> = &radic;<span style="text-decoration: overline; font-size:18px"><var><em style="color:Blue">Vx<sup>2</sup></em><var>+<em style="color:Green">Vy<sup>2</sup></em></var>+<var><em style="color:Yellow">Vz<sup>2</sup></em></var>
 <br>
