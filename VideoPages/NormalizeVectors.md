@@ -85,4 +85,4 @@ E.g Getting a sudden boost in a game.</p></i>
 
 <p style="font-size:15px">
 Click here to go to my next explainer video about the
-<a href="VideoPages/DotProduct.html">Dot Product</a></p>
+<a href="DotProduct.html">Dot Product</a></p>
