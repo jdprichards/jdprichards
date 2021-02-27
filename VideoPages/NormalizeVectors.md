@@ -30,9 +30,9 @@ If you are only using 2 axis for example not using the <em style="color:yellow">
 <p style="font-size:18px">
 Which is the vector over its magnitude given by:</p><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub> =
 &radic;<span style="text-decoration:overline; font-size:18px">
-(<i style="color:Blue">Vx</i><span style="font-size: 10px;vertical-align:+25%; color:blue;">2</span>+
-<i style="color:Green">Vy</i><span style="font-size: 10px;vertical-align:+25%;color:Green">2</span>+
-<i style="color:Yellow">Vz</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow">2</span>)&nbsp;</span><br>
+(<i style="color:Blue">Vx</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span>+
+<i style="color:Green">Vy</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span>+
+<i style="color:Yellow">Vz</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br>
 
 <br>
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">Vx</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:16px">|</sub>+<sup style="color:Green;font-size:18px">Vy</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">Vz</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>
@@ -56,9 +56,9 @@ Giving:
  <em style ="font-size:16;color:Red">V</em> = <em style ="color:Blue">5x</em>+<em style ="color:Green">7y</em>+<em style ="color:Yellow">4z</em></p>
  <p style="font-size:16px"> First the calculate <B style="color:Red">|V|</B> using the equation shown above:<br>
  <em style ="font-size:18;color:Red">|V|</em>= &radic;<span style="text-decoration:overline; font-size:18px">
- (<i style="color:Blue">5</i><span style="font-size: 10px;vertical-align:+25%; color:blue;">2</span>+
- <i style="color:Green">7</i><span style="font-size: 10px;vertical-align:+25%;color:Green">2</span>+
- <i style="color:Yellow">4</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow">2</span>)&nbsp;</span><br><br>
+ (<i style="color:Blue">5</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span>+
+ <i style="color:Green">7</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span>+
+ <i style="color:Yellow">4</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br><br>
 
 <em style ="font-size:18;color:Red">|V|</em>  =  &radic;<span style="text-decoration:overline; font-size:18px">
  (<i style="color:Blue">25</i>+<i style="color:Green">49</i>+<i style="color:Yellow">16</i>)</span>
