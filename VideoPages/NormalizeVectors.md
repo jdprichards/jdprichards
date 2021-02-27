@@ -83,4 +83,6 @@ If you have a constant vector direction but the magnitude varies its easier to j
 E.g Getting a sudden boost in a game.</p></i>
 <br> 
 
-Click here to go to my next explainer video about the [Dot Product](VideoPages/DotProduct.html)
+<p style="font-size:15px">
+Click here to go to my next explainer video about the
+<a href="VideoPages/DotProduct.html">Dot Product</a></p>
