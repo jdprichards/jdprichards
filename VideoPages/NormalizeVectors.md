@@ -30,8 +30,8 @@ If you are only using 2 axis for example not using the <em style="color:yellow">
 <p style="font-size:18px">
 Which is the vector over its magnitude given by:</p><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub> =
 &radic;<span style="text-decoration:overline; font-size:18px">
-(<i style="color:Blue">Vx</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span>+
-<i style="color:Green">Vy</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span>+
+(<i style="color:Blue">Vx</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span> +
+<i style="color:Green">Vy</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span> +
 <i style="color:Yellow">Vz</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br>
 
 <br>
@@ -56,8 +56,8 @@ Giving:
  <em style ="font-size:16;color:Red">V</em> = <em style ="color:Blue">5x</em>+<em style ="color:Green">7y</em>+<em style ="color:Yellow">4z</em></p>
  <p style="font-size:16px"> First the calculate <B style="color:Red">|V|</B> using the equation shown above:<br>
  <em style ="font-size:18;color:Red">|V|</em>= &radic;<span style="text-decoration:overline; font-size:18px">
- (<i style="color:Blue">5</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span>+
- <i style="color:Green">7</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span>+
+ (<i style="color:Blue">5</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span> +
+ <i style="color:Green">7</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span> +
  <i style="color:Yellow">4</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br><br>
 
 <em style ="font-size:18;color:Red">|V|</em>  =  &radic;<span style="text-decoration:overline; font-size:18px">
