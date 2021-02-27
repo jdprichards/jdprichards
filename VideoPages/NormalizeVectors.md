@@ -80,3 +80,5 @@ src="https://www.youtube.com/embed/BO_54FGy5S4" allowfullscreen>
 <p style="font-size:15px">
 If you have a constant vector direction but the magnitude varies its easier to just calculate the change in magnitude. Rather than having to use a calculation how much each component needs to change.<br>
 E.g Getting a sudden boost in a game.</p></i>
+<br>
+Clich here to go to my next explainer video about the: [Dot Product](https://jdpri.github.io/VideoPages/DotProduct.html)

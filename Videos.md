@@ -5,7 +5,7 @@
 
 [Normalize Vectors](VideoPages\NormalizeVectors.html)
 
-[Dot Product (WIP)](VideoPages\DotProduct.md)
+[Dot Product (WIP)](VideoPages\DotProduct.html)
 
 [Cross Product](VideoPages\CrossProduct.html)
 
