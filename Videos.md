@@ -3,7 +3,7 @@
 
 <p style="font-size:16px"> Maths Concepts:</p>
 
-[Normalize Vectors (WIP)](VideoPages\NormalizeVectors.html)
+[Normalize Vectors](VideoPages\NormalizeVectors.html)
 
 [Dot Product (WIP)](VideoPages\DotProduct.md)
 
