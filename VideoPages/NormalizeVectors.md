@@ -35,7 +35,7 @@ Which is the vector over its magnitude given by:</p><sub style="font-size:16px">
 <i style="color:Yellow">Vz</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br>
 
 <br>
-<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">Vx</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:16px">|</sub>+<sup style="color:Green;font-size:18px">Vy</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">Vz</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>
+<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">Vx</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:16px">|</sub> +<sup style="color:Green;font-size:18px">Vy</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub> +<sup style="color:yellow;font-size:18px">Vz</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>
 <p style="font-size:17px">
 Something that is worthy to note is that to magnitude:<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5);color:Red">^</span><B style="color:Red">|V|</B> = 1</p>
 <p style="font-size:15px">You can always check that the magnitude of your answer = 1 to confirm that it is a normalize vector.</p><br><br>
@@ -61,7 +61,7 @@ Giving:
  <i style="color:Yellow">4</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br><br>
 
 <em style ="font-size:18;color:Red">|V|</em>  =  &radic;<span style="text-decoration:overline; font-size:18px">
- (<i style="color:Blue">25</i>+<i style="color:Green">49</i>+<i style="color:Yellow">16</i>)</span>
+ (<i style="color:Blue">25</i> +<i style="color:Green">49</i> +<i style="color:Yellow">16</i>)</span>
  = <i style="color:Red">&radic;<span style="text-decoration:overline; font-size:18px">
 90 </span></i><br><br>
 
