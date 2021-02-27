@@ -68,12 +68,12 @@ Giving:
  <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">5</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:18px">|</sub>+<sup style="color:Green;font-size:18px">7</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:18px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">4</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:18px">|</sub><sub style="color:RED;font-size:18px"></sub>, <br>
 
  <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">5</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:18px">|</sub>+<sup style="color:Green;font-size:18px">7</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:18px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">4</sup>&frasl;&radic;<span style="text-decoration:overline; font-size:18px">
- <i style="color:Red">90</i></sub>
+ <i style="color:Red">90</i>
 
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/BO_54FGy5S4" allowfullscreen>
-</iframe>
+</iframe><br>
 
 <u style="font-size:16px">Side note (Uses):</u>
 <p style="font-size:15px">
