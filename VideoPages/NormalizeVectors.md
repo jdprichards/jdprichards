@@ -38,7 +38,7 @@ Which is the vector over its magnitude given by:</p><sub style="font-size:16px">
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">Vx</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:16px">|</sub>+<sup style="color:Green;font-size:18px">Vy</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">Vz</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>
 <p style="font-size:17px">
 Something that is worthy to note is that to magnitude:<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5);color:Red">^</span><B style="color:Red">|V|</B> = 1</p>
-<p style="font-size:15px">You can always check that the magnitude of your answer = 1 to confirm that it is a normalize vector.</p>
+<p style="font-size:15px">You can always check that the magnitude of your answer = 1 to confirm that it is a normalize vector.</p><br><br>
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/TGwAdduyPQk" allowfullscreen>
@@ -63,12 +63,11 @@ Giving:
 <em style ="font-size:18;color:Red">|V|</em>  =  &radic;<span style="text-decoration:overline; font-size:18px">
  (<i style="color:Blue">25</i>+<i style="color:Green">49</i>+<i style="color:Yellow">16</i>)</span>
  = &radic;<span style="text-decoration:overline; font-size:18px">
- <i style="color:Red">90</i>
-
+ <i style="color:Red">90</i></span><br>
  <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">5</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:18px">|</sub>+<sup style="color:Green;font-size:18px">7</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:18px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">4</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:18px">|</sub><sub style="color:RED;font-size:18px"></sub>, <br>
 
  <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">5</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:18px">|</sub>+<sup style="color:Green;font-size:18px">7</sup>&frasl;<sub style="font-size:18px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:18px">|</sub><sub style="color:RED;font-size:18px"></sub>+<sup style="color:yellow;font-size:18px">4</sup>&frasl;&radic;<span style="text-decoration:overline; font-size:18px">
- <i style="color:Red">90</i>
+ <i style="color:Red">90</i><br>
 
 
 <iframe width="420" height="315"
