@@ -9,7 +9,7 @@
 
 [Cross Product](VideoPages\CrossProduct.html)
 
-[Matrix (WIP)](VideoPages\matrix.html)
+[Matrix (WIP)](VideoPages\Matrix.html)
 <br><br>
 
 <p style="font-size:16px"> Networking:</p>
