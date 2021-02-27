@@ -75,8 +75,8 @@ Giving:
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/BO_54FGy5S4" allowfullscreen>
 </iframe><br>
-
+<i style="color:Orange">
 <u style="font-size:16px">Side note (Uses):</u>
 <p style="font-size:15px">
 If you have a constant vector direction but the magnitude varies its easier to just calculate the change in magnitude. Rather than having to use a calculation how much each component needs to change.<br>
-E.g Getting a sudden boost in a game.</p>
+E.g Getting a sudden boost in a game.</p></i>
