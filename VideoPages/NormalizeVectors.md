@@ -1,8 +1,8 @@
 # Normalizing Vectors Explained
 
-<p style="font-size:16px">
+<p style="font-size:18px; color:lightBlue">
 Welcome to my explanation on normalizing vectors. This is a fairly easy topic so won't be as long as my other explanations
-</p>
+</p><br>
 
 <p style="font-size:17px">
 In this first video I briefly go over what normalizing a vector is:</p>
@@ -84,5 +84,5 @@ E.g Getting a sudden boost in a game.</p></i>
 <br> 
 
 <p style="font-size:18px;color:DarkRed">
-Click here to go to my next explainer video about the
+Click here to go to my next explainer video about the:
 <a href="DotProduct.html">Dot Product</a></p>
