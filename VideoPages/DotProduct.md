@@ -1,7 +1,8 @@
 # Dot Product Explained
 
-<p style="font-size:18">
-Welcome to my Dot product explainer. This is a bit  more complex than my previous explaination about:</p> 
+<p style="font-size:18;color:Red">
+Welcome to my Dot product explainer. This is a bit  more complex than my previous explaination about: <a href="NormalizeVectors.html">Normalizing vectors</a></p>
 
-### [Normalzing Vectors](VideoPages/NormalizeVectors.html)
-
+<p style="font-size:18px;color:DarkRed">
+Click here to go to my next explainer video about the:
+<a href="CrossProduct.html">Cross Product </a></p>
