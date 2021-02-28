@@ -1,12 +1,19 @@
 # Normalizing Vectors Explained
 
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
 <p style="font-size:18px; color:lightBlue">
 Welcome to my explanation on normalizing vectors. This is a fairly easy topic so won't be as long as my other explanations
 </p><br>
 
 <p style="font-size:17px">
 In this first video I briefly go over what normalizing a vector is:</p>
-
+<body>
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+</body>
 <p style="font-size:16px">
 The idea is that you have a vector <em style ="font-size:16;color:Red">V</em> that has components <em style ="color:Blue">Vx</em>, <em style ="color:Green">Vy</em> and <em style ="color:Yellow">Vz</em> to it.
 When you normalize a vector you reduce the length of <em style="color:Red">V</em> to equal 1. This allows you to seperate the direction from the maagitude.</p>
