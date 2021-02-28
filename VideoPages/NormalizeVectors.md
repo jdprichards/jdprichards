@@ -53,7 +53,7 @@ In this second video I go over how you normalize a vector in general form:
 So I have a vector
 </p>
 
-$$|V|  = \{color{Red} Vx} +  Vy + Vz $$
+$$ \color{Red} |V| \color{white} = \color{Blue} Vx \color{white}  + \color{Green}  Vy \color{white} + \color{Yellow}Vz $$
 
 If you are only using 2 axis for example not using the <em style="color:Green">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b>  =
