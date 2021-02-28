@@ -55,21 +55,22 @@ So I have a vector
 
 $$ \color{Red} |V| \color{white} = \color{Blue} Vx \color{white}  + \color{Green}  Vy \color{white} + \color{Yellow}Vz $$
 
+</p style="font-size:17px">
 If you are only using 2 axis for example not using the <em style="color:Green">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
-<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b>  =
-<sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub><br><br>
 
+$$\color{Red} V \over{ \color{Red}\hat{V}} $$
 <p style="font-size:18px">
-Which is the vector over its magnitude given by:</p><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub> =
-&radic;<span style="text-decoration:overline; font-size:18px">
-(<i style="color:Blue">Vx</i><span style="font-size: 10px;vertical-align:+25%; color:blue;"> 2</span> +
-<i style="color:Green">Vy</i><span style="font-size: 10px;vertical-align:+25%;color:Green"> 2</span> +
-<i style="color:Yellow">Vz</i><span style="font-size: 10px;vertical-align:+25%;color:Yellow"> 2</span>)&nbsp;</span><br>
+Which is the vector over its magnitude given by:</p>
 
-<br>
-<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b> = <sup style="color:Blue;font-size:18px">Vx</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Blue;font-size:18px">V</sub><sub style="font-size:16px">|</sub> +<sup style="color:Green;font-size:18px">Vy</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Green;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub> +<sup style="color:yellow;font-size:18px">Vz</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:Yellow;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub>
-<p style="font-size:17px">
-Something that is worthy to note is that to magnitude:<span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5);color:Red">^</span><B style="color:Red">|V|</B> = 1</p>
+$$ \color{Red} |V| \color{White}= \sqrt{(\color{Blue}Vx^2 \color{white} + \color{Green} Vy^2 \color{white}+ \color{Yellow} Vz^2 \color{white})} $$
+
+$$ \color{Red}\hat{V}\color{white} = \color{Blue}{Vx\over |V|} \color{white} + \color{green} {Vy\over |V|} \color{white} + \color{yellow}{Vz\over|V|}$$
+
+
+Something that is worthy to note is that to magnitude:= 1</p>
+
+$$ \color{Red}\hat{|V|} \color{white}= \color{Red} 1 $$
+
 <p style="font-size:15px">You can always check that the magnitude of your answer = 1 to confirm that it is a normalize vector.</p><br><br>
 
 <iframe width="420" height="315"
