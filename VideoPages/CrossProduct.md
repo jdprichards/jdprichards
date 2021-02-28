@@ -122,7 +122,7 @@ $${\begin{pmatrix} X & Y \\\ \color{Red}Vx & \color{Blue}Vy \\\ \color{Blue}Wx &
 <p style="font-size:16px">
 <em style="color:Red">VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:Blue">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
 <br><br>
-<em> Important: the second half is negative:</em></p>
+<em style="color:Purple;font-size:18px"> Important: the second half is negative:</em></p>
 
 $$(\color{Blue}-VyWx\color{white})$$
 <p style="font-size:16px">
