@@ -1,4 +1,31 @@
 # Cross Product Explained
+<script defer>
+    // for Anki 2.1
+    MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.processSectionDelay = 0;
+    MathJax.Hub.Config({
+        TeX: { extensions: ["color.js"] },
+        messageStyle: 'none',
+        showProcessingMessages: false,
+        tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+            displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+            processEscapes: true
+        }
+        });
+</script>
+<script type="text/javascript">
+    (function () {
+        if (typeof MathJax === "undefined") {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+            document.body.appendChild(script);
+        }
+    })();
+</script>
 
 <p style="font-size:16px">
 During one of my games concepts lectures there was a general confusion about what is happening in it. So I am going to have a brief cover over it.<br>
@@ -16,23 +43,8 @@ In this first video I am briefly covering what the cross product is and how I'd 
 The idea here is to put the two vectors into a form that easy to see and understand. <br><br>Two vectors here <em>V and W</em> each with their own x, y and z co-ordinate, we're going to find the <em>VxW</em>, remember this is <strong>different</strong> to <em>WxV</em>. Where I have put them in the following form
 </p>
 
-<table style="width:20%">
-  <tr>
-    <th>X</th>
-    <th>Y</th>
-    <th>Z</th>
-  </tr>
-  <tr>
-    <td>Vx</td>
-    <td>Vy</td>
-    <td>Vz</td>
-  </tr>
-  <tr>
-    <td>Wx</td>
-    <td>Wy</td>
-    <td>Wz</td>
-  </tr>
-</table>
+$$ \begin{pmatrix}X & Y & Z\\\ Vx & Vy & Vz \\\ Wx & Wy & Wz\end{pmatrix}$$
+
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/dIB3xGbndso" allowfullscreen>
@@ -42,28 +54,22 @@ src="https://www.youtube.com/embed/dIB3xGbndso" allowfullscreen>
 The Second video shows me starting to calculate the cross product. But just the x at the moment:
 </p>
 <p style="font-size:16px">
-The equation to calculate X for the resulting vector is:<br>
-<em style="color:Red">VyWz</em> -<em style="color:blue">VzWy</em> <br>
-You can notice here to calculate the x value you don't need to use <em>Vx or Wx</em> so you can use the table like this.
+The equation to calculate X for the resulting vector is:</p>
 
-</p>
-<table style="width:20%">
-  <tr>
-    <th>Y</th>
-    <th>Z</th>
-  </tr>
-  <tr>
-    <td style="color:Red">Vy</td>
-    <td style="color:Blue">Vz</td>
-  </tr>
-  <tr>
-    <td style="color:Blue">Wy</td>
-    <td style="color:Red">Wz</td>
-  </tr>
-</table>
+$$  \color{Red}VyWz \color{white}- \color{Blue} VzWy$$
 
 <p style="font-size:16px">
-You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> <em> Important: the second half is negative</em> <em style="color:blue">(-VzWy)</em>.<br> You can see this as because the diagonal is going right to left its therefore minus.
+You can notice here to calculate the x value you don't need to use <em>Vx or Wx</em> so you can use the table like this.
+
+$$\begin{pmatrix} Y & Z \\\\ \color{Red}Vy &  \color{Blue}Vz \\\\ \color{Blue}Wy & \color{Red}Wz  \end{pmatrix} $$
+
+
+<p style="font-size:16px">
+You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><p style="font-size:18px; color:purple"> Important: the second half is negative</em> </p>
+
+$$ - \color{Blue} VzWy $$
+
+<p style="font-size:16px">You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
 
@@ -76,6 +82,8 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM" allowfullscreen>
 <p style="font-size:16px">
 The equation to calculate Y for the resulting vector is:<br>
 <em>-</em>(<em style="color:Red">VxWz</em> - <em style="color:Blue">VzWx</em>)<br>
+
+$$ VxWz - VzWx$$
 
 <p style="font-size:16px">
 Again you don't need to use <em>Vy or Wy</em> like the previous section with X, so you can use the table like this.</p>
