@@ -65,7 +65,7 @@ $$\begin{pmatrix} Y & Z \\\ \color{Red}Vy &  \color{Blue}Vz \\\ \color{Blue}Wy &
 
 
 <p style="font-size:16px">
-You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><p style="font-size:18px; color:purple"> Important: the second half is negative: </p>
+You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><em style="font-size:18px; color:purple"> Important: the second half is negative: </em>
 
 $$ - \color{Blue} VzWy $$
 
