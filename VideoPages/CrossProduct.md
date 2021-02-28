@@ -91,14 +91,14 @@ $$\begin{pmatrix} X & Z \\\ \color{Red}Vx &  \color{Blue}Vz \\\ \color{Blue}Wx &
 <p style="font-size:16px">
 <em style="color:red">VxWz</em> again are directly diagonal from each other when you ignore Y and so is <em style="fonnt-size:18px;color:blue">VzWx</em> its is from the right to left. So you can x into different parts each going diagonal.</p>
 <p style="font-size:18px; color:Purple">
-<em> Important: the second half is negative</p>
+<em> Important: the second half is negative</em></p>
 
 $$ -(\color{Blue}VzWz\color{white}) $$
 <p style="font-size:16px">You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
 <p style="font-size:16px">
-With the way I've shown calculating Y:<br></p><em style="color:purple;font-size:18px"> Important: You'll want to minus everything in the brackets.</em></p> 
+With the way I've shown calculating Y:<br></p><em style="color:purple;font-size:18px"> Important: You'll want to minus everything in the brackets.</em>
 <p style="font-size:16px">I have shown it this way as you can keep the rule for going from top left to bottom right and vice versa
 </p>
 
@@ -109,32 +109,24 @@ src="https://www.youtube.com/embed/Oq04485K2v8" allowfullscreen>
 <p style="font-size:18px"> <br>The Forth video shows me calculating Z like both X and Y:</p>
 
 <p style="font-size:16px">
-The equation to calculate Y for the resulting vector is:<br>
-<em style="color:red">VxWy</em> - <em style="color:blue">VyWx</em> <br>
+The equation to calculate Y for the resulting vector is:<br></p>
+
+$$\color{Red} VxWy \color{white}- \color{Blue}VyWx $$
 
 <p style="font-size:16px">
 Again you don't need to use <em>Vz or Wz</em> like the previous section with X and Y, so you can use the table like this.</p>
 
-<table style="width:20%">
-  <tr>
-    <th>X</th>
-    <th>Y</th>
-  </tr>
-  <tr>
-    <td style="color:Red">Vx</td>
-    <td style="color:Blue">Vy</td>
-  </tr>
-  <tr>
-    <td style="color:Blue">Wx</td>
-    <td style="color:Red">Wy</td>
-  </tr>
-</table>
+
+$${\begin{pmatrix} X & Y \\\ \color{Red}Vx & \color{Blue}Vy \\\ \color{Blue}Wx & \color{Red}Wy\end{pmatrix}}$$
 
 <p style="font-size:16px">
 <em style="color:Red">VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:Blue">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
 <br><br>
-<em> Important: the second half is negative</em>(<em style="color:blue"> -VyWx</em>).
-<br> You can see this as because the diagonal is going right to left its therefore minus.
+<em> Important: the second half is negative:</em></p>
+
+$$(\color{Blue}-VyWx\color{white})$$
+<p style="font-size:16px">
+You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
 <iframe width="420" height="315"
@@ -147,11 +139,13 @@ src="https://www.youtube.com/embed/MkU2XPSFeGA" allowfullscreen>
 Now for the final section. This is simply putting everything you've caculated up here all into one. You've calculated the new X, Y and Z vectors so all you need to do is put them together.
 </p>
 <p style="font-size:16px">
-At the end you get the equation<br>
-+ (<em style="color:Red">VyWz</em> -<em style="color:blue">VzWy</em>) for X<br>
-<em>- </em>(<em style="color:Red">VxWz</em> - <em style="color:Blue">VzWx</em>) for Y<br>
-+ (<em style="color:red">VxWy</em> - <em style="color:blue">VyWx</em>) for Z <br>
-<br>
+At the end you get the equation:<br>
+</p>
+
+$$+ (\color{Red}VyWz \color{white}- \color{Blue} VzWy\color{white}) \text{ For X}$$ 
+$$ - (\color{Red} VxWz \color{white}- \color{Blue} VzWx\color{white}) \text{ For Y}$$
+$$+ (\color{Red} VxWy \color{white}- \color{Blue}VyWx\color{white}) \text{ For Z}$$
+<p style="font-size:16px">
 This is the resulting vector.
 
 
