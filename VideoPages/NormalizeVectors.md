@@ -59,6 +59,7 @@ $$ \color{Red} |V| \color{white} = \color{Blue} Vx \color{white}  + \color{Green
 If you are only using 2 axis for example not using the <em style="color:Green">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
 
 $$\color{Red} V \over{ \color{Red}\hat{V}} $$
+
 <p style="font-size:18px">
 Which is the vector over its magnitude given by:</p>
 
@@ -97,7 +98,7 @@ $$ \color{Red}V \color{white}=\color{Blue} 5x \color{white} + \color{Green} 7y  
 
  $$ \color{Red} |V| \color{White}= \sqrt{(\color{Blue}25 \color{white} + \color{Green} 49 \color{white}+ \color{Yellow} 16 \color{white})} =\sqrt{\color{Red} 90} $$
 
-$$ \color{Red}\hat{V} \color{white} = \color{Blue}{5\over V} \color{white}+ \color{Green} {7\over V} \color{white}+ \color{Yellow} {4\over V}$$
+$$ \color{Red}\hat{V} \color{white} = \color{Blue}{5\over |V|} \color{white}+ \color{Green} {7\over |V|} \color{white}+ \color{Yellow} {4\over |V|}$$
 
 $$ \color{Red}\hat{V} \color{white}= \color{Blue} {5\over \sqrt{90}} \color{white}+ \color{Green} {7\over \sqrt{90}} \color{white} + \color{Yellow} {4\over \sqrt{90}}$$
 
