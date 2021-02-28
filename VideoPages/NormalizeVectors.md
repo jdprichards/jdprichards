@@ -26,7 +26,7 @@ In this second video I go over how you normalize a vector in general form:
 </p>
 
 <p style="font-size:16px">
-So I have a vector $$<em style="color:Red">|V| </em> = {<em style="color:Blue">Vx</em> + <em style="color:Green"> Vy </em> +  <em style="color:Yellow">Vz</em>}$$
+So I have a vector <body> $$<em style="color:Red">|V| </em> = {<em style="color:Blue">Vx</em> + <em style="color:Green"> Vy </em> +  <em style="color:Yellow">Vz</em>}$$<body>
 If you are only using 2 axis for example not using the <em style="color:Green">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b>  =
 <sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub><br><br>
