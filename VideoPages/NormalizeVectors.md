@@ -1,8 +1,32 @@
 # Normalizing Vectors Explained
 
-<script type="text/javascript" charset="utf-8" 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
-https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+<script defer>
+    // for Anki 2.1
+    MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.processSectionDelay = 0;
+    MathJax.Hub.Config({
+        TeX: { extensions: ["color.js"] },
+        messageStyle: 'none',
+        showProcessingMessages: false,
+        tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+            displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+            processEscapes: true
+        }
+        });
+</script>
+<script type="text/javascript">
+    (function () {
+        if (typeof MathJax === "undefined") {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+            document.body.appendChild(script);
+        }
+    })();
+</script>
 
 <p style="font-size:18px; color:lightBlue">
 Welcome to my explanation on normalizing vectors. This is a fairly easy topic so won't be as long as my other explanations
@@ -26,9 +50,11 @@ In this second video I go over how you normalize a vector in general form:
 </p>
 
 <p style="font-size:16px">
-So I have a vector <body> 
-$$<em style="color:Red">|V| </em> = {<em style="color:Blue">Vx</em> + <em style="color:Green"> Vy </em> +  <em style="color:Yellow">Vz</em>}$$
-</body>
+So I have a vector
+</p>
+
+$$|V|  = \{color{Red} Vx} +  Vy + Vz $$
+
 If you are only using 2 axis for example not using the <em style="color:Green">Y</em> Axis you just remove it from the equation.<br><br>The normalized V is:</p>
 <span style="font-size:18px;position: relative; left: 11px; bottom: 12px;transfrom: scale(4,0.5); color:Red">^</span><b style="font-size:18px; color:Red">V</b>  =
 <sup style="color:RED;font-size:18px">V</sup>&frasl;<sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px">V</sub><sub style="font-size:16px">|</sub><sub style="color:RED;font-size:18px"></sub><br><br>
