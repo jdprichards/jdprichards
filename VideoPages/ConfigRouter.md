@@ -37,3 +37,4 @@ When you enter this you'll notice your prompt to change to:</p>
 <p style="font-size:18px;color:red">
 Router#</p>
 <p style="font-size:15px">
+This shows that you're in the 
