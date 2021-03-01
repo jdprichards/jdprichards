@@ -37,7 +37,7 @@ In this first video I briefly go over what normalizing a vector is:</p>
 
 <p style="font-size:16px">
 The idea is that you have a vector <em style ="font-size:16;color:Red">V</em> that has components <em style ="color:Blue">Vx</em>, <em style ="color:Green">Vy</em> and <em style ="color:Yellow">Vz</em> to it.
-When you normalize a vector you reduce the length of <em style="color:Red">V</em> to equal 1. This allows you to seperate the direction from the maagitude.</p>
+When you normalize a vector you reduce the length of <em style="color:Red">V</em> to equal 1. This allows you to seperate the direction from the magitude.</p>
 
 
 <iframe width="420" height="315"
