@@ -36,7 +36,7 @@ Welcome to my first matrix explainer, I'll probably do a few explainers about th
 <p style="font-size:17px">
 In this explainer I am going to go through the addition and mutiplaction of matricies. In later parts I'll go through different transformations. But I'm going to try and keep it basic here.
 </p><br>
-<p style="font-size:15px">
+<p style="font-size:16px">
 Lets say you've got a Matrix V with 4 Rows and 4 Columns. It would look something like this:
 </p>
 
@@ -47,12 +47,12 @@ V_{3,1} & V_{3,2} & V_{3,3} & V_{3,4} \\
 V_{4,1} & V_{4,2} & V_{4,3} & V_{4,4}\end{pmatrix} $$
 
 <em style="font-size:15px;color:purple">
-Important Matricies  start at 1, instead of 0 as arrays. With the first value showing the Row and the second the column.
+Important: Matricies start at 1, instead of 0 as arrays. With the first value showing the Row and the second the column.
 </em>
 
 <br>
 
-<p style="font-size:14px">
+<p style="font-size:15px">
 Matricies can vary in length and width, such like looking like this:
 </p>
 
@@ -67,3 +67,7 @@ V_{3,1} & V_{3,2} & V_{3,3} \\
 \end{pmatrix} \text{or} \begin{pmatrix} 
 V_{1,1} & V_{1,2} \\ 
 V_{2,1} & V_{2,2} \end{pmatrix}$$
+
+<p style="font-size:14px">
+Being 4x4, 3x3 and 2x2 Matricies respectively.
+</p>
