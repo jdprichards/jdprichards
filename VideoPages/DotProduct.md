@@ -145,7 +145,8 @@ Then putting it all into the caculator or getting the computer to calculate it:<
 
 $$ \color{lightBlue}\theta \color{white}= \color{orange} \arccos{\color{white}\frac{\color{Red}80}{ \sqrt{\color{Red}116} \times \sqrt{\color{Red}77}}} $$
 
-
+<p style="font-size:16px">
+And you can 
 
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
