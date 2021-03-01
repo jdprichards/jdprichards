@@ -70,13 +70,13 @@ The stage is using the calculation of the dot product to get the angle between t
 Using the equation:
 </p>
 
-$$\color{Red} V\color{white}\cdot{}\color{Red}W = \color{Red}|V||W|\color{blue}\cos{\color{lightBlue}\theta} $$
+$$\color{Red} V\color{white}\cdot{}\color{Red}W = \color{Red}|V||W|\color{orange}\cos{\color{lightBlue}\theta} $$
 
 $\text{Where } \color{lightBlue}\theta \color{white}\text{ is the angle between the vectors}$
 
-$$ \frac{\color{Red} V\color{white}\cdot{}\color{Red}W}{\color{Red}|V||W|} = \color{Blue}\cos{\color{lightBlue}\theta} $$
+$$ \frac{\color{Red} V\color{white}\cdot{}\color{Red}W}{\color{Red}|V||W|} = \color{orange}\cos{\color{lightBlue}\theta} $$
 
-$$ \color{lightBlue}\theta \color{white}=  \color{Blue}\arccos{\color{white}\frac{\color{Red}V\color{white}\cdot \color{Red} W}{ \color{Red}|V||W|}} $$
+$$ \color{lightBlue}\theta \color{white}=  \color{orange}\arccos{\color{white}\frac{\color{Red}V\color{white}\cdot \color{Red} W}{ \color{Red}|V||W|}} $$
 
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
