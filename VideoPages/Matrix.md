@@ -41,11 +41,29 @@ Lets say you've got a Matrix V with 4 Rows and 4 Columns. It would look somethin
 </p>
 
 $$\begin{pmatrix} 
-V_{11} & V_{12} & V_{13} & V_{14}\\ 
-V_{21} & V_{22} & V_{23} & V_{24} \\
-V_{31} & V_{32} & V_{33} & V_{34} \\
-V_{41} & V_{42} & V_{43} & V_{44}\end{pmatrix} $$
+V_{1,1} & V_{1,2} & V_{1,3} & V_{1,4}\\ 
+V_{2,1} & V_{2,2} & V_{2,3} & V_{2,4} \\
+V_{3,1} & V_{3,2} & V_{3,3} & V_{3,4} \\
+V_{4,1} & V_{4,2} & V_{4,3} & V_{4,4}\end{pmatrix} $$
 
 <em style="font-size:15px;color:purple">
-Important Matricies  start at 1, instead of 0 as arrays.
+Important Matricies  start at 1, instead of 0 as arrays. With the first value showing the Row and the second the column.
 </em>
+
+<br>
+
+<p style="font-size:14px">
+Matricies can vary in length and width, such like looking like this:
+</p>
+
+$$\begin{pmatrix} 
+V_{1,1} & V_{1,2} & V_{1,3} & V_{1,4}\\ 
+V_{2,1} & V_{2,2} & V_{2,3} & V_{2,4} \\
+V_{3,1} & V_{3,2} & V_{3,3} & V_{3,4} \\
+V_{4,1} & V_{4,2} & V_{4,3} & V_{4,4}\end{pmatrix} \text{or} \begin{pmatrix} 
+V_{1,1} & V_{1,2} & V_{1,3}\\ 
+V_{2,1} & V_{2,2} & V_{2,3} \\
+V_{3,1} & V_{3,2} & V_{3,3} \\
+\end{pmatrix} \text{or} \begin{pmatrix} 
+V_{1,1} & V_{1,2} \\ 
+V_{2,1} & V_{2,2} \end{pmatrix}$$
