@@ -37,34 +37,46 @@ In this explainer I am going to show you how to calculate the dot product of two
 </p>
 <br>
 <p style="font-size:18px">
-The Dot Product of  vectors V and W:
+The Dot Product of  vectors <em style="color:Red">V</em> and <em style="color:Red">W</em>:
 </p>
 <p style="font-size:16px">
 Put in the form:
 </p>
 
-$$ V \cdot W $$
+$$ \color{Red}V \color{white}\cdot \color{Red}W $$
 
 <p style="font-size:16px">
 Given the vectors:
 </p>
 
-$$ V = Vx + Vy + Vz$$
+$$ \color{Red}V \color{white}= \color{Blue}Vx \color{white}+ \color{Green}Vy \color{white}+ \color{Yellow}Vz$$
 
 $$ \text{ And }$$
 
-$$ W = Wx + Wy +Wz$$
+$$\color{Red} W\color{white}= \color{Blue}Wx \color{white}+ \color{Green}Wy \color{white}+ \color{Yellow}Wz$$
 
 <br>
 <p style="font-size:16px">
 The Dot Product of vectors V and W would be calculated as:</p>
 
-$$ V\cdot{}W = VxWx+ VyWy+VzWz $$
+$$ \color{Red}V\color{white}\cdot{}\color{Red}W \color{white}= \color{Blue} VxWx \color{white}+  \color{Green}VyWy\color{white}+\color{Yellow}VzWz $$
 
 <em style="font-size:16px;color:purple ">
 Important: This value is a scalar so doesn't have a direction like vectors do. Meaning you get a singular value for the answer. Rather than it being split up into X, Y and Z
 </em><br>
 
+<p style="font-size:17px">
+The stage is using the calculation of the dot product to get the angle between the vectors.<br>
+Using the equation:
+</p>
+
+$$\color{Red} V\color{white}\cdot{}\color{Red}W = \color{Red}|V||W|\color{blue}\cos{\color{lightBlue}\theta} $$
+
+$\text{Where } \color{lightBlue}\theta \color{white}\text{ is the angle between the vectors}$
+
+$$ \frac{\color{Red} V\color{white}\cdot{}\color{Red}W}{\color{Red}|V||W|} = \color{Blue}\cos{\color{lightBlue}\theta} $$
+
+$$ \color{lightBlue}\theta \color{white}=  \color{Blue}\arccos{\color{white}\frac{\color{Red}V\color{white}\cdot \color{Red} W}{ \color{Red}|V||W|}} $$
 
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
