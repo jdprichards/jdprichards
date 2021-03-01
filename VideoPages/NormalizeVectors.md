@@ -1,8 +1,4 @@
 # Normalizing Vectors Explained
-
-<script defer>
-    // for Anki 2.1
-    MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
 </script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.processSectionDelay = 0;

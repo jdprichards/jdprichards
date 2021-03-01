@@ -50,8 +50,11 @@ Given the vectors:
 </p>
 
 $$ V = Vx + Vy + Vz$$
+
 $$ \text{ And }$$
+
 $$ W = Wx + Wy +Wz$$
+
 <br>
 <p style="font-size:16px">
 The Dot Product of vectors V and W would be calculated as:</p>
