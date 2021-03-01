@@ -60,6 +60,7 @@ $$ W = Wx + Wy +Wz$$
 The Dot Product of vectors V and W would be calculated as:</p>
 
 $$ V\cdot{}W = VxWx+ VyWy+VzWz $$
+
 <em style="font-size:16px;color:purple ">
 Important: This value is a scalar so doesn't have a direction like vectors do. Meaning you get a singular value for the answer. Rather than it being split up into X, Y and Z
 </em><br>

@@ -10,6 +10,12 @@ My goal for this page is to make my programs easy to access and potentially havi
 
 
 <p style="font-size:18px">
+Message me on:<br>
+
+Telegram: [@JDPRi](https://t.me/JDPRi)
+
 If you want to ask me any questions you can direct message me on GitHub<br>
 Or email me at: JDPRichards@hotmail.co.uk<br>
+
 Will have other forms of communication in the near future just need to sort them out</p>
+

@@ -1,5 +1,4 @@
 # Normalizing Vectors Explained
-</script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.processSectionDelay = 0;
     MathJax.Hub.Config({
