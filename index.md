@@ -6,16 +6,15 @@ My goal for this page is to make my programs easy to access and potentially havi
 </p>
 
 [To the videos page (currently for explainer videos)](Videos.md)<br>
-[To the programs page](Programs.md)
+[To the programs page](Programs.md)<br>
 
 
 <p style="font-size:18px">
-
-Message me on:</p><br>
-<p style="font-size:18px">
-Telegram:<a href="https://t.me/JDPRi">@JDPRi</a> @JDPRi <br>
+Message me on:<br>
+Telegram:<a href="https://t.me/JDPRi">@JDPRi</a><br>
 
 If you want to ask me any questions you can direct message me on GitHub<br>
+
 Or email me at: JDPRichards@hotmail.co.uk<br>
 
 Will have other forms of communication in the near future just need to sort them out</p>
