@@ -82,7 +82,10 @@ You can add and take matricies together to give a new resultant matrix.</p>
 Important: You can only add together matricies of the same size (number of columns and rows) </p>
 
 <p style="font-size:16px">
-I am going to go through 2 examples. One using 2x2 matricies and another using 3x3 matricies:<p>
+I am going to go through 2 examples. One using 2x2 matricies and another using 3x3 matricies:<p><br>
+
+<em style="font-size:17px">
+3 by 3:</em>
 
 $$ \begin{pmatrix} 
 \color{Red}V_{1,1} & \color{Red}V_{1,2} & \color{Red}V_{1,3}\\ 
@@ -97,6 +100,10 @@ $$ \begin{pmatrix}
 \color{red}V_{2,1} \color{white} +\color{blue} W_{2,1}& \color{red}V_{2,2}  \color{white} +\color{blue} \color{red}\color{blue}W_{2,2}& \color{Red}V_{2,3}\color{white} + \color{blue}W_{2,3}\\
 \color{Red}V_{3,1}\color{white} + \color{blue}W_{3,1}& \color{red}V_{3,2}\color{white} + \color{Blue}W_{3,2} & \color{Red}V_{3,3}\color{white} + \color{blue}W_{3,3}\\
 \end{pmatrix}  $$ 
+
+<em style="font-size:17px">
+2 by 2:</em>
+
 
 $$ \begin{pmatrix} 
 \color{Red}V_{1,1} & \color{Red}V_{1,2}\\ 
