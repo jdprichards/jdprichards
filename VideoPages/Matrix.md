@@ -115,3 +115,8 @@ $$ \begin{pmatrix}
 \color{Red}V_{1,1} \color{white} + \color{blue}W_{1,1} & \color{red}V_{1,2} \color{white} + \color{blue}W_{1,2}\\ 
 \color{red}V_{2,1} \color{white} +\color{blue} W_{2,1}& \color{red}V_{2,2}  \color{white} +\color{blue} \color{red}\color{blue}W_{2,2}\\
 \end{pmatrix}$$ 
+
+<p style="font-size:16px">
+
+As you can see from above when adding two matricies together you add the same element from the individual matricies together such as ${\color{Red}V_{1,1} \color{white} +\color{blue}W_{1,1}}$ and is the same for each value for the new matrix
+</p>
