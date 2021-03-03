@@ -93,7 +93,18 @@ $$ \begin{pmatrix}
 \color{blue}W_{2,1} & \color{blue}W_{2,2} & \color{blue}W_{2,3} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2} & \color{blue}W_{3,3} \\
 \end{pmatrix}  = \begin{pmatrix} 
-\color{Red}V_{1,1} \color{blue}W_{1,1} & \color{red}V_{1,2} \color{blue}W_{1,2} & \color{red}V_{1,3}\color{blue}W_{1,3}\\ 
-\color{red}V_{2,1}\color{blue} W_{2,1}& \color{red}V_{2,2}\color{blue} \color{red}\color{blue}W_{2,2}& \color{Red}V_{2,3} \color{blue}W_{2,3}\\
-\color{Red}V_{3,1} \color{blue}W_{3,1}& \color{red}V_{3,2}\color{blue} \color{Blue}W_{3,2} & \color{Red}V_{3,3} \color{blue}W_{3,3}\\
+\color{Red}V_{1,1} \color{white} + \color{blue}W_{1,1} & \color{red}V_{1,2} \color{white} + \color{blue}W_{1,2} & \color{red}V_{1,3}\color{white} +\color{blue}W_{1,3}\\ 
+\color{red}V_{2,1} \color{white} +\color{blue} W_{2,1}& \color{red}V_{2,2}  \color{white} +\color{blue} \color{red}\color{blue}W_{2,2}& \color{Red}V_{2,3}\color{white} + \color{blue}W_{2,3}\\
+\color{Red}V_{3,1}\color{white} + \color{blue}W_{3,1}& \color{red}V_{3,2}\color{white} + \color{Blue}W_{3,2} & \color{Red}V_{3,3}\color{white} + \color{blue}W_{3,3}\\
 \end{pmatrix}  $$ 
+
+$$ \begin{pmatrix} 
+\color{Red}V_{1,1} & \color{Red}V_{1,2}\\ 
+\color{Red}V_{2,1} & \color{Red}V_{2,2}\\
+\end{pmatrix} + \begin{pmatrix} 
+\color{blue}W_{1,1} &\color{blue} W_{1,2}\\ 
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\end{pmatrix}  = \begin{pmatrix} 
+\color{Red}V_{1,1} \color{white} + \color{blue}W_{1,1} & \color{red}V_{1,2} \color{white} + \color{blue}W_{1,2}\\ 
+\color{red}V_{2,1} \color{white} +\color{blue} W_{2,1}& \color{red}V_{2,2}  \color{white} +\color{blue} \color{red}\color{blue}W_{2,2}\\
+\end{pmatrix}$$ 
