@@ -46,13 +46,13 @@ V_{2,1} & V_{2,2} & V_{2,3} & V_{2,4} \\
 V_{3,1} & V_{3,2} & V_{3,3} & V_{3,4} \\
 V_{4,1} & V_{4,2} & V_{4,3} & V_{4,4}\end{pmatrix} $$
 
-<em style="font-size:15px;color:purple">
+<em style="font-size:17px;color:purple">
 Important: Matricies start at 1, instead of 0 as arrays. With the first value showing the Row and the second the column.
 </em>
 
 <br>
 
-<p style="font-size:15px">
+<p style="font-size:16px">
 Matricies can vary in length and width, such like looking like this:
 </p>
 
@@ -68,6 +68,19 @@ V_{3,1} & V_{3,2} & V_{3,3} \\
 V_{1,1} & V_{1,2} \\ 
 V_{2,1} & V_{2,2} \end{pmatrix}$$
 
-<p style="font-size:14px">
+<p style="font-size:16px">
 Being 4x4, 3x3 and 2x2 Matricies respectively.
 </p>
+
+<p style="font-size:18px">
+Adding Matricies:</p>
+
+<p style="font-size:16px">
+You can add and take matricies together to give a new resultant matrix.</p>
+
+
+<p style="font-size:17px;color:purple">
+Important: You can only add together matricies of the same size (number of columns and rows) </p>
+
+
+
