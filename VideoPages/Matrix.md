@@ -128,7 +128,7 @@ Mutiplying Matricies:
 <p style="font-size:16px">
 You can mutiply and divide two matricies together to give a new matrix, similar to how we did the addition.</p>
 
-<em style="font-size:17px;color:purple">
+<em style="font-size:17px;color:slateblue">
 Important: You can only mutiply two vectors when the number of rows of one equals the number of columns in the other and the same vise versa.</em>
 <p style="font-size:16px">
 For example:<br>
@@ -152,6 +152,6 @@ $$ \begin{pmatrix}
  Now what would the resultant matrix look like?</p>
 
 $$\begin{pmatrix} 
-\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white} + \color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1} \color{white}+ \color{Red}V_{2,3} \color{white}\times \color{blue}W_{3,1} & \color{red}V_{1,2} \color{white}\times\color{blue} W_{2,1} \color{white}+ \color{red}V_{2,2} \color{white}\times \color{blue}W_{2,1} \color{white}+ \color{red} V_{2,3} \color{white}\times \color{blue} W_{3,1} \\
+(\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white}) + (\color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1} \color{white}+ \color{Red}V_{2,3} \color{white}\times \color{blue}W_{3,1} & \color{red}V_{1,2} \color{white}\times\color{blue} W_{2,1} \color{white}+ \color{red}V_{2,2} \color{white}\times \color{blue}W_{2,1} \color{white}+ \color{red} V_{2,3} \color{white}\times \color{blue} W_{3,1} \\
 \color{red} V_{1,1} \color{white}\times \color{blue} W_{1,2} \color{red}+ V_{1,2} \color{white}\times\color{blue} W_{2,2}\color{white}+  \color{red} V_{2,3} \color{white}\times \color{blue}W_{3,2} & \color{red}V_{1,2} \color{white}\times \color{blue}
 W_{2,2}\color{white} + \color{Red} V_{2,2}\color{white} \times \color{blue} W_{2,2} \color{white}+ \color{red}V_{2,3} \color{white}\times \color{blue} W_{3,2} \end{pmatrix}$$
