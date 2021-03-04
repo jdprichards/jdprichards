@@ -34,7 +34,7 @@ Welcome to my first matrix explainer, I'll probably do a few explainers about th
 </p>
 
 <p style="font-size:17px">
-In this explainer I am going to go through the addition and mutiplaction of matricies. In later parts I'll go through different transformations. But I'm going to try and keep it basic here.
+In this explainer I am going to go through the addition and mutiplaction of matricies. In later parts I'll go through different transformations. But I'm going to try and keep it basic here.<br><br> Representing Matricies:
 </p><br>
 <p style="font-size:16px">
 Lets say you've got a Matrix V with 4 Rows and 4 Columns. It would look something like this:
@@ -70,7 +70,7 @@ V_{2,1} & V_{2,2} \end{pmatrix}$$
 
 <p style="font-size:16px">
 Being 4x4, 3x3 and 2x2 Matricies respectively.
-</p>
+</p><br>
 
 <p style="font-size:18px">
 Adding Matricies:</p>
@@ -121,7 +121,7 @@ $$ \begin{pmatrix}
 As you can see from above when adding two matricies together you add the same element from the individual matricies together such as ${\color{Red}V_{1,1} \color{white} +\color{blue}W_{1,1}}$ and is the same for each value for the new matrix
 </p>
 <br>
-<p style="font-size:17px">
+<p style="font-size:18px">
 Mutiplying Matricies:
 </p>
 
@@ -178,3 +178,8 @@ W_{2,2}\color{white} )+ (\color{Red} V_{2,2}\color{white} \times \color{blue} W_
 
 <p style="font-size:17px">
 As you can see here the <b style = "color:slateblue">resultant matrix </b> has been reduced to be a <b style="color:slateblue">2x2 matrix</b>. This is because it uses the height of <em style="color:Red"> V </em> and the width of <em style="color:blue"> W.</em> so if <em style="color:red">V </em> and <em style="color:blue"> W</em> were swapped round it would be a <b style="color:slateblue"> 3x3 Matrix </b></p>
+
+<p style="font-size:18px;color:DarkRed">
+Click here to go to my next explainer video about the:
+<a href="MatrixScale.html">Scaling Matricies </a>
+</p>

@@ -146,7 +146,18 @@ Then putting it all into the caculator or getting the computer to calculate it:<
 $$ \color{lightBlue}\theta \color{white}= \color{orange} \arccos{\color{white}\frac{\color{Red}80}{ \sqrt{\color{Red}116} \times \sqrt{\color{Red}77}}} $$
 
 <p style="font-size:16px">
-And you can 
+Which will give you the result
+
+${ \approx \text{means approximately equal to}}$</p>
+
+$$ \color{lightBlue}\theta \color{white}= \color{orange} \arccos{\color{white}\frac{\color{Red}80}{ \sqrt{\color{Red}116} \times \sqrt{\color{Red}77}} \approx \color{lightblue} 137.4\degree \color{white}} $$
+
+<p style="font-size:17px">
+And this is your final value for the angle between vectors.
+</p>
+<p style ="font-size:15px">
+I am planning on doing a coding walkthrough how you could calculate this in a side a programing using the TL-Engine. A game engine used in the first year of the computer science course at UCLan.
+</p>
 
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
