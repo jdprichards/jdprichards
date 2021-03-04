@@ -146,4 +146,7 @@ $$ \begin{pmatrix}
 \end{pmatrix}$$
 
  <p style="font-size:16px">
- So that the height of <em style=color:Red> V </em> matches the width of <em style=color:blue> W</em><br> This means that mutiplying two 3x3 matrixcies or 4x4 will also work (and is used alot)</p>
+ So that the height of <em style="color:Red"> V </em> matches the width of <em style=color:blue> W</em><br> This means that mutiplying two 3x3 matrixcies or 4x4 will also work (and is used alot)</p>
+<br>
+ <p style="font-size:17px">
+ Now what would the resultant vector look like?</p>
