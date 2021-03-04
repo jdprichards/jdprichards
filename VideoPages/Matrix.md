@@ -47,10 +47,10 @@ V_{3,1} & V_{3,2} & V_{3,3} & V_{3,4} \\
 V_{4,1} & V_{4,2} & V_{4,3} & V_{4,4}\end{pmatrix} $$
 
 <em style="font-size:17px;color:slateblue">
-Important: Matricies start at 1. But if you want to show them as arrays you'll want to use 0 instead. With the subscript first value showing the Row and the second the column: 
+Important: Matricies start at 1. But if you want to show them as arrays you'll want to use 0 instead. With the subscript first value showing the Row and the second the column: </em>
+
 
 ${\color{white}V_{row, column}}$
-</em>
 
 
 
