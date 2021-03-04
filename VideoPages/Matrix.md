@@ -30,7 +30,7 @@
 
 <p style="font-size:18px;color:LightBlue">
 Welcome to my first matrix explainer, I'll probably do a few explainers about this due to how complex it is. My previous explainer is on corss product at:
-<a href="CrossProduct.html">Normalizing vectors</a>
+<a href="CrossProduct.html">Cross Product</a>
 </p>
 
 <p style="font-size:17px">
