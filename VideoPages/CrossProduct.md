@@ -65,7 +65,7 @@ $$\begin{pmatrix} Y & Z \\\ \color{Red}Vy &  \color{Blue}Vz \\\ \color{Blue}Wy &
 
 
 <p style="font-size:16px">
-You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><em style="font-size:18px; color:purple"> Important: the second half is negative: </em>
+You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><em style="font-size:18px; color:slateblue"> Important: the second half is negative: </em>
 
 $$ - \color{Blue} VzWy $$
 
@@ -90,7 +90,7 @@ $$\begin{pmatrix} X & Z \\\ \color{Red}Vx &  \color{Blue}Vz \\\ \color{Blue}Wx &
 
 <p style="font-size:16px">
 <em style="color:red">VxWz</em> again are directly diagonal from each other when you ignore Y and so is <em style="fonnt-size:18px;color:blue">VzWx</em> its is from the right to left. So you can x into different parts each going diagonal.</p>
-<p style="font-size:18px; color:Purple">
+<p style="font-size:18px; color:slateblue">
 <em> Important: the second half is negative</em></p>
 
 $$ -(\color{Blue}VzWz\color{white}) $$
@@ -98,7 +98,7 @@ $$ -(\color{Blue}VzWz\color{white}) $$
 </p>
 
 <p style="font-size:16px">
-With the way I've shown calculating Y:<br></p><em style="color:purple;font-size:18px"> Important: You'll want to minus everything in the brackets.</em>
+With the way I've shown calculating Y:<br></p><em style="color:slateblue;font-size:18px"> Important: You'll want to minus everything in the brackets.</em>
 <p style="font-size:16px">I have shown it this way as you can keep the rule for going from top left to bottom right and vice versa
 </p>
 
@@ -122,7 +122,7 @@ $${\begin{pmatrix} X & Y \\\ \color{Red}Vx & \color{Blue}Vy \\\ \color{Blue}Wx &
 <p style="font-size:16px">
 <em style="color:Red">VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:Blue">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
 <br><br>
-<em style="color:Purple;font-size:18px"> Important: the second half is negative:</em></p>
+<em style="color:slateblue;font-size:18px"> Important: the second half is negative:</em></p>
 
 $$(\color{Blue}-VyWx\color{white})$$
 <p style="font-size:16px">

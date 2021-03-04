@@ -97,7 +97,7 @@ $$ \color{Red}\hat{V} \color{white} = \color{Blue}{5\over |V|} \color{white}+ \c
 
 $$ \color{Red}\hat{V} \color{white}= \color{Blue} {5\over \sqrt{90}} \color{white}+ \color{Green} {7\over \sqrt{90}} \color{white} + \color{Yellow} {4\over \sqrt{90}}$$
 
-<i style="color:Purple; font-size:18px"><br>
+<i style="color:slateblue; font-size:18px"><br>
 Important: Remember the magnitude of a Normalize vector = 1</i>
 
 <iframe width="420" height="315"

@@ -61,7 +61,7 @@ The Dot Product of vectors V and W would be calculated as:</p>
 
 $$ \color{Red}V\color{white}\cdot{}\color{Red}W \color{white}= \color{Blue} VxWx \color{white}+  \color{Green}VyWy\color{white}+\color{Yellow}VzWz $$
 
-<em style="font-size:16px;color:purple ">
+<em style="font-size:16px;color:slateblue ">
 Important: This value is a scalar so doesn't have a direction like vectors do. Meaning you get a singular value for the answer. Rather than it being split up into X, Y and Z
 </em><br>
 
