@@ -137,16 +137,21 @@ V </em> being a 2x3 Matrix and <em style="color:blue"> W </em> being a 3x2 matri
 </p>
 
 $$ \begin{pmatrix} 
-\color{red}V_{1,1} & \color{Red}V_{1,2} \\
-\color{Red}V_{2,1} & \color{Red}V_{2,2} \\
-\color{Red}V_{3,1} & \color{Red}V_{3,2}
-\end{pmatrix} \times \begin{pmatrix} 
-\color{blue} V_{1,1} &\color{blue} V_{1,2} & \color{blue} V_{1,3} \\
-\color{blue} V_{2,1} & \color{blue}  V_{2,2} & \color{blue} V_{2,3} \\
-\end{pmatrix}$$
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix} \cdot  \begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix} $$
 
  <p style="font-size:16px">
- So that the height of <em style="color:Red"> V </em> matches the width of <em style=color:blue> W</em><br> This means that mutiplying two 3x3 matrixcies or 4x4 will also work (and is used alot)</p>
+ So that the height of <em style="color:Red"> V </em> matches the width of <em style="color:blue"> W</em><br> This means that mutiplying two 3x3 matrixcies or 4x4 will also work (and is used alot)</p>
 <br>
  <p style="font-size:17px">
- Now what would the resultant vector look like?</p>
+ Now what would the resultant matrix look like?</p>
+
+$$\begin{pmatrix} 
+\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white} + \color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1} \color{white}+ \color{Red}V_{2,3} \color{white}\times \color{blue}W_{3,1} & \color{red}V_{1,2} \color{white}\times\color{blue} W_{2,1} \color{white}+ \color{red}V_{2,2} \color{white}\times \color{blue}W_{2,1} \color{white}+ \color{red} V_{2,3} \color{white}\times \color{blue} W_{3,1} \\
+\color{red} V_{1,1} \color{white}\times \color{blue} W_{1,2} \color{red}+ V_{1,2} \color{white}\times\color{blue} W_{2,2}\color{white}+  \color{red} V_{2,3} \color{white}\times \color{blue}W_{3,2} & \color{red}V_{1,2} \color{white}\times \color{blue}
+W_{2,2}\color{white} + \color{Red} V_{2,2}\color{white} \times \color{blue} W_{2,2} \color{white}+ \color{red}V_{2,3} \color{white}\times \color{blue} W_{3,2} \end{pmatrix}$$
