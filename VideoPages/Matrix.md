@@ -136,6 +136,17 @@ For example:<br>
 V </em> being a 2x3 Matrix and <em style="color:blue"> W </em> being a 3x2 matrix.
 </p>
 
+$$ \color{Red}V \color{white}=  \begin{pmatrix} 
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix} \text{And } \color{blue}W \color{white} =\begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix}$$
+
+$$ \color{red}V \color{white}\cdot \color{blue}W$$
+
 $$ \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
 \color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
@@ -151,7 +162,19 @@ $$ \begin{pmatrix}
  <p style="font-size:17px">
  Now what would the resultant matrix look like?</p>
 
-$$\begin{pmatrix} 
+$$ \color{Red}V\color{white}\cdot\color{blue} W$$
+$$ \begin{pmatrix} 
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix} \cdot  \begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix} $$
+$$ \begin{pmatrix} 
 (\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white}) + (\color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1}\color{white}) + (\color{Red}V_{2,3} \color{white}\times \color{blue}W_{3,1} \color{white})& (\color{red}V_{1,2} \color{white}\times\color{blue} W_{2,1} \color{white} )+ (\color{red}V_{2,2} \color{white}\times \color{blue}W_{2,1} \color{white} )+ (\color{red} V_{2,3} \color{white}\times \color{blue} W_{3,1} \color{white}) \\
 (\color{red} V_{1,1} \color{white}\times \color{blue} W_{1,2}  \color{white})+(\color{red} V_{1,2} \color{white}\times\color{blue} W_{2,2}\color{white} )+  (\color{red} V_{2,3} \color{white}\times \color{blue}W_{3,2}\color{white}) & (\color{red}V_{1,2} \color{white}\times \color{blue}
 W_{2,2}\color{white} )+ (\color{Red} V_{2,2}\color{white} \times \color{blue} W_{2,2} \color{white})+ (\color{red}V_{2,3} \color{white}\times \color{blue} W_{3,2} \color{white})\end{pmatrix}$$
+
+<p style="font-size:17px">
+As you can see here the <b style = "color:slateblue">resultant matrix </b> has been reduced to be a <b style="color:slateblue">2x2 matrix</b>. This is because it uses the height of <em style="color:Red"> V </em> and the width of <em style="color:blue"> W.</em> so if <em style="color:red">V </em> and <em style="color:blue"> W</em> were swapped round it would be a <b style="color:slateblue"> 3x3 Matrix </b></p>
