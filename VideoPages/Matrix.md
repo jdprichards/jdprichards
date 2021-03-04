@@ -140,8 +140,10 @@ For example:<br>
 <em  style="color:Red">
 V </em> being a 2x3 Matrix and <em style="color:blue"> W </em> being a 3x2 matrix.
 </p>
+<em style="font-size:17px;color:slateblue">
+Important: Although the notation is similar it </em>
 
-$$ \color{red}V \color{white}\cdot \color{blue}W \color{white}$$
+$$ \color{red}V \color{white} \color{blue}W \color{white}$$
 
 $$\text{When } \color{Red}V \color{white}=  \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
@@ -156,7 +158,7 @@ $$\text{When } \color{Red}V \color{white}=  \begin{pmatrix}
 $$ \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
 \color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
-\end{pmatrix} \cdot  \begin{pmatrix} 
+\end{pmatrix} \begin{pmatrix} 
 \color{blue}W_{1,1} & \color{blue}W_{1,2} \\
 \color{blue}W_{2,1} & \color{blue}W_{2,2} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2}
@@ -176,7 +178,7 @@ W_{1,2}\color{white} )+ (\color{Red} V_{2,2}\color{white} \times \color{blue} W_
 
 <br>
 <p style="font-size:17px">
-As you can see here the <b style = "color:slateblue">resultant matrix </b> has been reduced to be a <b style="color:slateblue">2x2 matrix</b>. This is because it uses the height of <em style="color:Red"> V </em> and the width of <em style="color:blue"> W.</em> so if <em style="color:red">V </em> and <em style="color:blue"> W</em> were swapped round it would be a <b style="color:slateblue"> 3x3 Matrix </b></p>
+As you can see here the <b style = "color:slateblue">resultant matrix </b> has been reduced to be a <b style="color:slateblue">2x2 matrix</b>. This is because it uses the height of <em style="color:Red"> V </em> and the width of <em style="color:blue"> W.</em> so if <em style="color:red">V </em> and <em style="color:blue"> W</em> were swapped round it would be a <b style="color:slateblue"> 3x3 Matrix </b><br>You can  recognise these as being the dot product</p>
 <p style="font-size:16px">
 
 For the first value in the matrix Lets call it Matrix
@@ -189,14 +191,14 @@ $${\begin{pmatrix} \color{green}X_{1,1} & \color{green}X_{1,2} \\ \color{green}X
 $$ \begin{pmatrix} 
 \color{orange} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
 \color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
-\end{pmatrix}  \cdot\begin{pmatrix}  
+\end{pmatrix}  \begin{pmatrix}  
 \color{purple}W_{1,1} & \color{blue}W_{1,2} \\
 \color{blue}W_{2,1} & \color{blue}W_{2,2} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2}
 \end{pmatrix}\text{And}  \begin{pmatrix} 
 \color{red} V_{1,1} &\color{orange} V_{1,2} & \color{red} V_{1,3} \\
 \color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
-\end{pmatrix}\cdot \begin{pmatrix} 
+\end{pmatrix} \begin{pmatrix} 
 \color{blue}W_{1,1} & \color{blue}W_{1,2} \\
 \color{purple}W_{2,1} & \color{blue}W_{2,2} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2}
@@ -205,7 +207,7 @@ $$\text{And}
 \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{orange} V_{1,3} \\
 \color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
-\end{pmatrix} \cdot\begin{pmatrix} 
+\end{pmatrix} \begin{pmatrix} 
 \color{blue}W_{1,1} & \color{blue}W_{1,2} \\
 \color{blue}W_{2,1} & \color{blue}W_{2,2} \\
 \color{purple}W_{3,1} & \color{blue}W_{3,2}
@@ -221,14 +223,14 @@ ${\color{green}X_{2,1} \color{white}= (\color{orange}V_{2,1} \color{white}\times
 $$ \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
 \color{orange} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
-\end{pmatrix}  \cdot\begin{pmatrix}  
+\end{pmatrix}  \begin{pmatrix}  
 \color{purple}W_{1,1} & \color{blue}W_{1,2} \\
 \color{blue}W_{2,1} & \color{blue}W_{2,2} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2}
 \end{pmatrix}\text{And}  \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
 \color{red} V_{2,1} & \color{orange}  V_{2,2} & \color{red} V_{2,3} \\
-\end{pmatrix}\cdot \begin{pmatrix} 
+\end{pmatrix} \begin{pmatrix} 
 \color{blue}W_{1,1} & \color{blue}W_{1,2} \\
 \color{purple}W_{2,1} & \color{blue}W_{2,2} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2}
@@ -237,7 +239,7 @@ $$\text{And}
 \begin{pmatrix} 
 \color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
 \color{red} V_{2,1} & \color{red}  V_{2,2} & \color{orange} V_{2,3} \\
-\end{pmatrix} \cdot\begin{pmatrix} 
+\end{pmatrix} \begin{pmatrix} 
 \color{blue}W_{1,1} & \color{blue}W_{1,2} \\
 \color{blue}W_{2,1} & \color{blue}W_{2,2} \\
 \color{purple}W_{3,1} & \color{blue}W_{3,2}
