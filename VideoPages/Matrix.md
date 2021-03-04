@@ -171,14 +171,82 @@ $$ \begin{pmatrix}
 \color{blue}W_{2,1} & \color{blue}W_{2,2} \\
 \color{blue}W_{3,1} & \color{blue}W_{3,2}
 \end{pmatrix} $$
+
 $$ \begin{pmatrix} 
-(\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white}) + (\color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1}\color{white}) + (\color{Red}V_{2,3} \color{white}\times \color{blue}W_{3,1} \color{white})& (\color{red}V_{1,2} \color{white}\times\color{blue} W_{2,1} \color{white} )+ (\color{red}V_{2,2} \color{white}\times \color{blue}W_{2,1} \color{white} )+ (\color{red} V_{2,3} \color{white}\times \color{blue} W_{3,1} \color{white}) \\
-(\color{red} V_{1,1} \color{white}\times \color{blue} W_{1,2}  \color{white})+(\color{red} V_{1,2} \color{white}\times\color{blue} W_{2,2}\color{white} )+  (\color{red} V_{2,3} \color{white}\times \color{blue}W_{3,2}\color{white}) & (\color{red}V_{1,2} \color{white}\times \color{blue}
-W_{2,2}\color{white} )+ (\color{Red} V_{2,2}\color{white} \times \color{blue} W_{2,2} \color{white})+ (\color{red}V_{2,3} \color{white}\times \color{blue} W_{3,2} \color{white})\end{pmatrix}$$
+(\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white}) + (\color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1}\color{white}) + (\color{Red}V_{1,3} \color{white}\times \color{blue}W_{3,1} \color{white})& (\color{red}V_{1,1} \color{white}\times\color{blue} W_{1,2} \color{white} )+ (\color{red}V_{1,2} \color{white}\times \color{blue}W_{2,2} \color{white} )+ (\color{red} V_{1,3} \color{white}\times \color{blue} W_{3,2} \color{white}) \\
+(\color{red} V_{2,1} \color{white}\times \color{blue} W_{1,1}  \color{white})+(\color{red} V_{2,2} \color{white}\times\color{blue} W_{2,1}\color{white} )+  (\color{red} V_{2,3} \color{white}\times \color{blue}W_{3,1}\color{white}) & (\color{red}V_{2,1} \color{white}\times \color{blue}
+W_{1,2}\color{white} )+ (\color{Red} V_{2,2}\color{white} \times \color{blue} W_{2,2} \color{white})+ (\color{red}V_{2,3} \color{white}\times \color{blue} W_{3,2} \color{white})\end{pmatrix}$$
 
 <p style="font-size:17px">
 As you can see here the <b style = "color:slateblue">resultant matrix </b> has been reduced to be a <b style="color:slateblue">2x2 matrix</b>. This is because it uses the height of <em style="color:Red"> V </em> and the width of <em style="color:blue"> W.</em> so if <em style="color:red">V </em> and <em style="color:blue"> W</em> were swapped round it would be a <b style="color:slateblue"> 3x3 Matrix </b></p>
+<p style="font-size:16px">
 
+For the first value in the matrix Lets call it Matrix
+${ \color{Green}X }$so:
+
+$${\begin{pmatrix} \color{green}X_{1,1} & \color{green}X_{1,2} \\ \color{green}X_{2,1} & \color{green}X_{2,2} \end{pmatrix}}$$
+
+<br> ${\color{green}X_{1,1} \color{white}= (\color{Red}V_{1,1} \color{white}\times \color{blue}W_{1,1}\color{white}) + (\color{Red}V_{1,2} \color{white}\times \color{blue}W_{2,1}\color{white}) + (\color{Red}V_{1,3} \color{white}\times \color{blue}W_{3,1} \color{white})}$
+
+$$ \begin{pmatrix} 
+\color{orange} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix}  \cdot\begin{pmatrix}  
+\color{purple}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix}\text{And}  \begin{pmatrix} 
+\color{red} V_{1,1} &\color{orange} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix}\cdot \begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{purple}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix} $$
+$$\text{And}
+\begin{pmatrix} 
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{orange} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix} \cdot\begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{purple}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix}$$
+
+You can see a common theme going along here: For ${\color{green}X_{1,1}}$ you can see that the only values used in ${\color{red}V}$ is in the first row ${\color{red}V_{1,x}}$ where the subscript ${\color{Red}X}$ shows the column. And the only values used in ${\color{blue}W}$ is the first column ${\color{blue}W_{Y,1}}$ where ${\color{blue}Y}$ shows the row being used. Lets follow this trend  for the next ${\color{green}X}$ value:
+${\color{green}X_{2,1}}$:<br> 
+
+${\color{green}X_{2,1} \color{white}= (\color{Red}V_{2,1} \color{white}\times \color{blue}W_{1,1}\color{white}) + (\color{Red}V_{2,2} \color{white}\times \color{blue}W_{2,1}\color{white}) + (\color{Red}V_{2,3} \color{white}\times \color{blue}W_{3,1} \color{white})}$
+
+$$ \begin{pmatrix} 
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{orange} V_{2,1} & \color{red}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix}  \cdot\begin{pmatrix}  
+\color{purple}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix}\text{And}  \begin{pmatrix} 
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{orange}  V_{2,2} & \color{red} V_{2,3} \\
+\end{pmatrix}\cdot \begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{purple}W_{2,1} & \color{blue}W_{2,2} \\
+\color{blue}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix} $$
+$$\text{And}
+\begin{pmatrix} 
+\color{red} V_{1,1} &\color{red} V_{1,2} & \color{red} V_{1,3} \\
+\color{red} V_{2,1} & \color{red}  V_{2,2} & \color{orange} V_{2,3} \\
+\end{pmatrix} \cdot\begin{pmatrix} 
+\color{blue}W_{1,1} & \color{blue}W_{1,2} \\
+\color{blue}W_{2,1} & \color{blue}W_{2,2} \\
+\color{purple}W_{3,1} & \color{blue}W_{3,2}
+\end{pmatrix}$$
+For ${\color{green}X_{2,1}}$ you can see that the only values used in ${\color{red}V}$ is in the second row ${\color{red}V_{2,x}}$ where the subscript ${\color{Red}X}$ shows the column. And the only values used in ${\color{blue}W}$ is the first column ${\color{blue}W_{Y,1}}$ where ${\color{blue}Y}$ shows the row being used.
+
+$${\begin{pmatrix} \color{green}X_{1,1} & \color{green}X_{1,2} \\ \color{green}X_{2,1} & \color{green}X_{2,2} \end{pmatrix}}$$
+Now when you look a this you can see that the first Value in the subscript ${X_{\text{row},\text{column}}}$ relates to the row of ${\color{Red}V}$ being used and the column of ${\color{blue}W}$ being used.
+</p>
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
 <a href="MatrixScale.html">Scaling Matricies </a>

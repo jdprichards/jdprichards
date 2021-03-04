@@ -9,7 +9,9 @@
 
 [Cross Product](VideoPages\CrossProduct.html)
 
-[Matrix (WIP)](VideoPages\Matrix.html)
+[Matrix (Adding and Mutiplying)](VideoPages\Matrix.html)
+
+[Matrix (Scaling)](VideoPages\MatrixScale.html)
 <br><br>
 
 <p style="font-size:16px"> Networking:</p>
