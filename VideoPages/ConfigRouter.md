@@ -60,7 +60,6 @@ Router # show ~
 This command gives information about the router  <e style="color:red"> show ?</e> gives you the possible options that can be used such as 
 </p>
 
-
 <p style ="font_size:18px;color:Red">
 Route# show ip interface brief
 </p>
@@ -86,6 +85,9 @@ As you can see they're all Administrastively down meaning that even if they're p
 First I am going to change the name of my router and set the password for added security. But to do  this we need to be in router config mode to configure its settings. <br> Which can be done using the command
 </p>
 
+<p style="font-size:16px;color:blue">
+Initial Router Configure
+</p>
 <p style="font-size:18px;color:red">
 Router# Configure Terminal
 </p>
@@ -117,3 +119,7 @@ You'd then be shown this, where the first part of your prompt has changed to the
 <p style="font-size:18px;color:Red">
 R0(config)#
 </p> 
+
+<p style="font-size:16px;color:blue">
+Router interface configure:
+</p>
