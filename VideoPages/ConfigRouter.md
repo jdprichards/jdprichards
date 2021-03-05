@@ -55,5 +55,11 @@ FastEthernet0/1 | Unassigned | Yes | unset | Administrativly Down | Down<br>
 Serial0/0 | Unassigned | Yes | unset  | Administrativly Down | Down<br>
 Serial0/1 | Unassigned | Yes | unset | Administrativly Down | Down</p><br>
 <p style="font-size:15px">
-The FastEthernet interfaces can be used to connect to devices and switches on a network, whereas the serial interface can be used to connect to other routers.<br><br>
+The FastEthernet interfaces can be used to connect to devices and switches on a network, whereas the serial interface can be used to connect to other routers.<br>
 As you can see they're all Administrastively down meaning that even if they're physically connected to other devices they won't till this is disabled.</p>
+<p style="font-size:15px">
+First I am going to change the name of my router and set the password for added security. But to do  this we need to be in router config mode to configure its settings. <br> Which can be done using the command</p>
+
+<p style="font-size:18px;color:red">
+Router# Configure Terminal
+</p>
