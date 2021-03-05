@@ -37,4 +37,23 @@ When you enter this you'll notice your prompt to change to:</p>
 <p style="font-size:18px;color:red">
 Router#</p>
 <p style="font-size:15px">
-This shows that you're in the 
+This shows that you're in the Privilged EXEC mode: here you'll be  able to have more access to commands. (Will require a password if it has been set up) </p>
+
+<p style="font-size:18px;color:red">
+Router # show ~
+</p>
+<p style="font-size:15px">
+This command gives information about the router  <e style="color:red"> show ?</e> gives you the possible options that can be used such as </p>
+<p style ="font_size:18px;color:Red">
+Route# show ip interface brief</p>
+<p style="font-size:15px">
+Which shows all of the ip interfaces you can use in the form:</p>
+<p style="font-size:14px;color:lightblue">
+Interface | IP Address | OK? | method | status | Protocol<br><br>
+FastEthernet0/0 | Unassigned | Yes | unset  | Administrativly Down | Down
+FastEthernet0/1 | Unassigned | Yes | unset | Administrativly Down | Down
+Serial0/0 | Unassigned | Yes | unset  | Administrativly Down | Down
+Serial0/1 | Unassigned | Yes | unset | Administrativly Down | Down</p><br>
+<p style="font-size:15px">
+The FastEthernet interfaces can be used to connect to devices and switches on a network, whereas the serial interface can be used to connect to other routers.<br><br>
+As you can see they're all Administrastively down meaning that even if they're physically connected to other devices they won't till this is disabled.</p>

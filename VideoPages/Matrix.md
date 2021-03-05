@@ -214,7 +214,7 @@ $$\text{And}
 \end{pmatrix}$$
 <br>
 
-You can see a common theme going along here: For ${\color{green}X_{1,1}}$ you can see that the only values used in ${\color{red}V}$ is in the first row ${\color{red}V_{1,x}}$ where the subscript ${\color{Red}X}$ shows the column. And the only values used in ${\color{blue}W}$ is the first column ${\color{blue}W_{Y,1}}$ where ${\color{blue}Y}$ shows the row being used. Lets follow this trend  for the next ${\color{green}X}$ value:
+You can see a common theme going along here: For ${\color{green}X_{1,1}}$ you can see that the only values used in ${\color{red}V}$ is in the first row ${\color{red}V_{1,x}}$ where the subscript ${\color{Red}x}$ shows the column. And the only values used in ${\color{blue}W}$ is the first column ${\color{blue}W_{Y,1}}$ where ${\color{blue}Y}$ shows the row being used. Lets follow this trend  for the next ${\color{green}X}$ value:
 ${\color{green}X_{2,1}}$:<br> <br>
 
 ${\color{green}X_{2,1} \color{white}= (\color{orange}V_{2,1} \color{white}\times \color{purple}W_{1,1}\color{white}) + (\color{orange}V_{2,2} \color{white}\times \color{purple}W_{2,1}\color{white}) + (\color{orange}V_{2,3} \color{white}\times \color{purple}W_{3,1} \color{white})}$ <br><br>
@@ -246,7 +246,7 @@ $$\text{And}
 \end{pmatrix}$$
 <br>
 
-For ${\color{green}X_{2,1}}$ you can see that the only values used in ${\color{red}V}$ is in the second row ${\color{red}V_{2,x}}$ where the subscript ${\color{Red}X}$ shows the column. And the only values used in ${\color{blue}W}$ is the first column ${\color{blue}W_{Y,1}}$ where ${\color{blue}Y}$ shows the row being used.
+For ${\color{green}X_{2,1}}$ you can see that the only values used in ${\color{red}V}$ is in the second row ${\color{red}V_{2,x}}$ where the subscript ${\color{Red}x}$ shows the column. And the only values used in ${\color{blue}W}$ is the first column ${\color{blue}W_{Y,1}}$ where ${\color{blue}Y}$ shows the row being used.
 
 $${\begin{pmatrix} \color{green}X_{1,1} & \color{green}X_{1,2} \\ \color{green}X_{2,1} & \color{green}X_{2,2} \end{pmatrix}}$$
 Now when you look a this you can see that the first Value in the subscript ${\color{green}X_{\text{row},\text{column}}}$ relates to the row of ${\color{Red}V}$ being used and the column of ${\color{blue}W}$ being used This gets more complex as you use larger matricies so we get the help of computers, although its always useful to be able to do smaller ones such as 2x2 and 3x3 by hand. But it can get quite overwelming when you face 4x4 matricies or higher, you'll want to keep an eye out for making basic calculation errors.
