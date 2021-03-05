@@ -11,6 +11,10 @@ First you want to have a physical router or a simulation program to be able to u
 <br>
 - I use a simulation program called packet tracer which allows you to create a number of virtual devices and configure them as you would if you had them physically.</p>
 
+<p style="font-szie:20px;color:blue">
+What you'll first see and basic info
+</p>
+
 <p style="font-size:16px">
 You'll want to connect to the router and open up the command line interface (CLI)
 </p>
@@ -85,7 +89,7 @@ As you can see they're all Administrastively down meaning that even if they're p
 First I am going to change the name of my router and set the password for added security. But to do  this we need to be in router config mode to configure its settings. <br> Which can be done using the command
 </p>
 
-<p style="font-size:16px;color:blue">
+<p style="font-size:20px;color:blue">
 Initial Router Configure
 </p>
 <p style="font-size:18px;color:red">
@@ -120,6 +124,6 @@ You'd then be shown this, where the first part of your prompt has changed to the
 R0(config)#
 </p> 
 
-<p style="font-size:16px;color:blue">
+<p style="font-size:20px;color:blue">
 Router interface configure:
 </p>
