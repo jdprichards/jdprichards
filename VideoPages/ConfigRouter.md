@@ -50,9 +50,9 @@ Route# show ip interface brief</p>
 Which shows all of the ip interfaces you can use in the form:</p>
 <p style="font-size:14px;color:lightblue">
 Interface | IP Address | OK? | method | status | Protocol<br><br>
-FastEthernet0/0 | Unassigned | Yes | unset  | Administrativly Down | Down
-FastEthernet0/1 | Unassigned | Yes | unset | Administrativly Down | Down
-Serial0/0 | Unassigned | Yes | unset  | Administrativly Down | Down
+FastEthernet0/0 | Unassigned | Yes | unset  | Administrativly Down | Down<br>
+FastEthernet0/1 | Unassigned | Yes | unset | Administrativly Down | Down<br>
+Serial0/0 | Unassigned | Yes | unset  | Administrativly Down | Down<br>
 Serial0/1 | Unassigned | Yes | unset | Administrativly Down | Down</p><br>
 <p style="font-size:15px">
 The FastEthernet interfaces can be used to connect to devices and switches on a network, whereas the serial interface can be used to connect to other routers.<br><br>
