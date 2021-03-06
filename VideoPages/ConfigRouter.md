@@ -41,7 +41,7 @@ To enter the Privileged EXEC mode. To be able to configure the router enter:
 </p>
 
 <p style="font-size:18px;color:red">
-Router> Enable
+Router> enable
 </p>
 
 <p style="font-size:16px">
@@ -93,7 +93,7 @@ First I am going to change the name of my router and set the password for added 
 Initial Router Configure
 </p>
 <p style="font-size:18px;color:red">
-Router# Configure Terminal
+Router# configure terminal
 </p>
 
 <p style="font-size:15px">
@@ -107,14 +107,14 @@ This changes you into the configure mode where you can change the "global" setti
 One of the first things you'll want to do in this mode is set the hostname, this helps you tell which router you're actually configuring. This is done by the command:</p>
 
 <p style="font-size:18px;color:Red">
-Router(config)# Hostname <e style="color:pink"> (hostname)</e>
+Router(config)# hostname <e style="color:pink"> (hostname)</e>
 </p>
 
 <p style="font-size:15">
 This then changes your hostname to whatever you've chosen. For this instance lets say I entered:</p>
 
 <p style="font-size:18px;color:Red">
-Router(config)# Hostname R0
+Router(config)# hostname R0
 </p> 
 
 <p style="font-size:15">
@@ -132,14 +132,14 @@ Router interface configure:
 First things first you'll want to tell your router which interface to configure. This is done with the command:</p>
 
 <p style="font-size:18px;color:Red">
-R0(Config)# Interface <e style="color:pink"> (interface)</e>
+R0(config)# interface <e style="color:pink"> (interface)</e>
 </p> 
 
 <p style="font-size:16px">
 Lets choose one from above where we got the ip interfaces, I'll use FastEthernet0/0 this being the interface my PC is connected to.</p>
 
 <p style="font-size:18px;color:Red">
-R0(Config)# Interface <e style="color:pink"> FastEthernet0/0</e>
+R0(config)# interface <e style="color:pink"> FastEthernet0/0</e>
 </p>
 
 <p style="font-size:16px">
@@ -159,7 +159,7 @@ You can then change the desciption of the interface. This is good practice so yo
 </p>
 
 <p style="font-size:18px;color:Red">
-R0(Config-if)#disciption  <e style="color:pink"> (what it does)</e>
+R0(config-if)#description  <e style="color:pink"> (what it does)</e>
 </p>
 
 <p style="font-size:16px">
@@ -167,11 +167,11 @@ The next job is to give the interface an ip address so packets can be sent to it
 </p>
 
 <p style="font-size:18px;color:Red">
-R0(Config-if)#ip address  <e style="color:pink"> (ip address) (subnet mask)</e>
+R0(config-if)#ip address  <e style="color:pink"> (ip address) (subnet mask)</e>
 </p>
 
 <p style="font-size:16px">
-I won't go through how to calculate your subnet mask here (I may do in the future) but there are a number of great reasources online to help you calculate the correct subnet mask for your network.
+I won't go through how to calculate your subnet mask here (I may do in the future) but there are a number of great resources online to help you calculate the correct subnet mask for your network.
 </p>
 
 <p style="font-size:16px">
@@ -179,15 +179,79 @@ Once you have done that you can now turn your interface on. This is done by shut
 </p>
 
 <p style="font-size:18px;color:Red">
-R0(Config-if)#no shutdown
+R0(config-if)#no shutdown
 </p>
 
 <p style="font-size:16px">
-The shutdown component tells the interface to shutdown, but with the no it updates it so that it is no longer shutdown. If there are devices ready to connect with all the wires connected up, you'll get a prompt telling you the interface state has been changed to up:<br> <e style="font-size:18px;color:lightBlue"> Inteface ..... change state to up</e>
+The shutdown component tells the interface to shutdown, but with the no it updates it so that it is no longer shutdown. If there are devices ready to connect with all the wires connected up, you'll get a prompt telling you the interface state has been changed to up:<br> <e style="font-size:18px;color:lightBlue"> Inteface ..... changed state to up</e>
 <br><br> But if not it'll be changed to down rather than administratively down and you'll have to check why its not connecting. This tends to occur if you've not configured another router that is connected along that line. The message will look like this:<br>
-<e style="font-size:18px;color:lightBlue"> Inteface ..... change state to down </e>
+<e style="font-size:18px;color:lightBlue"> Inteface ..... changed state to down </e>
 </p>
 
 <p style="font-size:20px;color:blue">
 Securing your router:
 </p>
+<p style="font-size:16px">
+Now the next thing is securing your router so not just anyone can access it and change the configuration you set up</p>
+
+<p style="font-size:16px">
+To start you want to secure entering the Privillaged EXEC Mode, using the command:</p>
+
+<p style="font-size:18px;color:Red">
+R0(Config)#enable secret <e style="color:pink">(Password)</e></p> 
+
+<p style="font-size:16px">
+This sets the password that you have to enter whenever you type in:</p>
+<p style="font-size:18px;color:Red">
+R0(Config)#enable</p>
+<p style="font-size:16px">
+You'll get a message stating:<br>
+ </e>
+<e style="font-size:18px;color:lightBlue"> Password:
+</e><br>where you'll have to enter the password you set. You'll get 3 attempts to enter it until it states<br> <e style="font-size:18px;color:lightBlue"> % Bad secrets</e> <br>and you'll have to re-enter the enable command</p>
+
+<p style="font-size:16px">
+If you want to be able to access the router remotely (which will be very useful). You'll have to create an account on the router:</p>
+
+<p style="font-size:18px;color:Red">
+R0(config)#username <e style="color:pink">(username)</e> privallage <e style="color:pink">(privallage level)</e> secret <e style="color:pink">(password)</e></p>
+
+<p style="font-size:16px">
+Then you'll want to choose which terminal lines you want to be able to access the router. For this example I'll do all of them (0-4) As a default  router has 5 lines</p>
+
+<p style="font-size:18px;color:Red">
+R0(config)#line vty 0 4</p>
+<p style="font-size:16px">
+This will allow you to configure line 0 through 4 at once, you'll also notice the prompt changes to:</p>
+
+<p style="font-size:18px;color:Red">
+R0(config-line)#</p>
+<p style="font-size:16px">
+Showing you're successfully configuring the terminal lines.<br>Now you'll want to set the protocol that you want to use to access the router:</p>
+<p style="font-size:18px;color:Red">
+R0(config-line)#transport input ?</p>
+
+<p style="font-size:16px">
+Will show you the available protocols to login with, SSH and Tellent are the most commonly used. I'll be using ssh (secure shell host) since its more secure as its encrypted. Although it does take an extra few steps to set up:</p>
+
+<p style="font-size:18px;color:Red">
+R0(config-line)#transport input ssh</p>
+
+<p style="font-size:16px">
+For ssh to work properly you'll need to give the router a domain name to be accessed by:</p>
+
+<p style="font-size:18px;color:Red">
+R0(config)#ip domain-name <e style="color:pink">(domain name)</p>
+
+<p style="font-size:16px">
+For example as this is router 0 I'll set the domain name to router0.com</p>
+
+<p style="font-size:18px;color:Red">
+R0(config)#ip domain-name router0.com</p>
+
+<p style="font-size:16px">
+And now you'll want to create a key to encrypt all the data going through the router (Lets use RSA in this case):</p>
+
+<p style="font-size:18px;color:Red">
+R0(config)#crypto key generate RSA</p>
+
