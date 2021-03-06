@@ -6,6 +6,7 @@ has more of a video step by step walkthrough than me so be sure to check that ou
 </p>
 <p style="font-size:16px">
 Index (click to go to section)<br>
+<a href="#DeviceSetup">Device setup</a><br>
 <a href="#First look">First look</a><br>
 <a href="#initial router">Initial router configure</a><br>
 <a href="#configure interface">Configure interface</a><br>
@@ -22,6 +23,23 @@ First you want to have a physical router or a simulation program to be able to u
 - if you have a physical router you'll want to connect to it via the console in port and use a terminal emulator such as putty.
 <br>
 - I use a simulation program called packet tracer which allows you to create a number of virtual devices and configure them as you would if you had them physically.</p>
+
+<a name = "DeviceSetup" style="font-size:20px;color:blue">
+Device Setup
+</a>
+
+<p style="font-size:16px">
+First things first we want to get the devices, for packet tracer you can find them in their retrospective areas. We'll be wanting:<br> 2 - 2621XM Routers<br> 2 - 2950-24 Switches (although in this case we can use any, this one just allows the largest amount of devices to it).<br> and  2- PCs which we will test to see if our routers are working by pinging each other.<br></p>
+
+<p style="font-size:16px">
+To be able to connect our routers together they'll need to have a serial port but they don't come automatically, so to do this we need to add a the correct components<br><br> In packet tracer you can click on the routers, go to physical and see the list of components than can be added to it. Here we'll want ot use the WIC-2T and to add it you need to turn  the routers off, you should be able to see a button on the side , then click and drag the WIC-2T into the correct slot and turn it on.</p>
+
+<img src="VideoPages\ConfigRouterImages\AllDeviceExample.png">
+
+<p style="font-size:16px">
+Now we want to physically connect all the devices together.
+</p>
+
 <br>
 <a name = "First look" style="font-size:20px;color:blue">
 What you'll first see and basic info
