@@ -216,7 +216,7 @@ You'll get a message stating:<br>
 If you want to be able to access the router remotely (which will be very useful). You'll have to create an account on the router:</p>
 
 <p style="font-size:18px;color:Red">
-R0(config)#username <e style="color:pink">(username)</e> privallage <e style="color:pink">(privallage level)</e> secret <e style="color:pink">(password)</e></p>
+R0(config)#username <e style="color:pink">(username)</e> privilege <e style="color:pink">(privilege level)</e> secret <e style="color:pink">(password)</e></p>
 
 <p style="font-size:16px">
 Then you'll want to choose which terminal lines you want to be able to access the router. For this example I'll do all of them (0-4) As a default  router has 5 lines</p>
