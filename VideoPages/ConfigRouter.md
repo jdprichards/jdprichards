@@ -272,9 +272,43 @@ How many bits in the modulus [512]: 2048</p>
 Creating your banner:
 </p>
 <br>
+<p style ="font-size:16px">
+Now to create a banner for when someone accesses the router, or if someone tries to log into the router.</p>
+
+<p style="font-size:18px;color:Red">
+R0(config)#banner <e style="color:pink">(banner type) (delimmiter)</e>
+<br></p>
+<p style="font-size:18px;color:Red">
+R0(config)#banner motd #
+<br></p>
+<p style="font-size:18px;color:Red">
+R0(config)#banner login # 
+<br></p>
+<p style ="font-size:16px">
+when you hit enter you can type what ever message you want and to end it you have to re-enter your delimmiter, in this case its <e style="color:Red"># </e> and is set at the end of the banner commands </p>
+<p style ="font-size:16px">
+motd stands for the message of the day and the banner will show when someone enters the router<br> The login banner will show when somone types in enable from outside the router, then they'll have to login to it using the username and password we set earlier. </p>
 
 <br>
 <p style="font-size:20px;color:blue">
 Creating a static route:
+</p>
+
+<p style="font-size:17px; color:slateblue">
+Important: You need to have this router and the connecting router to be set up with IP addresses to connect
+
+<p style="font-size:16px">
+Now onto setting the dynamic routes. When packets get sent from one subnetwork to another through routers they'll need to know where to be sent. This is done by creating a static route between routers:
+</p>
+<p style="font-size:18px;color:Red">
+R0(config)#ip route <e style="color:pink">(other network address) (network mask) (ip address of router)</e>
+<br></p>
+
+<p style="font-size:16px">
+This router will now be able to send packets to the other one but not the other way around as you've not configured it yet. So you'll want to do that with subnet0 and router0's information in router 1's config.
+</p>
+
+<p style="font-size:17px;color:slateblue">
+Important: You can check this in simulation mode to see that all the packets go where they're meant to go.
 </p>
 <br>
