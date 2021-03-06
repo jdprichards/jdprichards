@@ -10,11 +10,11 @@ First you want to have a physical router or a simulation program to be able to u
 - if you have a physical router you'll want to connect to it via the console in port and use a terminal emulator such as putty.
 <br>
 - I use a simulation program called packet tracer which allows you to create a number of virtual devices and configure them as you would if you had them physically.</p>
-
+<br>
 <p style="font-size:20px;color:blue">
 What you'll first see and basic info
 </p>
-
+<br>
 <p style="font-size:16px">
 You'll want to connect to the router and open up the command line interface (CLI)
 </p>
@@ -88,10 +88,11 @@ As you can see they're all administratively down meaning that even if they're ph
 <p style="font-size:15px">
 First I am going to change the name of my router and set the password for added security. But to do  this we need to be in router config mode to configure its settings. <br> Which can be done using the command
 </p>
-
+<br>
 <p style="font-size:20px;color:blue">
 Initial Router Configure
 </p>
+<br>
 <p style="font-size:18px;color:red">
 Router# configure terminal
 </p>
@@ -123,11 +124,11 @@ You'd then be shown this, where the first part of your prompt has changed to the
 <p style="font-size:18px;color:Red">
 R0(config)#
 </p> 
-
+<br>
 <p style="font-size:20px;color:blue">
 Router interface configure:
 </p>
-
+<br>
 <p style="font-size:16px">
 First things first you'll want to tell your router which interface to configure. This is done with the command:</p>
 
@@ -187,10 +188,11 @@ The shutdown component tells the interface to shutdown, but with the no it updat
 <br><br> But if not it'll be changed to down rather than administratively down and you'll have to check why its not connecting. This tends to occur if you've not configured another router that is connected along that line. The message will look like this:<br>
 <e style="font-size:18px;color:lightBlue"> Inteface ..... changed state to down </e>
 </p>
-
+<br>
 <p style="font-size:20px;color:blue">
 Securing your router:
 </p>
+<br>
 <p style="font-size:16px">
 Now the next thing is securing your router so not just anyone can access it and change the configuration you set up</p>
 
@@ -206,7 +208,7 @@ This sets the password that you have to enter whenever you type in:</p>
 R0(Config)#enable</p>
 <p style="font-size:16px">
 You'll get a message stating:<br>
- </e>
+
 <e style="font-size:18px;color:lightBlue"> Password:
 </e><br>where you'll have to enter the password you set. You'll get 3 attempts to enter it until it states<br> <e style="font-size:18px;color:lightBlue"> % Bad secrets</e> <br>and you'll have to re-enter the enable command</p>
 
@@ -259,13 +261,20 @@ R0(config)#crypto key generate RSA</p>
 You'll be given a few messages after this, first being the full router name including your new domain name:<br> <e style="color:lightBlue"> R0.router0.com </e><br> Then you'll be asked to give the number of bits used for the key:<br> <e style="color:lightBlue"> choose the size of the key modulus in the range of 360 to 2048 for your general purpous key...</e><br>
 Remeber the larger the number of bits used the more secure the key is.<br></p>
 <p style="font-size:18px;color:Red">
-How many bits in the modulus [512]: <e style="color:pink"> (bits)</p>
+How many bits in the modulus [512]: <e style="color:pink"> (bits)</e></p>
 <p style="font-size:16px">
 This gives you the option to choose the number of bits for the key, the default is 512 but that is low by todays standards. I personally use 2048 as its more secure.</p>
 
 <p style="font-size:18px;color:Red">
 How many bits in the modulus [512]: 2048</p>
-
+<br>
 <p style="font-size:20px;color:blue">
 Creating your banner:
 </p>
+<br>
+
+<br>
+<p style="font-size:20px;color:blue">
+Creating a static route:
+</p>
+<br>
