@@ -4,6 +4,7 @@ Welcome to my little tutorial on configuring routers. I will be going over more 
 <a href="https://nevexo.space/networking/2021/02/24/cisco-packet-tracer-basic.html">Cameron</a>
 has more of a video step by step walkthrough than me so be sure to check that out as well.
 </p>
+<h2><a name="294">Linking Directly to a Specific Location</a></h2>
 
 <p style="font-size:15px">
 First you want to have a physical router or a simulation program to be able to use these: <br>
