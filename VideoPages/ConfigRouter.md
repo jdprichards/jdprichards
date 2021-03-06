@@ -29,7 +29,7 @@ Device Setup
 </a>
 
 <p style="font-size:16px">
-First things first we want to get the devices, for packet tracer you can find them in their retrospective areas. We'll be wanting:<br> 2 - 2621XM Routers<br> 2 - 2950-24 Switches (although in this case we can use any, this one just allows the largest amount of devices to it).<br> and  2- PCs which we will test to see if our routers are working by pinging each other.<br></p>
+First things first we want to get the devices, for packet tracer you can find them in their retrospective areas. We'll be wanting:<e style="color:green"><br> 2 - 2621XM Routers</e><br> <e style="color:green">2 - 2950-24 Switches</e> (although in this case we can use any, this one just allows the largest amount of devices to it).<br> <e style="color:green"> 2 - PCs</e> (which we will test to see if our routers are working by pinging each other).<br></p>
 
 <p style="font-size:16px">
 To be able to connect our routers together they'll need to have a serial port but they don't come automatically, so to do this we need to add a the correct components<br><br> In packet tracer you can click on the routers, go to physical and see the list of components than can be added to it. Here we'll want ot use the WIC-2T and to add it you need to turn  the routers off, you should be able to see a button on the side , then click and drag the WIC-2T into the correct slot and turn it on.</p>
