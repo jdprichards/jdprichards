@@ -255,7 +255,7 @@ On my side I have created my own random ip addresses, your may look simlar but w
 Router 0:
 </p>
 
-<img src="ConfigRouterImages\Router0Configured.png">
+<img src="ConfigRouterImages\Router0Configured.png"> 
 
 <table>
     <tr> 
@@ -265,7 +265,7 @@ Router 0:
     </tr>
     <tr>
         <td>FastEthernet0/0</td>
-        <td>24.125.0.1</td>
+        <td>32.5.0.1</td>
         <td>255.255.255.224</td>
     </tr>
     <tr>
@@ -295,7 +295,7 @@ Router 1:
     </tr>
     <tr>
         <td>Serial0/0</td>
-        <td>10.0.0.2</td>
+        <td>32.5.0.2</td>
         <td>255.255.255.252</td>
     </tr>
 </table>
@@ -418,11 +418,37 @@ Now onto setting the dynamic routes. When packets get sent from one subnetwork t
 <p style="font-size:18px;color:Red">
 R0(config)#ip route <e style="color:pink">(target subnet address) (target subnet mask) (ip address of target router)</e>
 <br></p>
-
+<br>
+<table>
+    <tr> 
+        <th>target address</th>
+        <th>target subnet</th>
+        <th>target router</th>
+    </tr>
+    <tr>
+        <td>24.125.10.32</td>
+        <td>255.255.255.224</td>
+        <td>32.5.0.2</td>
+    </tr>
+</table>
+<br>
 <p style="font-size:16px">
 This router will now be able to send packets to the other one but not the other way around as you've not configured it yet. So you'll want to do that with subnet0 and router0's information in router 1's config.
-</p>
+</p><br>
 
+<table>
+    <tr> 
+        <th>target address</th>
+        <th>target subnet</th>
+        <th>target router</th>
+    </tr>
+    <tr>
+        <td>24.125.10.0</td>
+        <td>255.255.255.224</td>
+        <td>32.5.0.1</td>
+    </tr>
+</table>
+<br>
 <p style="font-size:17px;color:slateblue">
 Important: You can check this in simulation mode to see that all the packets go where they're meant to go.
 </p>
