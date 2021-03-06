@@ -27,9 +27,12 @@
         }
     })();
 </script>
+<p style="font-size:18px;color:Red">
+Introduction to collisions
+</p>
 
 <p style="font-size:17px">
-The idea of collision detection is extremely important, from making games to accurate simulations of the real world. There are a number of different types of collisions. Some basic ones are; </p><br>
+The idea of collision detection is extremely important, from making games to accurate simulations of the real world. There are a number of different types of collisions. Some basic ones are; </p>
 
 <p style="font-size:16px;color:slateblue">-Point to sphere<br>-Sphere to Sphere<br>-Sphere to Box<br>-Box to Box</p>
 
