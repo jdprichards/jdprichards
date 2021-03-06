@@ -239,9 +239,63 @@ The shutdown component tells the interface to shutdown, but with the no it updat
 When you enable router0 you'll notice there's a change on the device screen.
 </p>
 
-
 <img src="ConfigRouterImages\EnableRouter0.png">
 
+<p style ="font-size:16px">
+Now go and configure Router1</p>
+
+<p style="font-size:16px">
+When you have finished your network should look like this:
+</p>
+
+<p style="font-size:16px">
+On my side I have created my own random ip addresses, your may look simlar but will not be the same<br> An example of mine is:</p>
+
+<p style="font-size:16px">
+Router 0:
+</p>
+<img src="onfigRouterImages\Router0Configured.png">
+
+<table>
+    <tr> 
+        <th>Interface</th>
+        <th>IP address</th>
+        <th>Subnet mask</th>
+    </tr>
+    <tr>
+        <td>FastEthernet0/0</td>
+        <td>24.125.0.1</td>
+        <td>255.255.255.224</td>
+    </tr>
+    <tr>
+        <td>Serial0/0</td>
+        <td>10.0.0.1</td>
+        <td>255.255.255.252</td>
+    </tr>
+</table>
+
+
+<p style="font-size:16px">
+Router 1:
+</p>
+<img src="onfigRouterImages\Router1Configured.png">
+<table>
+    <tr> 
+        <th>Interface</th>
+        <th>IP address</th>
+        <th>Subnet mask</th>
+    </tr>
+    <tr>
+        <td>FastEthernet0/0</td>
+        <td>24.125.0.33</td>
+        <td>255.255.255.224</td>
+    </tr>
+    <tr>
+        <td>Serial0/0</td>
+        <td>10.0.0.2</td>
+        <td>255.255.255.252</td>
+    </tr>
+</table>
 
 <p style="font-size:16px">
 Here you can see the colour of the connection for Router0 and Switch0 is now green showing that the connection is up, but the connection to Router0 and Router1 is still down, we'll change this by turning that interface on.
