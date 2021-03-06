@@ -7,10 +7,10 @@ has more of a video step by step walkthrough than me so be sure to check that ou
 <p style="font-size:16px">
 <a href="#First look">First look</a><br>
 <a href="#initial router">Initial router configure</a><br>
-<a href="#135">Configure interface</a><br>
-<a href="#199">Securing your router</a><br>
-<a href="#278">Banners</a><br>
-<a href="#294">Static routes</a>
+<a href="#configure interface">Configure interface</a><br>
+<a href="#secure router">Securing your router</a><br>
+<a href="#banners">Banners</a><br>
+<a href="#static routes">Static routes</a>
 </p>
 
 <p style="font-size:15px">
@@ -135,9 +135,9 @@ You'd then be shown this, where the first part of your prompt has changed to the
 R0(config)#
 </p> 
 <br>
-<p style="font-size:20px;color:blue">
+<a name="configure interface" style="font-size:20px;color:blue">
 Router interface configure:
-</p>
+</a>
 <br>
 <p style="font-size:16px">
 First things first you'll want to tell your router which interface to configure. This is done with the command:</p>
@@ -199,9 +199,9 @@ The shutdown component tells the interface to shutdown, but with the no it updat
 <e style="font-size:18px;color:lightBlue"> Inteface ..... changed state to down </e>
 </p>
 <br>
-<p style="font-size:20px;color:blue">
+<a name ="secure router" style="font-size:20px;color:blue">
 Securing your router:
-</p>
+</a>
 <br>
 <p style="font-size:16px">
 Now the next thing is securing your router so not just anyone can access it and change the configuration you set up</p>
@@ -278,9 +278,9 @@ This gives you the option to choose the number of bits for the key, the default 
 <p style="font-size:18px;color:Red">
 How many bits in the modulus [512]: 2048</p>
 <br>
-<p style="font-size:20px;color:blue">
+<a name = "banners" style="font-size:20px;color:blue">
 Creating your banner:
-</p>
+</a>
 <br>
 <p style ="font-size:16px">
 Now to create a banner for when someone accesses the router, or if someone tries to log into the router.</p>
@@ -300,9 +300,9 @@ when you hit enter you can type what ever message you want and to end it you hav
 motd stands for the message of the day and the banner will show when someone enters the router<br> The login banner will show when somone types in enable from outside the router, then they'll have to login to it using the username and password we set earlier. </p>
 
 <br>
-<p style="font-size:20px;color:blue">
+<a name="static routes" style="font-size:20px;color:blue">
 Creating a static route:
-</p>
+</a>
 
 <p style="font-size:17px; color:slateblue">
 Important: You need to have this router and the connecting router to be set up with IP addresses to connect
