@@ -4,12 +4,14 @@ Welcome to my little tutorial on configuring routers. I will be going over more 
 <a href="https://nevexo.space/networking/2021/02/24/cisco-packet-tracer-basic.html">Cameron</a>
 has more of a video step by step walkthrough than me so be sure to check that out as well.
 </p>
-<h2><a href="#First look">First look</a></h2>
-<h2><a href="#initial router">Initial router configure</a></h2>
-<h2><a href="#135">Configure interface</a></h2>
-<h2><a href="#199">Securing your router</a></h2>
-<h2><a href="#278">Banners</a></h2>
-<h2><a href="#294">Static routes</a></h2>
+<p style="font-size:16px">
+<a href="#First look">First look</a><br>
+<a href="#initial router">Initial router configure</a><br>
+<a href="#135">Configure interface</a><br>
+<a href="#199">Securing your router</a><br>
+<a href="#278">Banners</a><br>
+<a href="#294">Static routes</a>
+</p>
 
 <p style="font-size:15px">
 First you want to have a physical router or a simulation program to be able to use these: <br>
