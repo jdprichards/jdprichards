@@ -45,6 +45,7 @@ For example: If you have an object with alot of edges e.g Octagons  and higher, 
 Sphere to Sphere Collisions:
 </p>
 
-$$ \color{red} \text{Sphere 1 \color{white} Co-Ordinates( \color{red}S1 \color{white}): } \color{Red}S1_{\text{x}}\color{white}+ \color{Red}S1_{\text{y}} \color{white}+ \color{Red}S1_{\text{z}} \color{white}\text{ Radius: } \color{Red}S1_{\text{Rad}}$$
+$$ \color{red} \text{Sphere 1 } \color{white} \text{Co-Ordinates(} \color{red} \text{S1 }\color{white}\text{): }  \color{Red}S1_{\text{x}}\color{white}+ \color{Red}S1_{\text{y}} \color{white}+ \color{Red}S1_{\text{z}} \color{white}\text{ Radius: } \color{Red}S1_{\text{Rad}}$$
 
-$$ \color{green}\text{Sphere 2 } \color{white} \text{Co-Ordinates(} \color{green} \text{S2 }\text{\color{white}): } \color{green} S2_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
+$$ \color{green} \text{Sphere 2 } \color{white} \text{Co-Ordinates(} \color{green} \text{S2 }\color{white}\text{): } 
+\color{green} S2_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
