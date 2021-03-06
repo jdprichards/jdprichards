@@ -239,7 +239,9 @@ The shutdown component tells the interface to shutdown, but with the no it updat
 When you enable router0 you'll notice there's a change on the device screen.
 </p>
 
-<img scr="ConfigRouterImages\EnableRouter0.png">
+
+<img src="ConfigRouterImages\EnableRouter0.png">
+
 
 <p style="font-size:16px">
 Here you can see the colour of the connection for Router0 and Switch0 is now green showing that the connection is up, but the connection to Router0 and Router1 is still down, we'll change this by turning that interface on.
