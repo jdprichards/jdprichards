@@ -4,6 +4,8 @@ Welcome to my little tutorial on configuring routers. I will be going over more 
 <a href="https://nevexo.space/networking/2021/02/24/cisco-packet-tracer-basic.html">Cameron</a>
 has more of a video step by step walkthrough than me so be sure to check that out as well.
 </p>
+<a name="top"></a>
+
 <p style="font-size:16px">
 Index (click to go to section)<br>
 <a href="#DeviceSetup">Device setup</a><br>
@@ -46,6 +48,8 @@ You'll notice that the the connections to from the pc to the switch are green, t
 <p style="font-size:16px">
 Now it is time to enter the router!!! <br>This is where the fun begins.</p>
 <br>
+<a href="#top">Back to top</a><br><br>
+
 <a name = "First look" style="font-size:20px;color:blue">
 What you'll first see and basic info
 </a>
@@ -124,7 +128,7 @@ As you can see they're all administratively down meaning that even if they're ph
 First I am going to change the name of my router and set the password for added security. But to do  this we need to be in router config mode to configure its settings. <br> Which can be done using the command
 </p>
 <br>
-
+<a href="#top">Back to top</a><br><br>
 <a name="initial router" style="font-size:20px;color:blue">
 Initial Router Configure<br>
 </a>
@@ -172,6 +176,7 @@ You'd then be shown this, where the first part of your prompt has changed to the
 R0(config)#
 </p> 
 <br>
+<a href="#top">Back to top</a><br><br>
 <a name="configure interface" style="font-size:20px;color:blue">
 Router interface configure:
 </a>
@@ -303,7 +308,7 @@ Router 1:
 <p style="font-size:16px">
 Here you can see the colour of the connection for Router0 and Switch0 is now green showing that the connection is up, but the connection to Router0 and Router1 is still down, we'll change this by turning that interface on.
 </p>
-
+<a href="#top">Back to top</a><br><br>
 <a name ="secure router" style="font-size:20px;color:blue">
 Securing your router:
 </a>
@@ -383,6 +388,7 @@ This gives you the option to choose the number of bits for the key, the default 
 <p style="font-size:18px;color:Red">
 How many bits in the modulus [512]: 2048</p>
 <br>
+<a href="#top">Back to top</a><br><br>
 <a name = "banners" style="font-size:20px;color:blue">
 Creating your banner:
 </a>
@@ -405,6 +411,7 @@ when you hit enter you can type what ever message you want and to end it you hav
 motd stands for the message of the day and the banner will show when someone enters the router<br> The login banner will show when somone types in enable from outside the router, then they'll have to login to it using the username and password we set earlier. </p>
 
 <br>
+<a href="#top">Back to top</a><br><br>
 <a name="static routes" style="font-size:20px;color:blue">
 Creating a static route:
 </a>
