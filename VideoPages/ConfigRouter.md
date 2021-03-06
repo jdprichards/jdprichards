@@ -11,7 +11,7 @@ First you want to have a physical router or a simulation program to be able to u
 <br>
 - I use a simulation program called packet tracer which allows you to create a number of virtual devices and configure them as you would if you had them physically.</p>
 
-<p style="font-szie:20px;color:blue">
+<p style="font-size:20px;color:blue">
 What you'll first see and basic info
 </p>
 
@@ -61,10 +61,10 @@ Router # show ~
 </p>
 
 <p style="font-size:15px">
-This command gives information about the router  <e style="color:red"> show ?</e> gives you the possible options that can be used such as 
+This command gives information about the router  <e style="color:red"> show ?</e> gives you the possible options that can be used such as
 </p>
 
-<p style ="font_size:18px;color:Red">
+<p style ="font-size:18px;color:Red">
 Route# show ip interface brief
 </p>
 
@@ -74,15 +74,15 @@ Which shows all of the ip interfaces you can use in the form:
 
 <p style="font-size:15px;color:lightblue">
 Interface | IP Address | OK? | method | status | Protocol<br><br>
-FastEthernet0/0 | Unassigned | Yes | unset  | Administrativly Down | Down<br>
-FastEthernet0/1 | Unassigned | Yes | unset | Administrativly Down | Down<br>
-Serial0/0 | Unassigned | Yes | unset  | Administrativly Down | Down<br>
-Serial0/1 | Unassigned | Yes | unset | Administrativly Down | Down
+FastEthernet0/0 | Unassigned | Yes | unset  | Administratively Down | Down<br>
+FastEthernet0/1 | Unassigned | Yes | unset | Administratively Down | Down<br>
+Serial0/0 | Unassigned | Yes | unset  | Administratively Down | Down<br>
+Serial0/1 | Unassigned | Yes | unset | Administratively Down | Down
 </p><br>
 
 <p style="font-size:15px">
 The FastEthernet interfaces can be used to connect to devices and switches on a network, whereas the serial interface can be used to connect to other routers.<br>
-As you can see they're all Administrastively down meaning that even if they're physically connected to other devices they won't till this is disabled.
+As you can see they're all administratively down meaning that even if they're physically connected to other devices they won't till this is disabled.
 </p>
 
 <p style="font-size:15px">
@@ -126,4 +126,66 @@ R0(config)#
 
 <p style="font-size:20px;color:blue">
 Router interface configure:
+</p>
+
+<p style="font-size:16px">
+First things first you'll want to tell your router which interface to configure. This is done with the command:</p>
+
+<p style="font-size:18px;color:Red">
+R0(Config)# Interface <e style="color:pink"> (interface)
+</p> 
+
+<p style="font-size:16px">
+Lets choose one from above where we got the ip interfaces, I'll use FastEthernet0/0 this being the interface my PC is connected to.</p>
+
+<p style="font-size:18px;color:Red">
+R0(Config)# Interface <e style="color:pink"> FastEthernet0/0
+</p>
+
+<p style="font-size:16px">
+Note you input changes to:
+</p>
+
+<p style="font-size:18px;color:Red">
+R0(config-if)#
+</p> 
+
+<p style="font-size:16px">
+This shows you're now in config mode for the interface you choose.
+</p>
+
+<p style="font-size:16px">
+You can then change the desciption of the interface. This is good practice so you know what this interfaces job is in the future. This is done by:
+</p>
+
+<p style="font-size:18px;color:Red">
+R0(Config-if)#disciption  <e style="color:pink"> (what it does)
+</p>
+
+<p style="font-size:16px">
+The next job is to give the interface an ip address so packets can be sent to it with the command:
+</p>
+
+<p style="font-size:18px;color:Red">
+R0(Config-if)#ip address  <e style="color:pink"> (ip address) (subnet mask)
+</p>
+
+<p style="font-size:16px">
+I won't go through how to calculate your subnet mask here (I may do in the future) but there are a number of great reasources online to help you calculate the correct subnet mask for your network.
+</p>
+
+<p style="font-size:16px">
+Once you have done that you can now turn your interface on. This is done by shutting down the administratively down mode you saw earlier, with the command:
+</p>
+
+<p style="font-size:18px;color:Red">
+R0(Config-if)#no shutdown
+</p>
+
+<p style="font-size:16px">
+The shutdown component tells the interface to shutdown, but with the no it updates it so that it is no longer shutdown. If there are devices ready to connect with all the wires connected up, you'll get a prompt telling you the interface state has been changed to up. <br> But if not it'll be changed to down rather than administratively down and you'll have to check why its not connecting. This tends to occur if you've not configured another router that is connected along that line.
+</p>
+
+<p style="font-size:20px;color:blue">
+Securing your router:
 </p>
