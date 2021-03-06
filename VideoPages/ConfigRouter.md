@@ -5,6 +5,7 @@ Welcome to my little tutorial on configuring routers. I will be going over more 
 has more of a video step by step walkthrough than me so be sure to check that out as well.
 </p>
 <p style="font-size:16px">
+Index (click to go to section)<br>
 <a href="#First look">First look</a><br>
 <a href="#initial router">Initial router configure</a><br>
 <a href="#configure interface">Configure interface</a><br>
@@ -14,7 +15,7 @@ has more of a video step by step walkthrough than me so be sure to check that ou
 </p>
 
 <p style="font-size:17px;color:slateblue">
-If you struggle calculating the range of ip addresses and subnet masks and what to use, a good reasource to use is this <a href="https://www.davidc.net/sites/default/subnets/subnets.html"> subnet calculator </a><p>
+If you struggle calculating the range of ip addresses and subnet masks and what to use, a good resource to use is this <a href="https://www.davidc.net/sites/default/subnets/subnets.html"> subnet calculator </a><p>
 
 <p style="font-size:15px">
 First you want to have a physical router or a simulation program to be able to use these: <br>
