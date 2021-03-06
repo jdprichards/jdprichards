@@ -5,18 +5,18 @@
 
 [Normalize Vectors](VideoPages\NormalizeVectors.html)
 
-[Dot Product (WIP)](VideoPages\DotProduct.html)
+[Dot Product (Need to add Videos)](VideoPages\DotProduct.html)
 
 [Cross Product](VideoPages\CrossProduct.html)
 
-[Matrix (Adding and Mutiplying)](VideoPages\Matrix.html)
+[Matrix (Adding and Mutiplying - Need to add Videos)](VideoPages\Matrix.html)
 
 [Matrix (Scaling)](VideoPages\MatrixScale.html)
 <br><br>
 
 <p style="font-size:16px"> Networking:</p>
 
-[Configure Routers (WIP)](VideoPages\ConfigRouter)
+[Configure Routers (Beta)](VideoPages\ConfigRouter)
 
 <p style="font-size:16px"> System Analysis:</p>
 <br><br>
