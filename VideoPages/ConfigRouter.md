@@ -4,11 +4,11 @@ Welcome to my little tutorial on configuring routers. I will be going over more 
 <a href="https://nevexo.space/networking/2021/02/24/cisco-packet-tracer-basic.html">Cameron</a>
 has more of a video step by step walkthrough than me so be sure to check that out as well.
 </p>
-<h2><a href="#20">First look</a></h2>
-<h2><a href="#98">Initial router configure</a></h2>
+<h2><a href="#First look">First look</a></h2>
+<h2><a href="#initial router">Initial router configure</a></h2>
 <h2><a href="#135">Configure interface</a></h2>
-<h2><a href="#294">Securing your router</a></h2>
-<h2><a href="#294">Banners</a></h2>
+<h2><a href="#199">Securing your router</a></h2>
+<h2><a href="#278">Banners</a></h2>
 <h2><a href="#294">Static routes</a></h2>
 
 <p style="font-size:15px">
@@ -17,9 +17,9 @@ First you want to have a physical router or a simulation program to be able to u
 <br>
 - I use a simulation program called packet tracer which allows you to create a number of virtual devices and configure them as you would if you had them physically.</p>
 <br>
-<p style="font-size:20px;color:blue">
+<a name = "First look" style="font-size:20px;color:blue">
 What you'll first see and basic info
-</p>
+</a>
 <br>
 <p style="font-size:16px">
 You'll want to connect to the router and open up the command line interface (CLI)
@@ -95,9 +95,11 @@ As you can see they're all administratively down meaning that even if they're ph
 First I am going to change the name of my router and set the password for added security. But to do  this we need to be in router config mode to configure its settings. <br> Which can be done using the command
 </p>
 <br>
-<p style="font-size:20px;color:blue">
-Initial Router Configure
-</p>
+
+<a name="initial router" style="font-size:20px;color:blue">
+Initial Router Configure<br>
+</a>
+
 <br>
 <p style="font-size:18px;color:red">
 Router# configure terminal
