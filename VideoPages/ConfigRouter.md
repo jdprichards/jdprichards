@@ -235,7 +235,16 @@ The shutdown component tells the interface to shutdown, but with the no it updat
 <br><br> But if not it'll be changed to down rather than administratively down and you'll have to check why its not connecting. This tends to occur if you've not configured another router that is connected along that line. The message will look like this:<br>
 <e style="font-size:18px;color:lightBlue"> Inteface ..... changed state to down </e>
 </p>
-<br>
+<p style="font-size:16px">
+When you enable router0 you'll notice there's a change on the device screen.
+</p>
+
+<img scr="ConfigRouterImages\EnableRouter0.png">
+
+<p style="font-size:16px">
+Here you can see the colour of the connection for Router0 and Switch0 is now green showing that the connection is up, but the connection to Router0 and Router1 is still down, we'll change this by turning that interface on.
+</p>
+
 <a name ="secure router" style="font-size:20px;color:blue">
 Securing your router:
 </a>
