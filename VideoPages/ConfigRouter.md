@@ -183,7 +183,9 @@ R0(Config-if)#no shutdown
 </p>
 
 <p style="font-size:16px">
-The shutdown component tells the interface to shutdown, but with the no it updates it so that it is no longer shutdown. If there are devices ready to connect with all the wires connected up, you'll get a prompt telling you the interface state has been changed to up. <br> But if not it'll be changed to down rather than administratively down and you'll have to check why its not connecting. This tends to occur if you've not configured another router that is connected along that line.
+The shutdown component tells the interface to shutdown, but with the no it updates it so that it is no longer shutdown. If there are devices ready to connect with all the wires connected up, you'll get a prompt telling you the interface state has been changed to up: <e style="font-size:18px;color:lightBlue"> Inteface ..... change state to up   </e>
+<br><br> But if not it'll be changed to down rather than administratively down and you'll have to check why its not connecting. This tends to occur if you've not configured another router that is connected along that line. The message will look like this:
+<e style="font-size:18px;color:lightBlue"> Inteface ..... change state to down </e>
 </p>
 
 <p style="font-size:20px;color:blue">
