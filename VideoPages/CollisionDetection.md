@@ -47,4 +47,4 @@ Sphere to Sphere Collisions:
 
 $$ \color{red} \text{Sphere 1 \color{white} Co-Ordinates( \color{red}S1 \color{white}): } \color{Red}S1_{\text{x}}\color{white}+ \color{Red}S1_{\text{y}} \color{white}+ \color{Red}S1_{\text{z}} \color{white}\text{ Radius: } \color{Red}S1_{\text{Rad}}$$
 
-$$ \text{\color{green} Sphere 2 \color{white} Co-Ordinates( \color{green}S2 \color{white}): } \color{green} S2_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
+$$ \color{green}\text{Sphere 2 } \color{white} \text{Co-Ordinates(} \color{green} \text{S2 }\text{\color{white}): } \color{green} S2_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
