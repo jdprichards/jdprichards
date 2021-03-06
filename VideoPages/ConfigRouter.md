@@ -330,3 +330,11 @@ Important: You can check this in simulation mode to see that all the packets go 
 <p style="font-size:16px">
 Once you've checked that you're done. If theres an issue you can see where it is, as the simulation mode will tell you where the packets are dropped.
 </p>
+
+<p style="font-size:18px;color:slateblue">
+Important: You'll  need to save your running config to your start up config or else you'll lose all the your config settings.</p>
+<p style="font-size:18px;color:Red">
+R0#copy running-config startup-config
+<br>
+
+</p>
