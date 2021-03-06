@@ -105,6 +105,16 @@ First I am going to change the name of my router and set the password for added 
 <a name="initial router" style="font-size:20px;color:blue">
 Initial Router Configure<br>
 </a>
+<p style="font-size:15px">
+To save any of the changes you make to the config you'll need to use the command:
+</p>
+<p style="font-size:18px;color:Red">
+R0#copy running-config startup-config
+<br>
+
+<p style="font-size:15px">
+If you don't and you lose power to your device or restart it you'll lose all of the changes you made.
+</p>
 
 <br>
 <p style="font-size:18px;color:red">
