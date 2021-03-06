@@ -40,6 +40,18 @@ The idea of collision detection is extremely important, from making games to acc
 The more complex the collision detection the more processing power it takes, to detect if it happens or not.<br><br>
 For example: If you have an object with alot of edges e.g Octagons  and higher, you'd have to check to see if each edge has a collision.<br><br> However you can acheive a similar result by assuming the object is spherical and use its radius. Reducing the complexity of the equation and the processing it takes to decide if the collision occurs.
 </p>
+<p style="font-size:18px;color:Blue">
+Point to Sphere Collisions:
+</p>
+
+$$ \color{red} \text{Point 1 } \color{white} \text{Co-Ordinates(} \color{red} \text{S1}\color{white}\text{): }  \color{Red}S1_{\text{x}}\color{white}+ \color{Red}S1_{\text{y}} \color{white}+ \color{Red}S1_{\text{z}}$$
+
+$$ \color{green} \text{Sphere 1 } \color{white} \text{Co-Ordinates(} \color{green} \text{S1}\color{white}\text{): } 
+\color{green} S1_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
+
+$$ \text{Now to find the distance between the spheres where their radia touch:} $$
+
+$$ \color{Orange}D \color{white}= \color{green}S1_{\text{Rad}}$$
 
 <p style="font-size:18px;color:Blue">
 Sphere to Sphere Collisions:
@@ -48,8 +60,8 @@ Sphere to Sphere Collisions:
 $$ \color{red} \text{Sphere 1 } \color{white} \text{Co-Ordinates(} \color{red} \text{S1}\color{white}\text{): }  \color{Red}S1_{\text{x}}\color{white}+ \color{Red}S1_{\text{y}} \color{white}+ \color{Red}S1_{\text{z}} \color{white}\text{ Radius: } \color{Red}S1_{\text{Rad}}$$
 
 $$ \color{green} \text{Sphere 2 } \color{white} \text{Co-Ordinates(} \color{green} \text{S2}\color{white}\text{): } 
-\color{green} S2_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
+\color{green} S2_{\text{x}} \color{white}+ \color{green} S2_{\text{y}} \color{white} + \color{green} S2_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}$$
 
 $$ \text{Now to find the distance between the spheres where their radia touch:} $$
 
-$$ \color{Orange}D \color{white}= \color{Red}S1_{\text{Rad}}\color{white}+\color{green}S2_{\text{Rad }}$$
+$$ \color{Orange}D \color{white}= \color{Red}S1_{\text{Rad}}\color{white}+\color{green}S2_{\text{Rad}}$$
