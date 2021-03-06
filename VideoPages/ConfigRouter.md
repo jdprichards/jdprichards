@@ -13,6 +13,9 @@ has more of a video step by step walkthrough than me so be sure to check that ou
 <a href="#static routes">Static routes</a>
 </p>
 
+<p style="font-size:17px;color:slateblue">
+If you struggle calculating the range of ip addresses and subnet masks and what to use, a good reasource to use is this <a href="https://www.davidc.net/sites/default/subnets/subnets.html"> subnet calculator </a><p>
+
 <p style="font-size:15px">
 First you want to have a physical router or a simulation program to be able to use these: <br>
 - if you have a physical router you'll want to connect to it via the console in port and use a terminal emulator such as putty.
