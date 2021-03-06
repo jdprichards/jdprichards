@@ -254,7 +254,8 @@ On my side I have created my own random ip addresses, your may look simlar but w
 <p style="font-size:16px">
 Router 0:
 </p>
-<img src="onfigRouterImages\Router0Configured.png">
+
+<img src="ConfigRouterImages\Router0Configured.png">
 
 <table>
     <tr> 
@@ -278,7 +279,9 @@ Router 0:
 <p style="font-size:16px">
 Router 1:
 </p>
-<img src="onfigRouterImages\Router1Configured.png">
+
+<img src="ConfigRouterImages\Router1Configured.png">
+
 <table>
     <tr> 
         <th>Interface</th>
