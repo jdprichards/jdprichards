@@ -241,7 +241,7 @@ R0(config-line)#transport input ssh</p>
 For ssh to work properly you'll need to give the router a domain name to be accessed by:</p>
 
 <p style="font-size:18px;color:Red">
-R0(config)#ip domain-name <e style="color:pink">(domain name)</p>
+R0(config)#ip domain-name <e style="color:pink">(domain name)</e></p>
 
 <p style="font-size:16px">
 For example as this is router 0 I'll set the domain name to router0.com</p>
@@ -255,3 +255,17 @@ And now you'll want to create a key to encrypt all the data going through the ro
 <p style="font-size:18px;color:Red">
 R0(config)#crypto key generate RSA</p>
 
+<p style="font-size:16px">
+You'll be given a few messages after this, first being the full router name including your new domain name:<br> <e style="color:lightBlue"> R0.router0.com </e><br> Then you'll be asked to give the number of bits used for the key:<br> <e style="color:lightBlue"> choose the size of the key modulus in the range of 360 to 2048 for your general purpous key...</e><br>
+Remeber the larger the number of bits used the more secure the key is.<br></p>
+<p style="font-size:18px;color:Red">
+How many bits in the modulus [512]: <e style="color:pink"> (bits)</p>
+<p style="font-size:16px">
+This gives you the option to choose the number of bits for the key, the default is 512 but that is low by todays standards. I personally use 2048 as its more secure.</p>
+
+<p style="font-size:18px;color:Red">
+How many bits in the modulus [512]: 2048</p>
+
+<p style="font-size:20px;color:blue">
+Creating your banner:
+</p>
