@@ -27,7 +27,7 @@
         }
     })();
 </script>
-<p style="font-size:18px;color:Red">
+<p style="font-size:18px;color:blue">
 Introduction to collisions
 </p>
 
