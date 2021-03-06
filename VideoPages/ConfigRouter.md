@@ -20,7 +20,7 @@ Index (click to go to section)<br>
 </p>
 
 <p style="font-size:17px;color:slateblue">
-If you struggle calculating the range of ip addresses and subnet masks and what to use, a good resource to use is this <a href="https://www.davidc.net/sites/default/subnets/subnets.html"> subnet calculator </a><p>
+Important: If you struggle calculating the range of ip addresses and subnet masks and what to use, a good resource to use is this <a href="https://www.davidc.net/sites/default/subnets/subnets.html"> subnet calculator </a><p>
 
 <p style="font-size:15px">
 First you want to have a physical router or a simulation program to be able to use these: <br>
