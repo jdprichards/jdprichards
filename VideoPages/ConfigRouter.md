@@ -468,7 +468,7 @@ Once you've checked that you're done. If theres an issue you can see where it is
 <p style="font-size:18px;color:slateblue">
 Important: You'll  need to save your running config to your start up config or else you'll lose all the your config settings.</p>
 <p style="font-size:18px;color:Red">
-R0#copy running-config startup-config
+R0#copy running-config startup-config</p>
 <br>
 
-</p>
+<a href="#top">Back to top</a><br><br>
