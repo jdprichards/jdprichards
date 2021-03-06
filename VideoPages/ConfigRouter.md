@@ -315,7 +315,7 @@ Important: You need to have this router and the connecting router to be set up w
 Now onto setting the dynamic routes. When packets get sent from one subnetwork to another through routers they'll need to know where to be sent. This is done by creating a static route between routers:
 </p>
 <p style="font-size:18px;color:Red">
-R0(config)#ip route <e style="color:pink">(target subnet address) (target subnet mask) (ip address of router)</e>
+R0(config)#ip route <e style="color:pink">(target subnet address) (target subnet mask) (ip address of target router)</e>
 <br></p>
 
 <p style="font-size:16px">
