@@ -132,14 +132,14 @@ Router interface configure:
 First things first you'll want to tell your router which interface to configure. This is done with the command:</p>
 
 <p style="font-size:18px;color:Red">
-R0(Config)# Interface <e style="color:pink"> (interface)
+R0(Config)# Interface <e style="color:pink"> (interface)</e>
 </p> 
 
 <p style="font-size:16px">
 Lets choose one from above where we got the ip interfaces, I'll use FastEthernet0/0 this being the interface my PC is connected to.</p>
 
 <p style="font-size:18px;color:Red">
-R0(Config)# Interface <e style="color:pink"> FastEthernet0/0
+R0(Config)# Interface <e style="color:pink"> FastEthernet0/0</e>
 </p>
 
 <p style="font-size:16px">
@@ -159,7 +159,7 @@ You can then change the desciption of the interface. This is good practice so yo
 </p>
 
 <p style="font-size:18px;color:Red">
-R0(Config-if)#disciption  <e style="color:pink"> (what it does)
+R0(Config-if)#disciption  <e style="color:pink"> (what it does)</e>
 </p>
 
 <p style="font-size:16px">
@@ -167,7 +167,7 @@ The next job is to give the interface an ip address so packets can be sent to it
 </p>
 
 <p style="font-size:18px;color:Red">
-R0(Config-if)#ip address  <e style="color:pink"> (ip address) (subnet mask)
+R0(Config-if)#ip address  <e style="color:pink"> (ip address) (subnet mask)</e>
 </p>
 
 <p style="font-size:16px">
