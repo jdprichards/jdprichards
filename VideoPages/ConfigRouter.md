@@ -34,12 +34,17 @@ First things first we want to get the devices, for packet tracer you can find th
 <p style="font-size:16px">
 To be able to connect our routers together they'll need to have a serial port but they don't come automatically, so to do this we need to add a the correct components<br><br> In packet tracer you can click on the routers, go to physical and see the list of components than can be added to it. Here we'll want ot use the WIC-2T and to add it you need to turn  the routers off, you should be able to see a button on the side , then click and drag the WIC-2T into the correct slot and turn it on.</p>
 
-<img src="VideoPages\ConfigRouterImages\AllDeviceExample.png">
+<img src="ConfigRouterImages\AllDeviceExample.png">
 
 <p style="font-size:16px">
-Now we want to physically connect all the devices together.
+Now we want to physically connect all the devices together. To connect the Router and Switch together we'll use a straight through cable in the ethernet ports, lets just do the first ones, it'll make it easier to tell which are connected to the router. Then we also want to connect the switch with the pc, again using a straight through cable.<br>Now to connect the two Routers we'll want to use the serial DTE cable. It should look somthing like this </p><br> 
+<img src="ConfigRouterImages\DevicesWithCables.png">
+<p style="font-size:16px">
+You'll notice that the the connections to from the pc to the switch are green, that shows that the devices are successfully connected. However the routers are red. This just means that there isn't an established connection from the routers.<br> Do not worry this is to be expected due to their default setup. We will change it later.
 </p>
 
+<p style="font-size:16px">
+Now it is time to enter the router!!! <br>This is where the fun begins.</p>
 <br>
 <a name = "First look" style="font-size:20px;color:blue">
 What you'll first see and basic info
