@@ -326,3 +326,7 @@ This router will now be able to send packets to the other one but not the other 
 Important: You can check this in simulation mode to see that all the packets go where they're meant to go.
 </p>
 <br>
+
+<p style="font-size:16px">
+Once you've checked that you're done. If theres an issue you can see where it is, as the simulation mode will tell you where the packets are dropped.
+</p>
