@@ -128,9 +128,11 @@ $$
 $$ 
     \color{Orange}D \color{white} \geqslant\color{Orange}d
 $$
+
 $$
     \text{Or}
 $$
- $$ 
+
+$$ 
     \color{red} S1_{\text{Rad}} \color{white} +\color{green} S2_{\text{Rad}} \color{white} \geqslant \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
 $$
