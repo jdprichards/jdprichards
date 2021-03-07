@@ -1,6 +1,8 @@
-<head>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-</head>
+<html>
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+</html>
 
 
 # Joseph Richards
