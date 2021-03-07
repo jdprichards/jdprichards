@@ -98,3 +98,11 @@ $$
 $$ 
     \color{Orange}D \color{white}= \color{Red}S1_{\text{Rad}}\color{white}+\color{green}S2_{\text{Rad}}
 $$
+
+$$ 
+    \text{To find the current distance between the objects, you use pythagorous}
+ $$
+
+ $$ 
+    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
+$$
