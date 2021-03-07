@@ -1,8 +1,7 @@
-
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
 </head>
+
 
 # Joseph Richards
 ### Hi I am Joe, a Computer Science Student at the University of Central Lancashire
