@@ -54,7 +54,7 @@ The idea of collision detection is extremely important, from making games to acc
     Point to Sphere Collisions:
 </p>
 
-$$ \color{red} \text{Point 1 } \color{white} \text{Co-Ordinates(} \color{red} \text{S1}\color{white}\text{): }  \color{Red}S1_{\text{x}}\color{white}+ \color{Red}S1_{\text{y}} \color{white}+ \color{Red}S1_{\text{z}}$$
+$$ \color{red} \text{Point 1 } \color{white} \text{Co-Ordinates(} \color{red} \text{P1}\color{white}\text{): }  \color{Red}P1_{\text{x}}\color{white}+ \color{Red}P1_{\text{y}} \color{white}+ \color{Red}P1_{\text{z}}$$
 
 $$ 
     \color{green} \text{Sphere 1 } \color{white} \text{Co-Ordinates(} \color{green} \text{S1}\color{white}\text{): } 
@@ -74,7 +74,21 @@ $$
  $$
 
  $$ 
-    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
+    \color{Orange}d \color{white}= \sqrt{(\color{red}P1_{x}\color{white}-\color{green}S1_{x}\color{white})^2+(\color{red}P1_{y}\color{white}-\color{green}S1_{y}\color{white})^2\color{white}+(\color{red}P1_{z}\color{white}-\color{green}S1_{z}\color{white})^2}
+$$
+
+<p style="font-size:16px ">
+    Collisions occur when the distance between the models is less than the radius of the sphere.
+</p>
+
+$$ 
+    \color{Orange}D \color{white} \geqslant\color{Orange}d
+$$
+$$
+    \text{Or}
+$$
+ $$ 
+    \color{green} S1_{\text{Rad}} \color{white} \geqslant \sqrt{(\color{red}P1_{x}\color{white}-\color{green}S1_{x}\color{white})^2+(\color{red}P1_{y}\color{white}-\color{green}S1_{y}\color{white})^2\color{white}+(\color{red}P1_{z}\color{white}-\color{green}S1_{z}\color{white})^2}
 $$
 
 
@@ -105,4 +119,18 @@ $$
 
  $$ 
     \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
+$$
+
+<p style="font-size:16px ">
+    Collisions occur when the distance between the models is less than the radius of the sphere.
+</p>
+
+$$ 
+    \color{Orange}D \color{white} \geqslant\color{Orange}d
+$$
+$$
+    \text{Or}
+$$
+ $$ 
+    \color{red} S1_{\text{Rad}} \color{white} +\color{green} S2_{\text{Rad}} \color{white} \geqslant \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
 $$
