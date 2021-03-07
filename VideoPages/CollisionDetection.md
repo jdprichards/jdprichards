@@ -78,7 +78,7 @@ $$
 $$
 
 <p style="font-size:16px ">
-    Collisions occur when the distance between the models is less than the radius of the sphere.
+    Collisions occur when the distance between the models is less than the radia of the spheres combinded. As they are constant round each sphere.
 </p>
 
 $$ 
