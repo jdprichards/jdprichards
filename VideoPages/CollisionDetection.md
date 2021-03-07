@@ -84,10 +84,12 @@ $$
 $$ 
     \color{Orange}d \color{white} \leqslant\color{Orange}D
 $$
+
 $$
     \text{Or}
 $$
- $$ 
+
+$$ 
     \sqrt{(\color{red}P1_{x}\color{white}-\color{green}S1_{x}\color{white})^2+(\color{red}P1_{y}\color{white}-\color{green}S1_{y}\color{white})^2\color{white}+(\color{red}P1_{z}\color{white}-\color{green}S1_{z}\color{white})^2} \color{white} \leqslant \color{green} S1_{\text{Rad}}
 $$
 
