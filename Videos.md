@@ -13,7 +13,7 @@
 
 [Matrix (Scaling)](VideoPages\MatrixScale.html)
 
-[Collision detection](VideoPages\CollisionDetection.html)
+[Collision Detection](VideoPages\CollisionDetection.html)
 <br><br>
 
 <p style="font-size:16px"> Networking:</p>
