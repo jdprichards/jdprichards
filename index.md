@@ -1,12 +1,12 @@
 <html>
 	<head>
 		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 	</head>
 </html>
 
 
 # Joseph Richards
+
 ### Hi I am Joe, a Computer Science Student at the University of Central Lancashire
 
 <p style="font-size:18px">
