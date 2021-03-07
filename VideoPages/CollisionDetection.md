@@ -58,7 +58,7 @@ $$ \color{red} \text{Point 1 } \color{white} \text{Co-Ordinates(} \color{red} \t
 
 $$ 
     \color{green} \text{Sphere 1 } \color{white} \text{Co-Ordinates(} \color{green} \text{S1}\color{white}\text{): } 
-    \color{green} S1_{\text{x}} \color{white}+ \color{green} S1_{\text{y}} \color{white} + \color{green} S1_{\text{z}} \color{white}\text{ Radius: } \color{green}S1_{\text{Rad}}
+    \color{green} S1_{\text{x}} \color{white}+ \color{green} S2_{\text{y}} \color{white} + \color{green} S2_{\text{z}} \color{white}\text{ Radius: } \color{green}S2_{\text{Rad}}
 $$
 
 $$ 
@@ -68,6 +68,15 @@ $$
 $$ 
     \color{Orange}D \color{white}= \color{green}S1_{\text{Rad}}
 $$
+
+$$ 
+    \text{To find the current distance between the objects, you use pythagorous}
+ $$
+
+ $$ 
+    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{green}S2_{y}\color{white})^2(\color{red}S1_{z}\color{green}S2_{z}\color{white})^2}
+$$
+
 
 <p style="font-size:18px;color:Blue">
     Sphere to Sphere Collisions:
