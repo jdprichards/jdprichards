@@ -140,3 +140,10 @@ $$
 $$
 
 <br>
+
+<p style="font-size:18px;color:Blue">
+    Sphere to box collision:
+</p>
+<p style="font-size:16px">
+    Sphere to box collision is even more complex than sphere to sphere as you have to keep track of more variables. Such as the individual dimensions of the box. This was just the radius of the sphere
+</p>
