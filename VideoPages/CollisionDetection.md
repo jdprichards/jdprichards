@@ -74,7 +74,7 @@ $$
  $$
 
  $$ 
-    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
+    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
 $$
 
 
@@ -104,5 +104,5 @@ $$
  $$
 
  $$ 
-    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
+    \color{Orange}d \color{white}= \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
 $$
