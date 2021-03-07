@@ -49,7 +49,7 @@ The idea of collision detection is extremely important, from making games to acc
     For example: If you have an object with alot of edges e.g Octagons  and higher, you'd have to check to see if each edge has a collision.<br><br> 
     However you can acheive a similar result by assuming the object is spherical and use its radius. Reducing the complexity of the equation and the processing it takes to decide if the collision occurs.
 </p>
-
+<br>
 <p style="font-size:18px;color:Blue">
     Point to Sphere Collisions:
 </p>
@@ -82,13 +82,13 @@ $$
 </p>
 
 $$ 
-    \color{Orange}D \color{white} \geqslant\color{Orange}d
+    \color{Orange}d \color{white} \leqslant\color{Orange}D
 $$
 $$
     \text{Or}
 $$
  $$ 
-    \color{green} S1_{\text{Rad}} \color{white} \geqslant \sqrt{(\color{red}P1_{x}\color{white}-\color{green}S1_{x}\color{white})^2+(\color{red}P1_{y}\color{white}-\color{green}S1_{y}\color{white})^2\color{white}+(\color{red}P1_{z}\color{white}-\color{green}S1_{z}\color{white})^2}
+    \sqrt{(\color{red}P1_{x}\color{white}-\color{green}S1_{x}\color{white})^2+(\color{red}P1_{y}\color{white}-\color{green}S1_{y}\color{white})^2\color{white}+(\color{red}P1_{z}\color{white}-\color{green}S1_{z}\color{white})^2} \color{white} \leqslant \color{green} S1_{\text{Rad}}
 $$
 
 
@@ -126,7 +126,7 @@ $$
 </p>
 
 $$ 
-    \color{Orange}D \color{white} \geqslant\color{Orange}d
+    \color{Orange}d \color{white} \leqslant\color{Orange}D
 $$
 
 $$
@@ -134,5 +134,7 @@ $$
 $$
 
 $$ 
-    \color{red} S1_{\text{Rad}} \color{white} +\color{green} S2_{\text{Rad}} \color{white} \geqslant \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2}
+    \sqrt{(\color{red}S1_{x}\color{white}-\color{green}S2_{x}\color{white})^2+(\color{red}S1_{y}\color{white}-\color{green}S2_{y}\color{white})^2\color{white}+(\color{red}S1_{z}\color{white}-\color{green}S2_{z}\color{white})^2} \leqslant \color{red} S1_{\text{Rad}} \color{white} +\color{green} S2_{\text{Rad}} 
 $$
+
+<br>
