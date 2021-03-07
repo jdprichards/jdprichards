@@ -14,12 +14,14 @@
 [Matrix (Scaling)](VideoPages\MatrixScale.html)
 
 [Collision Detection](VideoPages\CollisionDetection.html)
-<br><br>
+
+<br>
 
 <p style="font-size:16px"> Networking:</p>
 
 [Configure Routers (Beta)](VideoPages\ConfigRouter)
 
+<br>
 <p style="font-size:16px"> System Analysis:</p>
 <br><br>
 
