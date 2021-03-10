@@ -134,7 +134,8 @@ Mutiplying Matricies:
 You can mutiply and divide two matricies together to give a new matrix, similar to how we did the addition.</p>
 
 <em style="font-size:17px;color:slateblue">
-Important: You can only mutiply two vectors when the number of rows of one equals the number of columns in the other and the same vise versa.</em>
+Important: You can only mutiply two vectors when the number of columns in V = the number of rows in W.<br>
+or rows A = columns B, notation depending.</em>
 <p style="font-size:16px">
 For example:<br>
 <em  style="color:Red">
