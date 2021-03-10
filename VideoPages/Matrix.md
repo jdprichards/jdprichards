@@ -141,8 +141,7 @@ For example:<br>
 <em  style="color:Red">
 V </em> being a 2x3 Matrix and <em style="color:blue"> W </em> being a 3x2 matrix.
 </p>
-<em style="font-size:17px;color:slateblue">
-Important: Although the notation is similar it </em>
+
 
 $$ \color{red}V \color{white} \color{blue}W \color{white}$$
 
