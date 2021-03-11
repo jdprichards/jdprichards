@@ -19,7 +19,9 @@
 
 <p style="font-size:16px"> Networking:</p>
 
-[Configure Routers (Beta)](VideoPages\ConfigRouter)
+[Configure Routers (Beta)](VideoPages\ConfigRouter.html)
+
+[Binary, hex and decimal](VideoPages\BinaryHexAndDec.html)
 
 <br>
 <p style="font-size:16px"> System Analysis:</p>
