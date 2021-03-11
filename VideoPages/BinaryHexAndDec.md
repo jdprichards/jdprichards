@@ -65,7 +65,7 @@ Hexadecimal:
 
 Hexadecimal is a bit of a inbetween for decimal and binary in my mind, it's easier for computers to work with than decimal but they'll still have to convert it to binary to use.<br>
 And for us humans its easier to read than a long list of bytes.<br>
-A hexadecimal number is <em style="color:Red">base 16</em> meaning that it has <em style="color:yellow">16</em> possible values,<em style="color:yellow"> 0-9</em> is normal like a number, but then you use letters for the other 6 values A to F.<br><br>
+A hexadecimal number is <em style="color:Red">base 16</em> meaning that it has <em style="color:yellow">16</em> possible values,<em style="color:yellow"> 0-9</em> is normal like a number, but then you use letters for the other <em style="color:yellow">6</em> values <em style="color:yellow">A</em> to <em style="color:yellow">F</em>.<br><br>
 Since a hex number is <em style="color:Red">base 16</em>. for each number it increases by<em style="color:Red"> x16</em> so the first value is  ${\color{yellow}16^0 = 1}$ the second ${\color{yellow}16^1=16}$ the third ${\color{yellow}16^2= 256}$ etc 
 
 </p>
