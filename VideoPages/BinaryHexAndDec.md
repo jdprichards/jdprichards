@@ -1,5 +1,34 @@
 # Hexadecimal, Binary and Decimal
 
+<script defer>
+    // for Anki 2.1
+    MathJax.Hub.Config({ TeX: { extensions: ["color.js"] }});
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.processSectionDelay = 0;
+    MathJax.Hub.Config({
+        TeX: { extensions: ["color.js"] },
+        messageStyle: 'none',
+        showProcessingMesSsages: false,
+        tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+            displayMath: [ ['$$','$$'], ['\\[','\\]'] ],
+            processEscapes: true
+        }
+        });
+</script>
+<script type="text/javascript">
+    (function () {
+        if (typeof MathJax === "undefined") {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+            document.body.appendChild(script);
+        }
+    })();
+</script>
+
+
 <p style="font-size:18px;color:lightblue">
 Hello there! In this page I'm going to be going over hexadecimal, binary and decimal. Its a relatively easy topic but can be explained badly.
 </p>
