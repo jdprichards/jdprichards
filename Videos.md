@@ -19,7 +19,7 @@
 
 <p style="font-size:16px"> Networking:</p>
 
-[Configure Routers (Beta)](VideoPages\ConfigRouter.html)
+[Configure Routers](VideoPages\ConfigRouter.html)
 
 [Binary, hex and decimal](VideoPages\BinaryHexAndDec.html)
 
