@@ -10,7 +10,7 @@
 ### Hi I am Joe, a Computer Science Student at the University of Central Lancashire
 
 <p style="font-size:20px;color:lightblue">
-Member of sloth gang!!!
+Founding member of sloth gang!!!
 </p>
 
 <p style="font-size:18px">
