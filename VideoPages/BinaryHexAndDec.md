@@ -89,7 +89,7 @@ $$ 1 1 1 1 1 1 1 1 $$
         <th>2</th>
         <th>1</th>
     </tr>
-    <tr style="color:red">
+    <tr style="color:yellow">
         <td>1</td>
         <td>1</td>
         <td>1</td>
@@ -107,6 +107,47 @@ Then you add them all together, if its a 1 it means that bit is "on" so you add 
 </p>
 
 $$ 
-\color{red}128 \color{white}+\color{red} 64 \color{white}+ \color{red}32\color{white} +\color{red} 16\color{white}+ \color{red}8\color{white} +\color{red} 4 \color{white} + \color{red}2\color{white} +\color{white} \color{red}1\color{white}= \color{red}255
+\color{yellow}128 \color{white}+\color{yellow} 64 \color{white}+ \color{yellow}32\color{white} +\color{yellow} 16\color{white}+ \color{yellow}8\color{white} +\color{yellow} 4 \color{white} + \color{yellow}2\color{white} +\color{white} \color{yellow}1\color{white}= \color{yellow}255
 $$
 
+<br>
+<p style ="font-size:16px">
+Lets do another example with the binary number:
+</p>
+
+$$ 1 1 0 0 1 1 0 1 $$
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:yellow">1</td>
+        <td style="color:yellow">1</td>
+        <td  style="color:red">0</td>
+        <td style="color:red">0</td>
+        <td style="color:yellow">1</td>
+        <td style="color:yellow">1</td>
+        <td style="color:red">0</td>
+        <td style="color:yellow">1</td>
+    </tr>
+</table>
+
+<p style ="font-size:16px">
+I've changed the colours so red shows the <em style="color:Red">0</em> "off" bits and yellow shows the <em style="color:yellow">1</em> "on"  bits.
+</p>
+
+$$ 
+\color{yellow}128 \color{white}+\color{yellow} 64 \color{white}+ \color{red}32\color{white} +\color{red} 16\color{white}+ \color{yellow}8\color{white} +\color{yellow} 4 \color{white} + \color{red}2\color{white} +\color{white} \color{yellow}1\color{white}= \color{yellow}255
+$$
+
+$$ 
+\color{yellow}128 \color{white}+\color{yellow} 64 \color{white} + \color{yellow}8\color{white} +\color{yellow} 4 \color{white} +\color{white} \color{yellow}1\color{white}= \color{yellow}205
+$$
