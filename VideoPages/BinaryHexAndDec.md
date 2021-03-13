@@ -89,7 +89,7 @@ $$ 1 1 1 1 1 1 1 1 $$
         <th>2</th>
         <th>1</th>
     </tr>
-    <tr style="color:yellow">
+    <tr style="color:green">
         <td>1</td>
         <td>1</td>
         <td>1</td>
@@ -107,7 +107,7 @@ Then you add them all together, if its a 1 it means that bit is "on" so you add 
 </p>
 
 $$ 
-\color{yellow}128 \color{white}+\color{yellow} 64 \color{white}+ \color{yellow}32\color{white} +\color{yellow} 16\color{white}+ \color{yellow}8\color{white} +\color{yellow} 4 \color{white} + \color{yellow}2\color{white} +\color{white} \color{yellow}1\color{white}= \color{yellow}255
+\color{green}128 \color{white}+\color{green} 64 \color{white}+ \color{green}32\color{white} +\color{green} 16\color{white}+ \color{green}8\color{white} +\color{green} 4 \color{white} + \color{green}2\color{white} +\color{white} \color{green}1\color{white}= \color{green}255
 $$
 
 <br>
@@ -129,25 +129,25 @@ $$ 1 1 0 0 1 1 0 1 $$
         <th>1</th>
     </tr>
     <tr>
-        <td style="color:yellow">1</td>
-        <td style="color:yellow">1</td>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
         <td  style="color:red">0</td>
         <td style="color:red">0</td>
-        <td style="color:yellow">1</td>
-        <td style="color:yellow">1</td>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
         <td style="color:red">0</td>
-        <td style="color:yellow">1</td>
+        <td style="color:green">1</td>
     </tr>
 </table>
 
 <p style ="font-size:16px">
-I've changed the colours so red shows the <em style="color:Red">0</em> "off" bits and yellow shows the <em style="color:yellow">1</em> "on"  bits.
+I've changed the colours so red shows the <em style="color:Red">0</em> "off" bits and green shows the <em style="color:green">1</em> "on"  bits.
 </p>
 
 $$ 
-\color{yellow}128 \color{white}+\color{yellow} 64 \color{white}+ \color{red}32\color{white} +\color{red} 16\color{white}+ \color{yellow}8\color{white} +\color{yellow} 4 \color{white} + \color{red}2\color{white} +\color{white} \color{yellow}1\color{white}= \color{yellow}255
+\color{green}128 \color{white}+\color{green} 64 \color{white}+ \color{red}32\color{white} +\color{red} 16\color{white}+ \color{green}8\color{white} +\color{green} 4 \color{white} + \color{red}2\color{white} +\color{white} \color{green}1\color{white}= \color{green}255
 $$
 
 $$ 
-\color{yellow}128 \color{white}+\color{yellow} 64 \color{white} + \color{yellow}8\color{white} +\color{yellow} 4 \color{white} +\color{white} \color{yellow}1\color{white}= \color{yellow}205
+\color{green}128 \color{white}+\color{green} 64 \color{white} + \color{green}8\color{white} +\color{green} 4 \color{white} +\color{white} \color{green}1\color{white}= \color{green}205
 $$
