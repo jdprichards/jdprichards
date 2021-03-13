@@ -338,5 +338,5 @@ $$
 $$
 
 $$ 
-\color{green}128 \color{white}+\color{green} 64 \color{white} +\color{green} 16\color{white}+ \color{green} 4 \color{white} + \color{green}2\color{white}\color{white} = \color{green} 214 \color{white} \text{ our original number}
+\color{green}128 \color{white}+\color{green} 64 \color{white} +\color{green} 16\color{white}+ \color{green} 4 \color{white} + \color{green}2\color{white}\color{white} = \color{green} 214 \color{white} \text{  }\text{(our original number)}
 $$
