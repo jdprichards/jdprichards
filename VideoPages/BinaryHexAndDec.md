@@ -67,5 +67,47 @@ Hexadecimal is a bit of a inbetween for decimal and binary in my mind, it's easi
 And for us humans its easier to read than a long list of bytes.<br>
 A hexadecimal number is <em style="color:Red">base 16</em> meaning that it has <em style="color:yellow">16</em> possible values,<em style="color:yellow"> 0-9</em> is normal like a number, but then you use letters for the other <em style="color:yellow">6</em> values <em style="color:yellow">A</em> to <em style="color:yellow">F</em>.<br><br>
 Since a hex number is <em style="color:Red">base 16</em>. for each number it increases by<em style="color:Red"> x16</em> so the first value is  ${\color{yellow}16^0 = 1}$ the second ${\color{yellow}16^1=16}$ the third ${\color{yellow}16^2= 256}$ etc 
-
 </p>
+
+<p style="font-size:18px;color:blue">
+Decimal to Binary Conversion:
+</p>
+
+<p style="font-size:16px">
+In this section we're going to cover how to convert a binary number to decimal. First of all we'll repesent the power of each bit. In this case we'll use assume all the bits in the byte is a 1.</p>
+
+$$ 1 1 1 1 1 1 1 1 $$
+
+<table>
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr style="color:red">
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+</table>
+
+<br>
+
+<p style="font-size:16px">
+Then you add them all together, if its a 1 it means that bit is "on" so you add it, if it was zero you wouldn't.
+</p>
+
+$$ 
+\color{red}128 \color{white}+\color{red} 64 \color{white}+ \color{red}32\color{white} +\color{red} 16\color{white}+ \color{red}8\color{white} +\color{red} 4 \color{white} + \color{red}2\color{white} +\color{white} \color{red}1\color{white}= \color{red}255
+$$
+
