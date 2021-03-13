@@ -70,7 +70,7 @@ Since a hex number is <em style="color:Red">base 16</em>. for each number it inc
 </p>
 
 <p style="font-size:18px;color:blue">
-Decimal to Binary Conversion:
+Binary To Deciaml conversion:
 </p>
 
 <p style="font-size:16px">
@@ -151,3 +151,180 @@ $$
 $$ 
 \color{green}128 \color{white}+\color{green} 64 \color{white} + \color{green}8\color{white} +\color{green} 4 \color{white} +\color{white} \color{green}1\color{white}= \color{green}205
 $$
+
+<p style="font-size:18px;color:blue">
+Deciaml To Binary Conversion:
+</p>
+
+<p style="font-size:16px">
+What we're doing here is essentially the oppsosite as above, we are looking at converting a Decimal number that we use in every day life to binary, so the computer can understand it.<br><br>
+First things first lets decide what number we want to use, I'm going to choose: <em style="color:green">214</em></p>
+
+<p style="font-size:16px">
+And we'll assume  that the answer wants to be in a 8 bit / 1 byte form. Since it is less than 255, anything more requires a higher about of bits to define. It is good practice to write it in bytes. So mutiples of 8. E.g 8,16,24,32, etc.
+</p>
+<br>
+<p style="font-size:17px">
+Time to do the calculation:</p>
+
+<p style="font-size:16px">
+How I do the calculation is checking if the number you have is bigger than your current bit, starting at the highest.<br><br>
+We have 214 which is higher than 128. So we activate that bit and take off 128, giving us 84</p>
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:green">1</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+    </tr>
+</table>
+
+<p style="font-size:16px">
+Then we check to see if your new number; 84 is bigger than the next bit 64. It is so we activate that bit and take it off. So our latest number is 20.
+</p>
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+    </tr>
+</table>
+
+<p style="font-size:16px">
+We now have 20, this is now smaller than the next bit which is 32. So we can't take it off, here we have the bit "off" and move to the one after that.
+</p>
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td  style="color:red">0</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+    </tr>
+</table>
+
+<p style="font-size:16px">
+The next bit is 16 which is lower than our current number. So leaving the 32 bit, we activate the 16 and take it off. Leaving us with 6
+</p>
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td style="color:red">0</td>
+        <td style="color:green">1</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+        <td style="color:yellow">?</td>
+    </tr>
+</table>
+
+<p style="font-size:16px">
+Again 6 is smaller than 8 so we leave that bit, and go to the 4 bit. This is smaller than our current nimber so we take that off, giving 2. Our next bit is 2 which is the same size as our current number so we actiavate that and take it off, leaving us with 0.
+</p>
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td  style="color:red">0</td>
+        <td style="color:green">1</td>
+        <td style="color:red">0</td>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td style="color:yellow">?</td>
+    </tr>
+</table>
+
+<p style="font-size:16px">
+Now since our current number is now 0, we can just turn all the rest of the bits off. As we have already calculated all of the on bits, of our binary number.
+</p>
+
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
+    <tr> 
+        <th>128</th>
+        <th>64</th>
+        <th>32</th>
+        <th>16</th>
+        <th>8</th>
+        <th>4</th>
+        <th>2</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td  style="color:red">0</td>
+        <td style="color:green">1</td>
+        <td style="color:red">0</td>
+        <td style="color:green">1</td>
+        <td style="color:green">1</td>
+        <td style="color:red">0</td>
+    </tr>
+</table>
