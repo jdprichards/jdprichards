@@ -78,7 +78,7 @@ In this section we're going to cover how to convert a binary number to decimal. 
 
 $$ 1 1 1 1 1 1 1 1 $$
 
-<table class="center" style="width:50%;margin-left:auto;border:1px;margin-right:auto">
+<table class="center" style="width:50%;margin-left:auto;margin-right:auto">
     <tr> 
         <th>128</th>
         <th>64</th>
