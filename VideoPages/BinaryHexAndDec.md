@@ -328,3 +328,15 @@ Now since our current number is now 0, we can just turn all the rest of the bits
         <td style="color:red">0</td>
     </tr>
 </table>
+<br>
+<p style="font-size:16px">
+To double check our answer we can calculate backwards as well.
+</p>
+
+$$ 
+\color{green}128 \color{white}+\color{green} 64 \color{white}+ \color{red}32\color{white} +\color{green} 16\color{white}+ \color{red}8\color{white} +\color{green} 4 \color{white} + \color{green}2\color{white} +\color{white} \color{red}1 \color{white}
+$$
+
+$$ 
+\color{green}128 \color{white}+\color{green} 64 \color{white} +\color{green} 16\color{white}+ \color{green} 4 \color{white} + \color{green}2\color{white}\color{white} = \color{green} 214 \color{white} \text{ our original number}
+$$
