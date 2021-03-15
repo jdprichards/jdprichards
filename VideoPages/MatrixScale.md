@@ -92,3 +92,25 @@ $$
 \color{red}\text{Pos}&M_{4,1} & M_{4,2} & M_{4,3} & M_{4,4}
 \end{pmatrix}
 $$
+
+
+<p style="font-size:18px; color:blue">
+Scaling the Y-axis
+</p>
+
+<p style="font-size:16px">
+As I've labled above you only want to focus on the X-axis (the first row). As the others relate to the other axis of the general position of the object. <br><br>
+If you mess around with changing the values randomly yourself you'll notice the objects shape will morph and change. <br><br>
+The idea of strenching in one axis, you have to increase all the components of that axis, if you don't the object won't stetch properly (but can  look quite  cool).
+</p>
+
+$$ 
+\begin{pmatrix}
+&\color{blue}\text{X comp} & \color{green}\text{Y comp} & \color{yellow}\text{Z comp}\\
+\color{blue}\text{X-Axis}&M_
+{1,1} & M_{1,2} & M_{1,3} & M_{1,4}\\
+\color{green}\text{Y-Axis}&M_{2,1} & M_{2,2} & M_{2,3} & M_{2,4}\\
+\color{yellow}\text{Z-axis}&M_{3,1} & M_{3,2} & M_{3,3} & M_{3,4}\\
+\color{red}\text{Pos}&M_{4,1} & M_{4,2} & M_{4,3} & M_{4,4}
+\end{pmatrix}
+$$
