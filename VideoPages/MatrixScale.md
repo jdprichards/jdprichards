@@ -118,32 +118,30 @@ $$
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 #myDIV {
-  width: 100%;
-  padding: 50px 0;
+  width: 5%;
+  padding: 1%;
   text-align: center;
   background-color: lightblue;
-  margin-top: 20px;
+  margin-top:1px;
 }
 </style>
 
-<button onclick="myfunction()"> Click me </button>
-
-<div id="myDiv">
-    UwU poggers
-</div>
-
-
 <script>
-function myFunction()
+function ShowAndHide(elementID)
 {
-    var x = document.getElementById("myDIV");
-    if (x.style.display==="none")
+    if (elementID.style.display === "none")
     {
-        x.style.display= "block";
+        elementID.style.display = "block";
     }
     else
     {
-        x.style.display = "none";
+        elementID.style.display="none";
     }
 }
 </script>
+
+<button onclick="ShowAndHide('Question1')"> Click me </button>
+
+<div id="myDIV" style="display:none">
+    Hello
+</div>
