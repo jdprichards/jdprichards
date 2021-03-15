@@ -115,36 +115,3 @@ $$
 \end{pmatrix}
 $$
 
-
-<style>
-#Question1 
-{
-  width: 5%;
-  padding: 1%;
-  text-align: center;
-  background-color: lightblue;
-  margin-top:1px;
-  style:hidden;
-}
-</style>
-
-<script>
-function ShowAndHide(elementID)
-{
-    var element = document.getElementById(elementID)
-    if (element.style.display === "none")
-    {
-        element.style.display = "block";
-    }
-    else
-    {
-        element.style.display="none";
-    }
-}
-</script>
-
-<button type="button" onclick="ShowAndHide('Question1');"> Click me </button>
-
-<div id="Question1">
-    Hello
-</div>

@@ -162,4 +162,40 @@ I am planning on doing a coding walkthrough how you could calculate this in a si
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
 <a href="CrossProduct.html">Cross Product </a>
+
+Or go below to find some questions to test your knowlege.
 </p>
+
+
+<script>
+function ShowAndHide(elementID)
+{
+    var element = document.getElementById(elementID)
+    if (element.style.display === "none")
+    {
+        element.style.display = "block";
+    }
+    else
+    {
+        element.style.display="none";
+    }
+}
+</script>
+<p style ="font-size:16px">
+Question 1:<br>
+
+With ${ W= 4x, 6y, 3z}$ and ${V = 7x, 2y, 2z}$
+<br>
+First find:
+${W\cdot{}V}$
+
+
+</p>
+<button type="button" onclick="ShowAndHide('Answer1');"> Get answer </button>
+
+<div id="Answer1">
+<p style="font-size:16px">
+The answer to question 1: <br>
+
+$$ \text{The answer:}$$
+</div>
