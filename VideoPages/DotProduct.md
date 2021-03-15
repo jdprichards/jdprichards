@@ -257,5 +257,7 @@ $$ \text{Or just} $$
 
 $$ \arccos{\frac{46}{\sqrt{61}\times\sqrt{57}}}\approx 38.73$$
 </div>
-
+<br>
+<p style="font-size:16px">
 For the next 2 questions I won't do a step by step walkthough, but I will give the answers.
+</p>
