@@ -193,7 +193,7 @@ ${W\cdot{}V}$
 </p>
 <button type="button" onclick="ShowAndHide('Answer1a');"> Get answer </button>
 
-<div id="Answer1a">
+<div id="Answer1a" display="none">
 <p style="font-size:16px">
 The answer to question 1a: <br>
 
