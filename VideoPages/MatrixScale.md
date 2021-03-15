@@ -117,12 +117,13 @@ $$
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-#myDIV {
+#Question1 {
   width: 5%;
   padding: 1%;
   text-align: center;
   background-color: lightblue;
   margin-top:1px;
+  style:hidden;
 }
 </style>
 
@@ -141,8 +142,8 @@ function ShowAndHide(elementID)
 }
 </script>
 
-<button type="button" onclick="ShowAndHide('Question1')"> Click me </button>
+<button type="button" onclick="ShowAndHide('Question1');"> Click me </button>
 
-<div id="Question1" style="display:block">
+<div id="Question1">
     Hello
 </div>
