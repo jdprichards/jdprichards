@@ -182,23 +182,74 @@ function ShowAndHide(elementID)
 }
 </script>
 <p style ="font-size:16px">
-Question 1a:<br>
+Question 1:<br>
 
-With ${ W= 4x, 6y, 3z}$ and ${V = 7x, 2y, 2z}$
+With ${ V= 4x, 6y, 3z}$ and ${W = 7x, 2y, 2z}$
 <br>
 
-find
-${W\cdot{}V}$
+1a. find:<br>
+${V\cdot{}W}$
 </p>
 
 <button type="button" onclick="ShowAndHide('Answer1a');"> 
 Get answer
 </button>
 
-<div id="Answer1a" style="display:none">
+<div id="Answer1a" style="display:block">
 <p style="font-size:16px">
 The answer to question 1a: <br>
 
-$$ \text{The answer:}$$
+${ \text{The answer:}}$
+
+Remember we have to add the times the same axis together than add them up.<br>
+
+For the X: $${4\times7 = 28}$$
+
+For the Y: $${6\times2 = 12}$$
+
+For the Z: $${3\times2 = 6}$$
+
+Then you add them all together
+
+$${28+12+6 = 46}$$
+
+So:
+
+$${V\cdot{}W = 46}$$
 </p>
+</div>
+
+1b. find:<br>
+The angle between V and W.<br>
+<button type="button" onclick="ShowAndHide('Answer1b');"> 
+Get answer
+</button>
+
+<div id="Answer1b" style="display:block">
+
+${\text{The answer:}}$
+
+First remember the equation is:
+
+$${W\cdot{}V\over{|V|\times|W|}}$$
+
+$${V\cdot{}W \text{ Is the answer to the above question: 46}}$$
+
+But you need to calculate ${|V|}$ and ${|W|}$:
+
+$$ |V| = \sqrt{Vx^2+Vy^2+Vz^2}  \text{ And } |V| = \sqrt{Wx^2+Wy^2+Wz^2} $$
+
+$$ |V| = \sqrt{4^2+6^2+3^2}= \sqrt{61}$$
+$$ |W| = \sqrt{7^2+2^2+2^2} = \sqrt{57}$$
+
+Now to put this all together
+
+$$ \frac{46}{\sqrt{61}\times\sqrt{57}}\approx 0.7801093556963545... $$
+
+$$ \arccos{(0.7801093556963545
+)} \approx 38.73 $$
+
+$$ \text{Or just} $$
+
+$$ \arccos{\frac{46}{\sqrt{61}\times\sqrt{57}}}\approx 38.73$$
 </div>
