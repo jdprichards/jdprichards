@@ -115,7 +115,19 @@ $$
 \end{pmatrix}
 $$
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+
 <button onclick="myfunction()"> Click me </button>
+
 <div id="myDiv">
     UwU poggers
 </div>
@@ -124,7 +136,7 @@ $$
 <script>
 function myFunction()
 {
-    var x = document.getElementByID("myDIV");
+    var x = document.getElementById("myDIV");
     if (x.style.display==="none")
     {
         x.style.display= "block";
