@@ -186,13 +186,13 @@ Question 1a:<br>
 
 With ${ W= 4x, 6y, 3z}$ and ${V = 7x, 2y, 2z}$
 <br>
-First find:
+
+find
 ${W\cdot{}V}$
-
-
 </p>
+
 <button type="button" onclick="ShowAndHide('Answer1a');"> 
-Get answer 
+Get answer
 </button>
 
 <div id="Answer1a" style="display:none">
