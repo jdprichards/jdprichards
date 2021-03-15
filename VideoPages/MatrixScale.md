@@ -129,13 +129,14 @@ $$
 <script>
 function ShowAndHide(elementID)
 {
-    if (elementID.style.display === "none")
+    var element = docuemnt.getElementById(elementID)
+    if (element.style.display === "none")
     {
-        document.getElementById(elementID).style.display = "block";
+        element.style.display = "block";
     }
     else
     {
-        document.getElementById(elementID).style.display="none";
+        element.style.display="none";
     }
 }
 </script>
