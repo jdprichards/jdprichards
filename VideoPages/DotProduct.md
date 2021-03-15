@@ -182,7 +182,7 @@ function ShowAndHide(elementID)
 }
 </script>
 <p style ="font-size:16px">
-Question 1:<br>
+Question 1a:<br>
 
 With ${ W= 4x, 6y, 3z}$ and ${V = 7x, 2y, 2z}$
 <br>
@@ -191,11 +191,11 @@ ${W\cdot{}V}$
 
 
 </p>
-<button type="button" onclick="ShowAndHide('Answer1');"> Get answer </button>
+<button type="button" onclick="ShowAndHide('Answer1a');"> Get answer </button>
 
-<div id="Answer1">
+<div id="Answer1a">
 <p style="font-size:16px">
-The answer to question 1: <br>
+The answer to question 1a: <br>
 
 $$ \text{The answer:}$$
 </div>
