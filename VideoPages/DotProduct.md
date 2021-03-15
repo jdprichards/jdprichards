@@ -195,7 +195,7 @@ ${W\cdot{}V}$
 Get answer 
 </button>
 
-<div id="Answer1a" display="none">
+<div id="Answer1a" style="display:none">
 <p style="font-size:16px">
 The answer to question 1a: <br>
 
