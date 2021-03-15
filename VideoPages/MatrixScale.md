@@ -131,7 +131,7 @@ $$
 <script>
 function ShowAndHide(elementID)
 {
-    var element = docuemnt.getElementById(elementID)
+    var element = document.getElementById(elementID)
     if (element.style.display === "none")
     {
         element.style.display = "block";
