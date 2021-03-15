@@ -115,9 +115,10 @@ $$
 \end{pmatrix}
 $$
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-#Question1 {
+#Question1 
+{
   width: 5%;
   padding: 1%;
   text-align: center;
