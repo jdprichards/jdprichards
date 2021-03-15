@@ -150,7 +150,7 @@ Which will give you the result
 
 ${ \approx \text{means approximately equal to}}$</p>
 
-$$ \color{lightBlue}\theta \color{white}= \color{orange} \arccos{\color{white}\frac{\color{Red}80}{ \sqrt{\color{Red}116} \times \sqrt{\color{Red}77}} \approx \color{lightblue} 137.4 \degree} $$
+$$ \color{lightBlue}\theta \color{white}= \color{orange} \arccos{\color{white}\frac{\color{Red}80}{ \sqrt{\color{Red}116} \times \sqrt{\color{Red}77}} \approx \color{lightblue} 137.4^{\circ}} $$
 
 <p style="font-size:17px">
 And this is your final value for the angle between vectors.
