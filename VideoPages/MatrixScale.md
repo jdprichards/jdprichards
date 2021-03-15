@@ -131,17 +131,17 @@ function ShowAndHide(elementID)
 {
     if (elementID.style.display === "none")
     {
-        elementID.style.display = "block";
+        document.getElementById(elementID).style.display = "block";
     }
     else
     {
-        elementID.style.display="none";
+        document.getElementById(elementID).style.display="none";
     }
 }
 </script>
 
-<button onclick="ShowAndHide('Question1')"> Click me </button>
+<button type="button" onclick="ShowAndHide('Question1')"> Click me </button>
 
-<div id="Question1" style="display:none">
+<div id="Question1" style="display:block">
     Hello
 </div>
