@@ -114,3 +114,24 @@ $$
 \color{red}\text{Pos}&M_{4,1} & M_{4,2} & M_{4,3} & M_{4,4}
 \end{pmatrix}
 $$
+
+<button onclick="myfunction()"> Click me </button>
+<div id="myDiv">
+    UwU poggers
+</div>
+
+
+<script>
+function myFunction()
+{
+    var x = document.getElementByID("myDIV");
+    if (x.style.display==="none")
+    {
+        x.style.display= "block";
+    }
+    else
+    {
+        x.style.display = "none";
+    }
+}
+</script>
