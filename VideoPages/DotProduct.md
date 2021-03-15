@@ -161,7 +161,7 @@ I am planning on doing a coding walkthrough how you could calculate this in a si
 
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
-<a href="CrossProduct.html">Cross Product </a>
+<a href="CrossProduct.html">Cross Product </a><br><br>
 
 Or go below to find some questions to test your knowlege.
 </p>
@@ -191,7 +191,9 @@ ${W\cdot{}V}$
 
 
 </p>
-<button type="button" onclick="ShowAndHide('Answer1a');"> Get answer </button>
+<button type="button" onclick="ShowAndHide('Answer1a');"> 
+Get answer 
+</button>
 
 <div id="Answer1a" display="none">
 <p style="font-size:16px">
