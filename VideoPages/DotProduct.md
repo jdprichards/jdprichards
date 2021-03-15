@@ -163,7 +163,11 @@ I am planning on doing a coding walkthrough how you could calculate this in a si
 Click here to go to my next explainer video about the:
 <a href="CrossProduct.html">Cross Product </a><br><br>
 
-Or go below to find some questions to test your knowlege.
+Or go below to find some questions to test your knowlege.<br>
+<em style="font-size:18px;color:slateblue">
+Important: If you are asked to calculate the angle between vectors in the exam you can use a calculator; but its a good idea to be able to do the dot product by hand.
+</em>
+
 </p>
 
 
@@ -195,7 +199,7 @@ ${V\cdot{}W}$
 Get answer
 </button>
 
-<div id="Answer1a" style="display:block">
+<div id="Answer1a" style="display:none">
 <p style="font-size:16px">
 The answer to question 1a: <br>
 
@@ -225,7 +229,7 @@ The angle between V and W.<br>
 Get answer
 </button>
 
-<div id="Answer1b" style="display:block">
+<div id="Answer1b" style="display:none">
 
 ${\text{The answer:}}$
 
@@ -253,3 +257,5 @@ $$ \text{Or just} $$
 
 $$ \arccos{\frac{46}{\sqrt{61}\times\sqrt{57}}}\approx 38.73$$
 </div>
+
+For the next 2 questions I won't do a step by step walkthough, but I will give the answers.
