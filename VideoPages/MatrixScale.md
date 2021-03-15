@@ -142,6 +142,6 @@ function ShowAndHide(elementID)
 
 <button onclick="ShowAndHide('Question1')"> Click me </button>
 
-<div id="myDIV" style="display:none">
+<div id="Question1" style="display:none">
     Hello
 </div>
