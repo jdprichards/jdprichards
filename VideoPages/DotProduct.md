@@ -294,5 +294,5 @@ Get answer
 <div id="Answer2b" style="display:none">
 The answer to question 2b: <br>
 
-$$\text{0.8721430411136}$$
+$$29.3$$
 </div>
