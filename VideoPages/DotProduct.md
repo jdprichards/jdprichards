@@ -296,3 +296,39 @@ The answer to question 2b: <br>
 
 $$29.3$$
 </div>
+
+<p style ="font-size:16px">
+Question 3:<br>
+
+With ${ V= 5x, 2y, 7z}$ and ${W = 2x, 6y, 4z}$
+<br>
+
+3a. find:<br>
+${V\cdot{}W}$
+</p>
+
+<button type="button" onclick="ShowAndHide('Answer3a');"> 
+Get answer
+</button>
+
+<div id="Answer3a" style="display:none">
+The answer to question 3a: <br>
+
+$$ 40 $$
+</div>
+<br>
+
+
+<p>
+3b. find:<br>
+</p>
+<button type="button" onclick="ShowAndHide('Answer3b');"> 
+Get answer
+</button>
+<div id="Answer3b" style="display:none">
+The answer to question 3b: <br>
+
+
+The angle between V and W.
+$$19.5$$
+</div>
