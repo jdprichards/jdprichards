@@ -16,6 +16,6 @@ When you first open cryptool you will see some plain text with some information 
 
 But your first view will look like this:<br>
 
-<img src= "CryptoolImages\FirstView.png">
+<img src= "CryptoolImages\FirstView.png" style="width:500px;height:300px">
 </p>
 
