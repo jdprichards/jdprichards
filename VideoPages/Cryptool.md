@@ -19,3 +19,11 @@ But your first view will look like this:<br><br>
 <img src= "CryptoolImages\FirstView.png" style="width:800px;height:500px">
 </p>
 
+<p style ="font-size:18px;color:blue">
+Caeser Cipher:
+</p>
+
+<p style="font-size:16px">
+The Caeser Cipher is a very basic encryption, it essentially increases the value of a character by a given about, example:<br>
+Increasing A by a factor of 3, you would get D.
+</p>
