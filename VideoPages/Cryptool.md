@@ -18,6 +18,6 @@ When you first open cryptool you will see some plain text with some information 
 
 But your first view will look like this:
 
-<img src= "CryptoolImageszFirstView.png">
+<img src= "CryptoolImages\FirstView.png">
 </p>
 
