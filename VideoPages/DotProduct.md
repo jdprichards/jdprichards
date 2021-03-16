@@ -283,10 +283,9 @@ The answer to question 2a: <br>
 ${ \text{The answer: 31}}$
 </p>
 </div><br>
-1b. find:<br>
+2b. find:<br>
 
 The angle between V and W.
-</p>
 
 <button type="button" onclick="ShowAndHide('Answer2b');"> 
 Get answer
