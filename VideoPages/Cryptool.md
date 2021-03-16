@@ -14,7 +14,7 @@ I will be using cryptool 1
 <br><br>
 When you first open cryptool you will see some plain text with some information on how to start. Then at the top there'll be many options for you to use inside cryptool, I'll try to walkthough some of the more basic ones.
 
-But your first view will look like this:
+But your first view will look like this:<br>
 
 <img src= "CryptoolImages\FirstView.png">
 </p>
