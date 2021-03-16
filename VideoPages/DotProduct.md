@@ -261,3 +261,38 @@ $$ \arccos{\frac{46}{\sqrt{61}\times\sqrt{57}}}\approx 38.73$$
 <p style="font-size:16px">
 For the next 2 questions I won't do a step by step walkthough, but I will give the answers.
 </p>
+
+<p style ="font-size:16px">
+Question 2:<br>
+
+With ${ V= 6x, 2y, 3z}$ and ${W = 3x, 4y, 3z}$
+<br>
+
+1a. find:<br>
+${V\cdot{}W}$
+</p>
+
+<button type="button" onclick="ShowAndHide('Answer2a');"> 
+Get answer
+</button>
+
+<div id="Answer2a" style="display:none">
+<p style="font-size:16px">
+The answer to question 2a: <br>
+
+${ \text{The answer: 31}}$
+</div><br>
+1b. find:<br>
+
+The angle between V and W.
+</p>
+
+<button type="button" onclick="ShowAndHide('Answer2b');"> 
+Get answer
+</button>
+
+<div id="Answer2b" style="display:none">
+The answer to question 2b: <br>
+
+$$\text{0.8721430411136}$$
+</div>
