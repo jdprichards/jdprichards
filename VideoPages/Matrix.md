@@ -257,6 +257,22 @@ Click here to go to my next explainer video about the:
 Or go below to find some questions to test your knowlege.<br>
 </p>
 <br>
+
+<script>
+function ShowAndHide(elementID)
+{
+    var element = document.getElementById(elementID)
+    if (element.style.display === "none")
+    {
+        element.style.display = "block";
+    }
+    else
+    {
+        element.style.display="none";
+    }
+}
+</script>
+
 <p style ="font-size:16px">
 Question 1:<br>
 With the two matricies 
@@ -281,7 +297,7 @@ ${V+W}$
 Get answer
 </button>
 
-<div id="Answer1a" style="display:block">
+<div id="Answer1a" style="display:none">
 <p style="font-size:16px">
 
 $$
