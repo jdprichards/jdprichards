@@ -187,7 +187,7 @@ ${V\times{}W}$
 Get answer
 </button>
 
-<div id="Answer1a" style="display:block">
+<div id="Answer1a" style="display:none">
 <p style="font-size:16px">
 The answer to question 1a: <br>
 
@@ -250,7 +250,7 @@ $${V\times W =
 X & Y & Z \\
 8X & 6Y & -34Z
 \end{pmatrix}}$$
-$$\text{or just :} $$
+or just:
 
 $$ V\times W = \begin{pmatrix}8 & 6 &-34\end{pmatrix} $$
 
