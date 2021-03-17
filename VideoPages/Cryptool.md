@@ -16,14 +16,13 @@ When you first open cryptool you will see some plain text with some information 
 But your first view will look like this:<br><br>
 
 <script>
-img {
-  image-rendering: auto;
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
+img.resize {
+  max-width:30%;
+  max-height:20%;
 }
 </script>
 
-<img src= "CryptoolImages\FirstView.png" style="width:600px;height:400px">
+<img src= "CryptoolImages\FirstView.png" class="resize">
 </p>
 
 <p style ="font-size:18px;color:blue">
