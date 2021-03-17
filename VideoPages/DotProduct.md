@@ -162,14 +162,11 @@ I am planning on doing a coding walkthrough how you could calculate this in a si
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
 <a href="CrossProduct.html">Cross Product </a><br><br>
-
 Or go below to find some questions to test your knowlege.<br>
+</p>
 <em style="font-size:18px;color:slateblue">
 Important: If you are asked to calculate the angle between vectors in the exam you can use a calculator; but its a good idea to be able to do the dot product by hand.
 </em>
-
-</p>
-
 
 <script>
 function ShowAndHide(elementID)
@@ -185,6 +182,7 @@ function ShowAndHide(elementID)
     }
 }
 </script>
+
 <p style ="font-size:16px">
 Question 1:<br>
 

@@ -153,3 +153,107 @@ This is the resulting vector.
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/GojkhIdKIy0" allowfullscreen>
 </iframe>
+
+<p style="font-size:18px;color:DarkRed">
+Click here to go to my next explainer video about:
+<a href="Matrix.html">Matricies </a><br><br>
+Or go below to find some questions to test your knowlege.<br>
+</p>
+
+<script>
+function ShowAndHide(elementID)
+{
+    var element = document.getElementById(elementID)
+    if (element.style.display === "none")
+    {
+        element.style.display = "block";
+    }
+    else
+    {
+        element.style.display="none";
+    }
+}
+</script>
+
+<p style ="font-size:16px">
+Question 1:<br>
+
+With ${ V= 4x, 6y, 3z}$ and ${W = 7x, 2y, 2z}$
+<br>
+${V\times{}W}$
+<br>
+
+<button type="button" onclick="ShowAndHide('Answer1a');"> 
+Get answer
+</button>
+
+<div id="Answer1a" style="display:block">
+<p style="font-size:16px">
+The answer to question 1a: <br>
+
+${ \text{The answer:}}$
+
+$$ \begin{pmatrix}
+    X & Y & Z\\
+    4 & 6 & 2\\
+    7 & 2 & 2
+\end{pmatrix}$$
+
+Remember we have to add the times the same axis together than add them up.<br>
+
+
+For the X: 
+
+$$ \begin{pmatrix}
+    Y & Z\\
+    6 & 2\\
+    2 & 2
+\end{pmatrix}$$
+
+$$[(6\times2)-(2\times2)]X$$
+$$[(12)-(4)]X$$
+$$ 8X $$
+
+For the Y: 
+
+$$ \begin{pmatrix}
+    X & Z\\
+    4 & 2\\
+    7 & 2
+\end{pmatrix}$$
+
+$$-[(4\times2)-(7\times2)]Y$$
+$$ -[(8)-(14)]Y$$
+$$ -[-6]Y$$
+$$ 6Y$$
+
+For the Z: 
+
+$$ \begin{pmatrix}
+    X & Y\\
+    4 & 6\\
+    7 & 2
+\end{pmatrix}$$
+
+$$[(4\times2)-(7\times6)]Z$$
+$$[(8)-(42)]Z$$
+$$-34Z$$
+
+Then you add them all together
+
+$$ 8X + 6Y -34Z $$
+
+So:
+
+$${V\times W = 
+\begin{pmatrix}
+X & Y & Z \\
+8X & 6Y & -34Z
+\end{pmatrix}}$$
+$$\text{or just :} $$
+
+$$ V\times W = \begin{pmatrix}8 & 6 &-34\end{pmatrix} $$
+
+This is the vector perpendicular to your vector V and W
+</p>
+</div>
