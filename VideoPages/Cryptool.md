@@ -33,5 +33,10 @@ You can do this yourself by  creating a new file in <b style="color:red">File->N
 Then type some text in to encrypt<br>
 Then to encrypt that you need to go <b style="color:red">Encrypt/Decrypt -> Symetric caeser / rot 13</b><br>
 <br>
-You'll then be given a few options, keep all of the settings the same for now but the Key entry, this will give you an option to an alphabetic character of a number value, you can use the number character for now. You can then enter the value you want to increase the values.<br> This will show you the shift and what each character will turn into. To complete your encryption just click encrypt and you'll be shown your encrypted text. To decrypt you just do the same but press decrypt.
+You'll then be given a few options, keep all of the settings the same for now but the Key entry, this will give you an option to an alphabetic character of a number value, you can use the number character for now. You can then enter the value you want to increase the values.<br> This will show you the shift and what each character will turn into. To complete your encryption just click encrypt and you'll be shown your encrypted text. To decrypt you just do the same but press decrypt.<br>
+You can mess around with this and find some of the things you can do with it.
+</p>
+
+<p style ="font-size:18px;color:blue">
+Analysing Caeser Cipher:
 </p>
