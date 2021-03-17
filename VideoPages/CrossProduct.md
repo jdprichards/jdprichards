@@ -183,11 +183,11 @@ With ${ V= 4x, 6y, 3z}$ and ${W = 7x, 2y, 2z}$
 ${V\times{}W}$
 <br>
 
-<button type="button" onclick="ShowAndHide('Answer1a');"> 
+<button type="button" onclick="ShowAndHide('Answer1');"> 
 Get answer
 </button>
 
-<div id="Answer1a" style="display:none">
+<div id="Answer1" style="display:none">
 <p style="font-size:16px">
 The answer to question 1a: <br>
 
