@@ -268,8 +268,7 @@ With  ${ V= 6x, 2y, 3z}$ and ${W = 3x, 4y, 3z}$
 <br>find:
 
 ${V\times W}$
-
-
+<br>
 <button type="button" onclick="ShowAndHide('Answer2');"> 
 Get answer
 </button>
@@ -283,5 +282,29 @@ X & Y & Z \\
 or just:
 
 $$ V\times W = \begin{pmatrix}-6, & -8, & 18\end{pmatrix} $$
+</div>
+</p>
+
+<p style ="font-size:16px">
+Question 3:<br> 
+
+With ${ V= 5x, 2y, 7z}$ and ${W = 2x, 6y, 4z}$
+<br>find:
+
+${V\times W}$
+<br>
+<button type="button" onclick="ShowAndHide('Answer3');"> 
+Get answer
+</button>
+
+<div id = "Answer3" style="display:none">
+$${V\times W = 
+\begin{pmatrix}
+X & Y & Z \\
+-34X & -6Y & 26Z
+\end{pmatrix}}$$
+or just:
+
+$$ V\times W = \begin{pmatrix}-34X, & -6Y, & 26Z\end{pmatrix} $$
 </div>
 </p>
