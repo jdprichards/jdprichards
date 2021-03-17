@@ -252,7 +252,7 @@ X & Y & Z \\
 \end{pmatrix}}$$
 or just:
 
-$$ V\times W = \begin{pmatrix}8 & 6 &-34\end{pmatrix} $$
+$$ V\times W = \begin{pmatrix}8, & 6, &-34\end{pmatrix} $$
 
 This is the vector perpendicular to your vector V and W
 </p>
