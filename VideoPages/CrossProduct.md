@@ -189,7 +189,7 @@ Get answer
 
 <div id="Answer1" style="display:none">
 <p style="font-size:16px">
-The answer to question 1a: <br>
+<br>
 
 ${ \text{The answer:}}$
 
