@@ -321,6 +321,8 @@ $$ 40 $$
 
 <p>
 3b. find:<br>
+The angle between V and W.
+
 </p>
 <button type="button" onclick="ShowAndHide('Answer3b');"> 
 Get answer
@@ -328,7 +330,5 @@ Get answer
 <div id="Answer3b" style="display:none">
 The answer to question 3b: <br>
 
-
-The angle between V and W.
 $$19.5$$
 </div>

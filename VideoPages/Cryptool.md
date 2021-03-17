@@ -25,5 +25,6 @@ Caeser Cipher:
 
 <p style="font-size:16px">
 The Caeser Cipher is a very basic encryption, it essentially increases the value of a character by a given about, example:<br>
-Increasing A by a factor of 3, you would get D.
+Increasing A by a factor of 3, you would get D.<br> Then to go back you'll have to take 3 off D to get A.<br><br>
+If you encrypted a string by a numerical caeser cipher, you'd increase each letter by the same amount.
 </p>
