@@ -253,5 +253,94 @@ Now when you look a this you can see that the first Value in the subscript ${\co
 </p><br>
 <p style="font-size:18px;color:DarkRed">
 Click here to go to my next explainer video about the:
-<a href="MatrixScale.html">Scaling Matricies </a>
+<a href="MatrixScale.html">Scaling Matricies </a><br>
+Or go below to find some questions to test your knowlege.<br>
 </p>
+<br>
+<p style ="font-size:16px">
+Question 1:<br>
+With the two matricies 
+
+$$
+V  = \begin{pmatrix} 
+4 & 2 & 4 \\
+6 & 3 & 9 \\
+2 & 4 & 4
+\end{pmatrix} \text{ And }
+W = \begin{pmatrix} 
+3 & 6 & 1 \\
+2 & 3 & 2 \\
+7 & 4 & 8
+\end{pmatrix}
+$$
+
+1a. Find<br>
+${V+W}$
+</p>
+<button type="button" onclick="ShowAndHide('Answer1a');"> 
+Get answer
+</button>
+
+<div id="Answer1a" style="display:block">
+<p style="font-size:16px">
+
+$$
+V+W  = \begin{pmatrix} 
+4+3 & 2+6 & 4+1 \\
+6+2 & 3+3 & 9+2 \\
+2+7 & 4+4 & 4+8
+\end{pmatrix}
+$$
+
+$$
+V+W  = \begin{pmatrix} 
+7 & 8 & 5 \\
+8 & 6 & 11 \\
+9 & 8 & 12
+\end{pmatrix}
+$$
+</p>
+</div>
+<p style ="font-size:16px">
+1b. Find<br>
+
+${VW}$
+<br>
+<em>
+you might want a calculator for mutiplying matricies, its very easy to  make a simple calculation error.
+</em>
+</p>
+<button type="button" onclick="ShowAndHide('Answer1b');"> 
+Get answer
+</button>
+
+<div id="Answer1b" style="display:none">
+<p style="font-size:16px">
+
+$$ VW = 
+\begin{pmatrix}
+(4 \times 3) + (2 \times 2) + (4 \times 7) & (4 \times 6) + (2 \times 3) + (4 \times 4) & (4 \times 1) + (2 \times 2) + (4 \times 8) \\
+(6 \times 3) + (3 \times 2) + (9 \times 7) & (6 \times 6) + (3 \times 3) + (9 \times 4) & (6 \times 1) + (3 \times 2) + (9 \times 8) \\ 
+(2 \times 3) + (4 \times 2) + (4 \times 7) & (2 \times 6) + (4 \times 3) + (4 \times 4) & (2 \times 1) + (4  \times 2) + (4 \times 8) 
+\end{pmatrix}
+$$
+
+$$
+VW = 
+\begin{pmatrix}
+12 + 4 + 8 & 24 + 6 + 16 & 4 + 4 + 32 \\
+18 + 6 + 63 & 36 + 9 + 36 & 6 + 6 + 72 \\
+6 + 8 + 28 & 12 + 12 + 16 & 2 + 8 +  32
+\end{pmatrix}
+$$
+
+$$
+VW =
+\begin{pmatrix}
+44 & 46 & 40 \\
+87 & 81 & 84 \\
+42 & 40 & 42
+\end{pmatrix}
+$$
+</p>
+</div>
