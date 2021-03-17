@@ -23,7 +23,7 @@ img {
 }
 </script>
 
-<img src= "CryptoolImages\FirstView.png" style="width:400px;height:300px">
+<img src= "CryptoolImages\FirstView.png" style="width:600px;height:400px">
 </p>
 
 <p style ="font-size:18px;color:blue">
