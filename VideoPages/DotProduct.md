@@ -266,7 +266,7 @@ Question 2:<br>
 With ${ V= 6x, 2y, 3z}$ and ${W = 3x, 4y, 3z}$
 <br>
 
-1a. find:<br>
+2a. find:<br>
 ${V\cdot{}W}$
 </p>
 

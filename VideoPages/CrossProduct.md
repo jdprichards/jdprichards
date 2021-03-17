@@ -179,7 +179,7 @@ function ShowAndHide(elementID)
 Question 1:<br>
 
 With ${ V= 4x, 6y, 3z}$ and ${W = 7x, 2y, 2z}$
-<br>
+<br>find:<br>
 ${V\times{}W}$
 <br>
 
@@ -257,3 +257,31 @@ $$ V\times W = \begin{pmatrix}8, & 6, &-34\end{pmatrix} $$
 This is the vector perpendicular to your vector V and W
 </p>
 </div>
+
+<p style="font-size:16px">
+For the next 2 questions I won't do a step by step walkthough, but I will give the answers.
+</p>
+<p style ="font-size:16px">
+Question 2:<br> 
+
+With  ${ V= 6x, 2y, 3z}$ and ${W = 3x, 4y, 3z}$
+<br>find:
+
+${V\times W}$
+
+
+<button type="button" onclick="ShowAndHide('Answer2');"> 
+Get answer
+</button>
+
+<div id = "Answer2" style="display:none">
+$${V\times W = 
+\begin{pmatrix}
+X & Y & Z \\
+-6X & -8Y & 18Z
+\end{pmatrix}}$$
+or just:
+
+$$ V\times W = \begin{pmatrix}-6, & -8, & 18\end{pmatrix} $$
+</div>
+</p>
