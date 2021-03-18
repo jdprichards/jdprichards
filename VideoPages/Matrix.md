@@ -389,8 +389,8 @@ Get answer
 <p style="font-size:16px">
 
 $$\begin{pmatrix} 
-2 & 5\\ 
-6 & 11
+5 & 9\\ 
+13 & 13
 \end{pmatrix}$$
 </p>
 </div>
