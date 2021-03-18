@@ -376,7 +376,7 @@ W = \begin{pmatrix}
 \end{pmatrix}
 $$
 <p style ="font-size:16px">
-2a. Find
+2a. Find<br>
 
 ${V+W}$
 </p>
@@ -397,7 +397,7 @@ $$\begin{pmatrix}
 <p style ="font-size:16px">
 2b. Find<br>
 
-${V\times W}$
+${VW}$
 </p>
 <button type="button" onclick="ShowAndHide('Answer2b');"> 
 Get answer
@@ -448,7 +448,7 @@ This is not possible
 <p style ="font-size:16px">
 3b. Find<br>
 
-${V\times W}$
+${VW}$
 </p>
 
 <button type="button" onclick="ShowAndHide('Answer3b');"> 
