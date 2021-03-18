@@ -360,3 +360,108 @@ VW =
 $$
 </p>
 </div>
+
+<p style ="font-size:16px">
+Question 2:<br>
+With the two matricies 
+
+$$
+V  = \begin{pmatrix} 
+2 & 5\\
+6 & 11\\
+\end{pmatrix} \text{ And }
+W = \begin{pmatrix} 
+3 & 4\\
+7 & 2\\
+\end{pmatrix}
+$$
+<p style ="font-size:16px">
+2a. Find
+
+${V+W}$
+</p>
+<br>
+<button type="button" onclick="ShowAndHide('Answer2a');"> 
+Get answer
+</button>
+
+<div id="Answer2a" style="display:none">
+<p style="font-size:16px">
+
+$$\begin{pmatrix} 
+2 & 5\\ 
+6 & 11
+\end{pmatrix}$$
+</p>
+</div>
+<p style ="font-size:16px">
+2b. Find<br>
+
+${V\times W}$
+</p>
+<button type="button" onclick="ShowAndHide('Answer2b');"> 
+Get answer
+</button>
+
+<div id="Answer2b" style="display:none">
+<p style="font-size:16px">
+
+$$\begin{pmatrix} 
+41 & 19\\ 
+95 & 46
+\end{pmatrix}$$
+
+</p>
+</div>
+<p style ="font-size:16px">
+Question 3:<br>
+With the two matricies 
+
+$$
+V  = \begin{pmatrix} 
+8 & 3 & 7 \\
+6 & 1 & 2 \\
+\end{pmatrix} 
+\text{ And }
+W = \begin{pmatrix} 
+9 & 7\\
+5 & 4\\
+2 & 7
+\end{pmatrix}
+$$
+</p>
+<p style ="font-size:16px">
+3a. Find<br>
+
+${V+W}$
+</p>
+<button type="button" onclick="ShowAndHide('Answer3a');"> 
+Get answer
+</button>
+
+<div id="Answer3a" style="display:none">
+<p style="font-size:16px">
+
+This is not possible
+</p>
+</div>
+<p style ="font-size:16px">
+3b. Find<br>
+
+${V\times W}$
+</p>
+
+<button type="button" onclick="ShowAndHide('Answer3b');"> 
+Get answer
+</button>
+
+<div id="Answer3b" style="display:none">
+<p style="font-size:16px">
+
+$$\begin{pmatrix} 
+101 & 117\\ 
+63 & 60
+\end{pmatrix}$$
+
+</p>
+</div>
