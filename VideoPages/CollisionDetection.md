@@ -146,9 +146,10 @@ $$
 </p>
 
 <p style="font-size:16px">
-    Point to sphere collision is more complex than the collisions above as you need to keep track of more variables. <br>
-    You need to keep track of the X co-ordinates and the bounding box along to X-axis (Min X and Max X).<br> 
-    You need to keep track of the Y co-ordinates and the bounding box along to Y-axis (Min Y and Max Y).<br> 
-    You need to keep track of the Z co-ordinates and the bounding box along to Z-axis (Min Z and Max Z).<br> <br>
-    Then you need to keep track of the where your point is at in the X, Y and  Z axis.
+Point to sphere collision is more complex than the collisions above as you need to keep track of more variables. <br>
+
+You need to keep track of the ${X_{\text{box}}}$ co-ordinates and the bounding box along to X-axis (${X_{\text{min}}}$ and ${X_{\text{max}}}$).<br> 
+You need to keep track of the ${Y}_{\text{box}}$ co-ordinates and the bounding box along to Y-axis (${Y_{\text{min}}}$ and ${Y_{\text{max}}}$).<br> 
+You need to keep track of the ${Z_{\text{box}}}$ co-ordinates and the bounding box along to Z-axis (${Z_{\text{min}}}$ and ${Z_{\text{max}}}$).<br> <br>
+Then you need to keep track of the where your point is at in the X, Y and  Z axis.
 </p>
