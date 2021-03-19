@@ -25,7 +25,15 @@
 
 <br>
 <p style="font-size:16px"> System Analysis:</p>
-<br><br>
+<br>
+
+[Use case Diagrams](VideoPages\UseCase.html)
+
+[Normalize databases](VideoPages\NormalForm.html)
+
+[Life Cycles](VideoPages\LifeCycles.html)
+
+[SQL](VideoPages\SQL.html)
 
 <p style="font-size:16px"> Programming:</p>
 <br><br>
