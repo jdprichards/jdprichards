@@ -145,13 +145,18 @@ $$
     Point to box collision:
 </p>
 
+<p style="font-size:17px">
+With the point <em style="color:green"> P</em> in green and the <em  style="color:red"> Box</em> in red </[]>
+
 <p style="font-size:16px">
 Point to sphere collision is more complex than the collisions above as you need to keep track of more variables. <br>
 
-You need to keep track of the ${X_{\text{box}}}$ co-ordinates and the bounding box along to X-axis (${X_{\text{min}}}$ and ${X_{\text{max}}}$)<br> 
-You need to keep track of the ${Y}_{\text{box}}$ co-ordinates and the bounding box along to Y-axis (${Y_{\text{min}}}$ and ${Y_{\text{max}}}$)<br> 
-You need to keep track of the ${Z_{\text{box}}}$ co-ordinates and the bounding box along to Z-axis (${Z_{\text{min}}}$ and ${Z_{\text{max}}}$)<br> <br>
-Then you need to keep track of the where your point is at in the ${P_{z}}$, ${P_{y}}$ and ${P_{z}}$ axis.
+You need to keep track of the $\color{red}{X_{\text{box}}}$ co-ordinates and the bounding box along to <em style="color:red">X-axis</em> (${\color{red}X_{\text{min}}}$ and $\color{red}{X_{\text{max}}}$)<br> 
+
+You need to keep track of the $\color{red}{Y}_{\text{box}}$ co-ordinates and the bounding box along to <em style="color:red">Y-axis</em> ($\color{red}{Y_{\text{min}}}$ and ${\color{red}Y_{\text{max}}}$)<br> 
+
+You need to keep track of the ${\color{red}Z_{\text{box}}}$ co-ordinates and the bounding box along to <em style="color:red">Z-axis</em> (${\color{red}Z_{\text{min}}}$ and ${\color{red}Z_{\text{max}}}$)<br> <br>
+Then you need to keep track of the where your <em style="color:green">point</em> is at in the ${\color{green}P_{z}}$, ${\color{green}P_{y}}$ and ${\color{green}P_{z}}$ axis.
 </p>
 
 <p style="font-size:16px">
