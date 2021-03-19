@@ -148,8 +148,28 @@ $$
 <p style="font-size:16px">
 Point to sphere collision is more complex than the collisions above as you need to keep track of more variables. <br>
 
-You need to keep track of the ${X_{\text{box}}}$ co-ordinates and the bounding box along to X-axis (${X_{\text{min}}}$ and ${X_{\text{max}}}$).<br> 
-You need to keep track of the ${Y}_{\text{box}}$ co-ordinates and the bounding box along to Y-axis (${Y_{\text{min}}}$ and ${Y_{\text{max}}}$).<br> 
-You need to keep track of the ${Z_{\text{box}}}$ co-ordinates and the bounding box along to Z-axis (${Z_{\text{min}}}$ and ${Z_{\text{max}}}$).<br> <br>
-Then you need to keep track of the where your point is at in the ${X_{p}}$, ${Y_{p}}$ and ${Z_{p}}$ axis.
+You need to keep track of the ${X_{\text{box}}}$ co-ordinates and the bounding box along to X-axis (${X_{\text{min}}}$ and ${X_{\text{max}}}$)<br> 
+You need to keep track of the ${Y}_{\text{box}}$ co-ordinates and the bounding box along to Y-axis (${Y_{\text{min}}}$ and ${Y_{\text{max}}}$)<br> 
+You need to keep track of the ${Z_{\text{box}}}$ co-ordinates and the bounding box along to Z-axis (${Z_{\text{min}}}$ and ${Z_{\text{max}}}$)<br> <br>
+Then you need to keep track of the where your point is at in the ${P_{z}}$, ${P_{y}}$ and ${P_{z}}$ axis.
 </p>
+
+<p style="font-size:16px">
+The best way of thinking about checking if that point is colliding with the box is to see if its inside the box. You'll want to try and break it  down into the axis. <br><br>
+For example; for the point to be X-axis, p must be smaller than or equal to  the box position + the max box boundary. Giving you the equation
+
+$$X_{\text{box}} + X_{\text{max}} \le P_{\text{x}} \le X_{\text{box}} + X_{\text{min}} $$
+
+Now this just works for the X-axis, but a box has two or 3 dimensions, depending on  if its a 2-D or 3-D shape. So you'll have to include the other axis as well.
+
+$$X_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + X_{\text{min}} $$
+
+$$X_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}} $$
+
+When you combine these statements into the same one you'll get:
+
+$$X_{\text{box}} + X_{\text{max}} \le P_{\text{x}} \le X_{\text{box}} + X_{\text{min}}$$
+$$\text{ AND }$$  
+$$X_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + X_{\text{min}}$$ 
+$$\text{ AND }$$ 
+$$X_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}}$$
