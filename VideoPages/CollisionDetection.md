@@ -158,18 +158,18 @@ Then you need to keep track of the where your point is at in the ${P_{z}}$, ${P_
 The best way of thinking about checking if that point is colliding with the box is to see if its inside the box. You'll want to try and break it  down into the axis. <br><br>
 For example; for the point to be X-axis, p must be smaller than or equal to  the box position + the max box boundary. Giving you the equation
 
-$$X_{\text{box}} + X_{\text{max}} \le P_{\text{x}} \le X_{\text{box}} + X_{\text{min}} $$
+$$\color{red}X_{\text{box}} \color{white} +\color{red} X_{\text{max}}\color{white} \le \color{green}P_{\text{x}} \color{white}\le \color{red}X_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
 
 Now this just works for the X-axis, but a box has two or 3 dimensions, depending on  if its a 2-D or 3-D shape. So you'll have to include the other axis as well.
 
-$$Y_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + X_{\text{min}} $$
+$$ \color{red} Y_{\text{box}}\color{white}+  \color{red}Y_{\text{max}} \color{white}\le \color{green}P_{\text{y}}\color{white} \le \color{red}Y_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
 
-$$Z_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}} $$
+$$\color{red} Z_{\text{box}} \color{white}+ \color{red}Z_{\text{max}} \color{white}\le\color{green} P_{\text{z}} \color{white}\le \color{red}Z_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
 
 When you combine these statements into the same one you'll get:<br>
 
-$$X_{\text{box}} + X_{\text{max}} \le P_{\text{x}} \le X_{\text{box}} + X_{\text{min}}$$
+$$\color{red}X_{\text{box}} \color{white} +\color{red} X_{\text{max}}\color{white} \le \color{green}P_{\text{x}} \color{white}\le \color{red}X_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
 $$\text{ AND }$$
-$$Y_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + Y_{\text{min}}$$
-$$\text{ AND }$$
-$$Z_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}}$$
+$$ \color{red} Y_{\text{box}}\color{white}+  \color{red}Y_{\text{max}} \color{white}\le \color{green}P_{\text{y}}\color{white} \le \color{red}Y_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
+$$ \text{ AND }$$
+$$\color{red} Z_{\text{box}} \color{white}+ \color{red}Z_{\text{max}} \color{white}\le\color{green} P_{\text{z}} \color{white}\le \color{red}Z_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
