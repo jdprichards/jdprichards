@@ -162,14 +162,14 @@ $$X_{\text{box}} + X_{\text{max}} \le P_{\text{x}} \le X_{\text{box}} + X_{\text
 
 Now this just works for the X-axis, but a box has two or 3 dimensions, depending on  if its a 2-D or 3-D shape. So you'll have to include the other axis as well.
 
-$$X_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + X_{\text{min}} $$
+$$Y_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + X_{\text{min}} $$
 
-$$X_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}} $$
+$$Z_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}} $$
 
-When you combine these statements into the same one you'll get:
+When you combine these statements into the same one you'll get:<br>
 
 $$X_{\text{box}} + X_{\text{max}} \le P_{\text{x}} \le X_{\text{box}} + X_{\text{min}}$$
-$$\text{ AND }$$  
-$$X_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + X_{\text{min}}$$ 
-$$\text{ AND }$$ 
-$$X_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}}$$
+$$\text{ AND }$$
+$$Y_{\text{box}} + Y_{\text{max}} \le P_{\text{y}} \le Y_{\text{box}} + Y_{\text{min}}$$
+$$\text{ AND }$$
+$$Z_{\text{box}} + Z_{\text{max}} \le P_{\text{z}} \le Z_{\text{box}} + X_{\text{min}}$$
