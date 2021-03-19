@@ -187,9 +187,6 @@ $$\color{red} Z_{\text{box}} \color{white}+ \color{red}Z_{\text{max}} \color{whi
 This again is complex than the point to box collision, however it only involves an extra step.<br>
 
 Lets say  you have a sphere with the co-ordinates ${\color{green}S_{X}}, \color{green}{S_{Y}}$, ${\color{green}S_{Z}}$ with a radius of ${\color{green}R}$<br>
-
 Then the box has the co-ordianates of ${\color{red}\text{Box}_{X}}$,${ \color{red}{\text{Box}_{Y}}}$, ${\color{red}\text{Boz}_{Z}}$
-
 <br>
-
 With the boundarys of the box are ${\color{red}X_{\text{Min}}}$, ${\color{red}X_{\text{Max}}}$, ${\color{red}Y_{\text{Min}}}$, ${\color{red}Y_{\text{Max}}}$ ,${\color{red}Z_{\text{Min}}}$  ,${\color{red}Z_{\text{Max}}}$ </P>
