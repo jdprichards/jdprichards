@@ -184,7 +184,7 @@ $$\color{red} Z_{\text{box}} \color{white}+ \color{red}Z_{\text{max}} \color{whi
 </p>
 
 <p style="font-size:17px">
-This again is complex than the point to box collision, however it only involves an extra step.<br>
+This again is complex than the point to box collision, however it only involves an extra step.<br><br>
 
 Lets say  you have a sphere with the co-ordinates ${\color{green}S_{X}}, \color{green}{S_{Y}}$, ${\color{green}S_{Z}}$ with a radius of ${\color{green}R}$
 <br><br>
