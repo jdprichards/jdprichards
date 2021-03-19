@@ -178,3 +178,15 @@ $$\text{ AND }$$
 $$ \color{red} Y_{\text{box}}\color{white}+  \color{red}Y_{\text{max}} \color{white}\le \color{green}P_{\text{y}}\color{white} \le \color{red}Y_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
 $$ \text{ AND }$$
 $$\color{red} Z_{\text{box}} \color{white}+ \color{red}Z_{\text{max}} \color{white}\le\color{green} P_{\text{z}} \color{white}\le \color{red}Z_{\text{box}} \color{white}+ \color{red}X_{\text{min}} $$
+
+<p style="font-size:18px;color:Blue">
+    Sphere to box collision:
+</p>
+
+<p style="font-size:17px">
+This again is complex than the point to box collision, however it only involves an extra step.<br>
+
+Lets say  you have a sphere with the co-ordinates ${\color{green}S_{X}}, \color{green}{S_{Y}}$, ${\color{green}S_{Z}}$ with a radius of ${\color{green}R}$<br>
+
+Then the box has the co-ordianates of ${\color{green}\text{Box}_{X}}, \color{green}{\text{Box}_{Y}}$, ${\color{green}\text{Box}_{Z}}$<br>
+With the boundarys of the box are ${\color{red}X_{\text{Min}}}$, ${\color{red}X_{\text{Max}}}$, ${\color{red}Y_{\text{Min}}}$, ${\color{red}Y_{\text{Max}}}$ ,${\color{red}Z_{\text{Min}}}$  ,${\color{red}Z_{\text{Max}}}$ </P>
