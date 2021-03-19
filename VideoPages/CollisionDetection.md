@@ -192,7 +192,7 @@ Then the box has the co-ordianates of ${\color{red}\text{Box}_{X}}$,${ \color{re
 <br><br>
 With the boundarys of the box are ${\color{red}X_{\text{Min}}}$, ${\color{red}X_{\text{Max}}}$, ${\color{red}Y_{\text{Min}}}$, ${\color{red}Y_{\text{Max}}}$ ,${\color{red}Z_{\text{Min}}}$  ,${\color{red}Z_{\text{Max}}}$ 
 
-The next step is to expand the boundary of the box by the radius of the sphere by adding to  the max boundary and taking from the min boundary, and turn the sphere into a point (turning into the equation above)
+The next step is to expand the boundary of the box by the radius of the sphere by adding to  the max boundary and taking from the min boundary, and turn the sphere into a point (looking like the equation for the point to box collision)
 
 $$\color{red}X_{\text{box}} \color{white} +(\color{red} X_{\text{max}}\color{white} + \color{green} R\color{white}) \le \color{green}P_{\text{x}} \color{white}\le \color{red}X_{\text{box}} \color{white}+ (\color{red}X_{\text{min}}\color{white} - \color{green} R\color{white}) $$
 $$\text{ AND }$$
@@ -201,3 +201,5 @@ $$ \text{ AND }$$
 $$\color{red}Z_{\text{box}} \color{white} +(\color{red} Z_{\text{max}}\color{white} + \color{green} R\color{white}) \le \color{green}P_{\text{x}} \color{white}\le \color{red}Z_{\text{box}} \color{white}+ (\color{red}Z_{\text{min}}\color{white} - \color{green} R\color{white}) $$
 </P>
 
+<p style="font-size:16px; color:orange">
+Thank  you for reading this explination, hopefully its not easier to understand, but if you struggle understanding anything, please don't hesitate to send me a message.</p>
