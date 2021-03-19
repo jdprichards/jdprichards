@@ -278,7 +278,7 @@ Get answer
 <p style="font-size:16px">
 The answer to question 2a: <br>
 
-${ \text{The answer: 31}}$
+${ \text{The answer: 35}}$
 </p>
 </div><br>
 2b. find:<br>
