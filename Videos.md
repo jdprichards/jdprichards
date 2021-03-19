@@ -25,7 +25,6 @@
 
 <br>
 <p style="font-size:16px"> System Analysis:</p>
-<br>
 
 [Use case Diagrams](VideoPages\UseCase.html)
 
