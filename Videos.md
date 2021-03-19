@@ -26,7 +26,7 @@
 <br>
 <p style="font-size:16px"> System Analysis:</p>
 
-[Use case Diagrams](VideoPages\UseCase.html)
+[Diagrams(use case/activity/class)](VideoPages\Diagrams.html)
 
 [Normalize databases](VideoPages\NormalForm.html)
 
