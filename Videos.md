@@ -32,7 +32,7 @@
 
 [Life Cycles](VideoPages\LifeCycles.html)
 
-[Transations](VideoPages\Transactions.html)
+[Transactions](VideoPages\Transactions.html)
 
 [SQL](VideoPages\SQL.html)
 
