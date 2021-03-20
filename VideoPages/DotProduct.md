@@ -312,7 +312,7 @@ Get answer
 <div id="Answer3a" style="display:none">
 The answer to question 3a: <br>
 
-$$ 40 $$
+$$ 50 $$
 </div>
 <br>
 
@@ -328,5 +328,5 @@ Get answer
 <div id="Answer3b" style="display:none">
 The answer to question 3b: <br>
 
-$$19.5$$
+$$40.8$$
 </div>
