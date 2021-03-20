@@ -301,7 +301,8 @@ Get answer
 <p style="font-size:16px">
 
 $$
-V+W  = \begin{pmatrix} 
+V+W  = 
+\begin{pmatrix} 
 4+3 & 2+6 & 4+1 \\
 6+2 & 3+3 & 9+2 \\
 2+7 & 4+4 & 4+8

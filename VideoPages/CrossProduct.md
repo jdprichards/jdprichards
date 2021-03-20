@@ -277,7 +277,7 @@ Get answer
 $${V\times W = 
 \begin{pmatrix}
 X & Y & Z \\
--6X & -8Y & 18Z
+-6X & -9Y & 18Z
 \end{pmatrix}}$$
 or just:
 
