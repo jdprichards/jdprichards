@@ -408,7 +408,7 @@ Get answer
 <p style="font-size:16px">
 
 $$\begin{pmatrix} 
-41 & 19\\ 
+41 & 18\\ 
 95 & 46
 \end{pmatrix}$$
 
