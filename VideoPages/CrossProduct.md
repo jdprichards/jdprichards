@@ -178,7 +178,7 @@ function ShowAndHide(elementID)
 <p style ="font-size:16px">
 Question 1:<br>
 
-With ${ V= 4x, 6y, 3z}$ and ${W = 7x, 2y, 2z}$
+With ${ V= 4x, 6y, 2z}$ and ${W = 7x, 2y, 2z}$
 <br>find:<br>
 ${V\times{}W}$
 <br>
