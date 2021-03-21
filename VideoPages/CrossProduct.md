@@ -56,18 +56,18 @@ The Second video shows me starting to calculate the cross product. But just the 
 <p style="font-size:16px">
 The equation to calculate X for the resulting vector is:</p>
 
-$$  \color{Red}VyWz \color{white}- \color{Blue} VzWy$$
+$$  \color{Red}VyWz \color{white}- \color{pink} VzWy$$
 
 <p style="font-size:16px">
 You can notice here to calculate the x value you don't need to use <em>Vx or Wx</em> so you can use the table like this.
 
-$$\begin{pmatrix} Y & Z \\\ \color{Red}Vy &  \color{Blue}Vz \\\ \color{Blue}Wy & \color{Red}Wz  \end{pmatrix} $$
+$$\begin{pmatrix} Y & Z \\\ \color{Red}Vy &  \color{pink}Vz \\\ \color{pink}Wy & \color{Red}Wz  \end{pmatrix} $$
 
 
 <p style="font-size:16px">
-You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:blue">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><em style="font-size:18px; color:slateblue"> Important: the second half is negative: </em>
+You can also notice that <em style="color:red">VyWz</em> directly diagonal from each other when you ignore X and so is <em style="color:pink">VzWy</em> its is from the right to left. So you can x into different parts each going diagonal.<br> </p><em style="font-size:18px; color:slateblue"> Important: the second half is negative: </em>
 
-$$ - \color{Blue} VzWy $$
+$$ - \color{pink} VzWy $$
 
 <p style="font-size:16px">You can see this as because the diagonal is going right to left its therefore minus.
 </p>
@@ -79,21 +79,21 @@ src="https://www.youtube.com/embed/z6x4OjVvPmM" allowfullscreen>
 
 <p style="font-size:18px"> <br>The Third video shows me calculating Y similarly to X:</p>
 
-$$ - (\color{Red} VxWz \color{white}- \color{Blue} VzWx\color{white})$$
+$$ - (\color{Red} VxWz \color{white}- \color{pink} VzWx\color{white})$$
 
 <p style="font-size:16px">
 Again you don't need to use <em>Vy or Wy</em> like the previous section with X, so you can use the table like this.</p>
 
 
 
-$$\begin{pmatrix} X & Z \\\ \color{Red}Vx &  \color{Blue}Vz \\\ \color{Blue}Wx & \color{Red}Wz  \end{pmatrix} $$
+$$\begin{pmatrix} X & Z \\\ \color{Red}Vx &  \color{pink}Vz \\\ \color{pink}Wx & \color{Red}Wz  \end{pmatrix} $$
 
 <p style="font-size:16px">
-<em style="color:red">VxWz</em> again are directly diagonal from each other when you ignore Y and so is <em style="fonnt-size:18px;color:blue">VzWx</em> its is from the right to left. So you can x into different parts each going diagonal.</p>
+<em style="color:red">VxWz</em> again are directly diagonal from each other when you ignore Y and so is <em style="fonnt-size:18px;color:pink">VzWx</em> its is from the right to left. So you can x into different parts each going diagonal.</p>
 <p style="font-size:18px; color:slateblue">
 <em> Important: the second half is negative</em></p>
 
-$$ -(\color{Blue}VzWz\color{white}) $$
+$$ -(\color{pink}VzWz\color{white}) $$
 <p style="font-size:16px">You can see this as because the diagonal is going right to left its therefore minus.
 </p>
 
@@ -111,20 +111,20 @@ src="https://www.youtube.com/embed/Oq04485K2v8" allowfullscreen>
 <p style="font-size:16px">
 The equation to calculate Y for the resulting vector is:<br></p>
 
-$$\color{Red} VxWy \color{white}- \color{Blue}VyWx $$
+$$\color{Red} VxWy \color{white}- \color{pink}VyWx $$
 
 <p style="font-size:16px">
 Again you don't need to use <em>Vz or Wz</em> like the previous section with X and Y, so you can use the table like this.</p>
 
 
-$${\begin{pmatrix} X & Y \\\ \color{Red}Vx & \color{Blue}Vy \\\ \color{Blue}Wx & \color{Red}Wy\end{pmatrix}}$$
+$${\begin{pmatrix} X & Y \\\ \color{Red}Vx & \color{pink}Vy \\\ \color{pink}Wx & \color{Red}Wy\end{pmatrix}}$$
 
 <p style="font-size:16px">
-<em style="color:Red">VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:Blue">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
+<em style="color:Red">VxWy</em> again are directly diagonal from each other when you ignore Y and so is <em style="color:pink">VyWx</em> its is from the right to left. So you can x into different parts each going diagonal.
 <br><br>
 <em style="color:slateblue;font-size:18px"> Important: the second half is negative:</em></p>
 
-$$(\color{Blue}-VyWx\color{white})$$
+$$(\color{pink}-VyWx\color{white})$$
 <p style="font-size:16px">
 You can see this as because the diagonal is going right to left its therefore minus.
 </p>
@@ -142,9 +142,9 @@ Now for the final section. This is simply putting everything you've caculated up
 At the end you get the equation:<br>
 </p>
 
-$$+ (\color{Red}VyWz \color{white}- \color{Blue} VzWy\color{white}) \text{ For X}$$ 
-$$ - (\color{Red} VxWz \color{white}- \color{Blue} VzWx\color{white}) \text{ For Y}$$
-$$+ (\color{Red} VxWy \color{white}- \color{Blue}VyWx\color{white}) \text{ For Z}$$
+$$+ (\color{Red}VyWz \color{white}- \color{pink} VzWy\color{white}) \text{ For X}$$ 
+$$ - (\color{Red} VxWz \color{white}- \color{pink} VzWx\color{white}) \text{ For Y}$$
+$$+ (\color{Red} VxWy \color{white}- \color{pink}VyWx\color{white}) \text{ For Z}$$
 <p style="font-size:16px">
 This is the resulting vector.
 
