@@ -292,7 +292,7 @@ Get answer
 <div id="Answer2b" style="display:none">
 The answer to question 2b: <br>
 
-$$29.3$$
+$$30.96$$
 </div>
 
 <p style ="font-size:16px">
@@ -328,5 +328,5 @@ Get answer
 <div id="Answer3b" style="display:none">
 The answer to question 3b: <br>
 
-$$40.8$$
+$$40.84$$
 </div>
