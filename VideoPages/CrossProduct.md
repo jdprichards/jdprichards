@@ -281,7 +281,7 @@ X & Y & Z \\
 \end{pmatrix}}$$
 or just:
 
-$$ V\times W = \begin{pmatrix}-6, & -8, & 18\end{pmatrix} $$
+$$ V\times W = \begin{pmatrix}-6, & -9, & 18\end{pmatrix} $$
 </div>
 </p>
 
