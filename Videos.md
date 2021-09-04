@@ -24,17 +24,6 @@
 [Binary, hex and decimal](VideoPages\BinaryHexAndDec.html)
 
 <br>
-<p style="font-size:16px"> Systems Analysis and DB design:</p>
-
-[Diagrams(use case/activity/class)](VideoPages\Diagrams.html)
-
-[Normalize databases](VideoPages\NormalForm.html)
-
-[Life Cycles](VideoPages\LifeCycles.html)
-
-[Transactions](VideoPages\Transactions.html)
-
-[SQL](VideoPages\SQL.html)
 
 <p style="font-size:16px"> Programming:</p>
 <br><br>
