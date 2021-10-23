@@ -3,4 +3,4 @@
 
 [EMU-IMG Upsampler](Programs/EMG-IMU_Upsampler.html)
 
-[Nuromap Exporter](Programs/Neuromap_Exporter.html)
+[Neuromap Exporter](Programs\NeuroMap_Exporter\Neuromap_Exporter.html)
