@@ -11,5 +11,5 @@ NeuroMap Exporter is a program that allows the files that are exported by NeuroM
 
 </p>
 
-<a href = "https://github.com/JDPRi/NeuroMap-Exporter/blob/master/NM_Exporter_0.1.py"> 
+<a href = "https://github.com/JDPRi/NeuroMap-Exporter/blob/master/NM_Exporter_0.1.py" download = "Neurnomap Exporter"> 
 Program Link</a>
