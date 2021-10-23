@@ -23,11 +23,8 @@ Founding member of sloth gang!!!
 
 
 <p style="font-size:18px">
-    Message me on:<br><br>
+    If you want to ask me any questions message me on:<br><br>
     Telegram:<a href="https://t.me/JDPRi">@JDPRi</a> 
     <br><br>
-    If you want to ask me any questions you can direct message me on GitHub<br><br>
-    Or email me at: JDPRichards@hotmail.co.uk
-    <br><br>
-    Will have other forms of communication in the near future just need to sort them out
+    Email: JDPRichards@hotmail.co.uk
 </p>
