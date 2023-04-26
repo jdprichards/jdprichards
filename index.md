@@ -7,15 +7,11 @@
 
 # Joseph Richards
 
-### Hi I am Joe, a Computer Science Student at the University of Central Lancashire
-
-<p style="font-size:20px;color:lightblue">
-Founding member of sloth gang!!!
-</p>
+### Hi I am Joe, a Game Development Student at the University of Central Lancashire, focusing on the Unreal Engine
+### My current ongoing project I am doing for my 3rd year project is to create my own physics engine.
 
 <p style="font-size:18px">
     My goal for this page is to make my programs easy to access and potentially having explainers for the more complex side of them to help other people learn
-    
 </p>
 
 [To the videos page (currently for explainer videos)](Videos.md)<br>
