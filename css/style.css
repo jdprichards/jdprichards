@@ -1,34 +1,24 @@
-.header h1 
-{
-    font-size: 40px;
+body {
+    background-color: white;
 }
 
-.body 
+footer
 {
-    background-color:black;
+    background-color: black;
+    color: white;
+    padding: 8px;
 }
 
-.myintro
+.name-header
 {
-    color:white;
-    text-align: center;
-    border: 3px solid red;
-    padding: 10px;
-    font-size: 30px;
-    display: block;
-    margin: auto;
-
-.intro1
-{
-
+    background-color: beige;
+    border: 4px;
+    border-color: lightcoral;
+    border-style: solid;
+    padding: 8px;
 }
 
-.intro2
+.projects
 {
-    
-}
-
-span
-{
-    color: red;
+    background-color: gray;
 }
