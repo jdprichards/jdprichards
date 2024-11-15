@@ -11,11 +11,14 @@ footer
 
 .name-header
 {
+    text-align: center;
     background-color: beige;
     border: 4px;
     border-color: lightcoral;
     border-style: solid;
     padding: 8px;
+    border-radius: 20px;
+
 }
 
 .projects
