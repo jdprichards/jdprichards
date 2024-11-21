@@ -34,12 +34,33 @@ footer
     margin-left: auto;
     margin-right: auto;
 
-    width: 66%
+    width: 50%
 }
 
 .name-header p
 {
     font-size: 1.5em;
+}
+
+/*
+=============
+HOME
+=============
+*/
+
+.home {
+    background : url("../images/cosymeetingarea.jpg") no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper
+{
+    background: rgb(255 255 255 / 0.7);
+}
+
+.home .content-wrapper .indent
+{
+        padding: 2px 0px 8px 8px;
 }
 
 
@@ -48,15 +69,6 @@ footer
 RESUME
 ================
 */
-
-.resume
-{
-    background-color: gray;
-        
-    border-radius: 10px;
-        
-    padding: 2px 0px 8px 8px;
-}
 
 /* PROFILE */
 .resume.profile
