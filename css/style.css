@@ -92,7 +92,8 @@ HOME
 
 .home .content-wrapper
 {
-    background: rgb(255 255 255 / 0.7);
+    background: rgb(255 255 255 / 0.5);
+    margin: 2.5% 20% 2.5% 20%;
     color: black;
 }
 
@@ -124,6 +125,7 @@ RESUME
     
     padding: 2px 0px 8px 8px;
 
+    margin: 2.5% 20% 2.5% 20%;
     color: white;
 
 }
