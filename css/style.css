@@ -3,9 +3,15 @@ nav
     padding: 16px;
 }
 
-body {
+html, body {
+    height: 100%;
+}
+
+body 
+{
     background-color: white;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+    margin: 0;
 }
 
 footer
@@ -31,9 +37,7 @@ footer
 
     padding: 8px;
 
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: 0 auto;
     width: 50%
 }
 
@@ -62,6 +66,15 @@ footer a:hover
     text-decoration: none;
 }
 
+.bttn
+{
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
 .socials
 {
     list-style-type: none;
@@ -79,6 +92,13 @@ footer a:hover
 
 }
 
+.content-wrapper
+{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+}
+
 /*
 =============
 HOME
@@ -86,14 +106,14 @@ HOME
 */
 
 .home {
-    background : url("../images/nightsky.jpg") no-repeat;
+    background : url("../images/nightsky.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
-.home .content-wrapper
+.home .intro
 {
     background: rgb(255 255 255 / 0.5);
-    margin: 2.5% 20% 2.5% 20%;
     color: black;
 }
 
@@ -112,11 +132,18 @@ RESUME
 
 .resume
 {
-    background: url("../images/nightsky.jpg") no-repeat;
+    background: url("../images/nightsky.jpg");
     background-size: cover;
+    background-attachment: fixed;}
+
+.download-link
+{
+    position: fixed;
+    top: 5px;
+    left: 5px;
 }
 
-.resume main > section
+.resume .content-wrapper > section
 {
     background: blue;
     background: rgb(100 50 200 / 0.8);
@@ -127,8 +154,8 @@ RESUME
 
     margin: 2.5% 20% 2.5% 20%;
     color: white;
-
 }
+
 
 /* PROFILE */
 /* .resume .profile
@@ -151,6 +178,19 @@ RESUME
 
     padding: 2px 0px 8px 8px;
 }*/
+
+.project-item
+{
+    display: flow-root;
+    margin: 30px 0;
+}
+
+.project-item img
+{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
 
 /*.resume .education
 {
