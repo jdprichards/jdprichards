@@ -16,7 +16,7 @@ body
 
 footer
 {
-    background: black;
+    background: (black, 0.4);
     color: gray;
     padding: 8px;
     width: 100%;
