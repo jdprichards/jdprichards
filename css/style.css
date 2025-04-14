@@ -141,6 +141,15 @@ RESUME
     position: fixed;
     top: 5px;
     left: 5px;
+
+    size: 0% 0% 0% 0%;
+    padding: 2px 5px;
+    border-radius: 10px;
+    
+    background: #3c8453;
+    border: 2px solid white;
+    color: black;
+    text-decoration: none;
 }
 
 .resume .content-wrapper > section
