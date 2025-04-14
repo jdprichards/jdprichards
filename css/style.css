@@ -14,6 +14,20 @@ body
     margin: 0;
 }
 
+.topnav a
+{
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.topnav .active
+{
+    background-color: red;
+    border: 2px solid white;
+}
+
 footer
 {
     background: rgba(0 0 0 / 0.6);
@@ -140,9 +154,8 @@ RESUME
 {
     position: fixed;
     top: 5px;
-    left: 5px;
+    right: 5px;
 
-    size: 0% 0% 0% 0%;
     padding: 2px 5px;
     border-radius: 10px;
     
