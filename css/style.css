@@ -10,7 +10,7 @@ html, body {
 body 
 {
     background-color: white;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     margin: 0;
 }
 
@@ -35,7 +35,7 @@ footer
     padding: 8px;
     width: 100%;
     background-size: cover;
-    padding: 10px;
+    padding: 0px 30px;
     margin: 30px 0 0 -10px;
 }
 
