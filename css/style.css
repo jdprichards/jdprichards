@@ -136,7 +136,7 @@ RESUME
     background-size: cover;
     background-attachment: fixed;}
 
-.download-link
+.resume .download-link
 {
     position: fixed;
     top: 5px;
@@ -157,7 +157,9 @@ RESUME
     background: blue;
     background: rgb(100 50 200 / 0.8);
     
-    border-radius: 10px;
+    border: 2px solid white;
+    padding: 0px 25px;
+    border-radius: 20px;
     
     padding: 2px 0px 8px 8px;
 
