@@ -148,13 +148,15 @@ RESUME
 {
     background: url("../images/nightsky.jpg");
     background-size: cover;
-    background-attachment: fixed;}
+    background-attachment: fixed;
+}
 
 .resume .download-link
 {
-    position: fixed;
-    top: 5px;
-    right: 5px;
+    position: absolute;
+    /*position: fixed;*/
+    top: 10px;
+    right: 10px;
 
     padding: 2px 5px;
     border-radius: 10px;
