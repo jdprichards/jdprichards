@@ -218,6 +218,12 @@ RESUME
     margin-right: 20px;
 }
 
+.project-item > ul li
+{
+    padding: 0 0 3px 0;
+    list-style-type:none;
+}
+
 /*.resume .education
 {
     background-color: gray;
@@ -235,3 +241,29 @@ RESUME
         
     padding: 2px 0px 8px 8px;
 }*/
+
+
+/* 
+NeuroMap Exporter
+*/
+
+.NeuroMapExporter {
+    background: white;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+}
+
+ body, html
+{
+    margin: 0;
+}
+
+.NeuroMapExporter nav {
+    background-color: black;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+}
