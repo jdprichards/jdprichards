@@ -212,7 +212,7 @@ RESUME
 }
 
 
-.project-item > ul li
+.NeuroMap-features
 {
     padding: 0 0 3px 0;
     list-style-type:none;
@@ -268,4 +268,18 @@ NeuroMap Exporter
     margin: 0;
     width: 100%;
     background-size: cover;
+}
+
+.NeuroMapExporter .NeuroMap-Intro
+{
+    font-size:medium;
+    border: black;
+    border-style: solid;
+    background: lightgray;
+    padding: 8px;
+}
+
+.NeuroMapExporter .NeuroMap-Intro .NeuroMap-features p
+{
+    text-indent: 10px;
 }
